@@ -1,0 +1,11 @@
+conda activate py313_master
+
+eval $(/scratch/lburns7/psi4_timing/hrw-master/objdir_py313_master/stage/bin/psi4  --psiapi)
+
+time psi4 --qcschema bz-fnocc.json -o bz-fnocc.json.n10.out -n10 --memory=16GB
+time psi4 --qcschema bz-fnocc.json -o bz-fnocc.json.n8.out -n8 --memory=16GB
+time psi4 --qcschema bz-fnocc.json -o bz-fnocc.json.n4.out -n4 --memory=16GB
+time psi4 --qcschema bz-fnocc.json -o bz-fnocc.json.n2.out -n2 --memory=16GB
+time psi4 --qcschema bz-fnocc.json -o bz-fnocc.json.n1.out -n1 --memory=16GB
+
+
