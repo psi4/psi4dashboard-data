@@ -1,0 +1,26 @@
+{
+  "test_name": "fcidump",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 51,
+    "iterations_by_label": {
+      "RHF": 32,
+      "UHF": 19
+    },
+    "accelerators": {
+      "ADIIS": 32,
+      "DIIS": 35
+    },
+    "accelerator_raw": {
+      "ADIIS": 16,
+      "ADIIS/DIIS": 16,
+      "DIIS": 19
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

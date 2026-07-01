@@ -1,0 +1,23 @@
+{
+  "test_name": "scf-level-shift-uhf",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 270,
+    "iterations_by_label": {
+      "DF-UHF": 270
+    },
+    "accelerators": {
+      "ADIIS": 211
+    },
+    "accelerator_raw": {
+      "ADIIS": 211,
+      "NONE": 59
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

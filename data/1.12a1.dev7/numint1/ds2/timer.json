@@ -1,0 +1,596 @@
+{
+  "timers": {
+    "DFH: sparsity prep": {
+      "wall_time": 0.006256849,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: sparsity prep",
+      "parent_id": null,
+      "timer_path": [
+        "DFH: sparsity prep"
+      ],
+      "level": 0
+    },
+    "DFH: sparsity prep;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.004234541,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "DFH: sparsity prep",
+      "timer_path": [
+        "DFH: sparsity prep",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 1
+    },
+    "DFH: initialize()": {
+      "wall_time": 0.0126094,
+      "user_time": 0.0,
+      "system_time": 0.016666666666666666,
+      "n_calls": 1,
+      "timer_name": "DFH: initialize()",
+      "parent_id": null,
+      "timer_path": [
+        "DFH: initialize()"
+      ],
+      "level": 0
+    },
+    "DFH: initialize();Libint2ERI::Libint2ERI": {
+      "wall_time": 0.002531694,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "DFH: initialize()",
+      "timer_path": [
+        "DFH: initialize()",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 1
+    },
+    "DFH: initialize();DFH: AO Construction": {
+      "wall_time": 0.001438902,
+      "user_time": 0.0,
+      "system_time": 0.016666666666666666,
+      "n_calls": 1,
+      "timer_name": "DFH: AO Construction",
+      "parent_id": "DFH: initialize()",
+      "timer_path": [
+        "DFH: initialize()",
+        "DFH: AO Construction"
+      ],
+      "level": 1
+    },
+    "DFH: initialize();DFH: AO-Met. Contraction": {
+      "wall_time": 0.000405882,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: AO-Met. Contraction",
+      "parent_id": "DFH: initialize()",
+      "timer_path": [
+        "DFH: initialize()",
+        "DFH: AO-Met. Contraction"
+      ],
+      "level": 1
+    },
+    "HF: Form core H": {
+      "wall_time": 0.005148929,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "HF: Form core H",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form core H"
+      ],
+      "level": 0
+    },
+    "HF: Form S/X": {
+      "wall_time": 0.004222362,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "HF: Form S/X",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form S/X"
+      ],
+      "level": 0
+    },
+    "HF: Guess": {
+      "wall_time": 0.046603186,
+      "user_time": 0.06666666666666667,
+      "system_time": 0.016666666666666666,
+      "n_calls": 1,
+      "timer_name": "HF: Guess",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Guess"
+      ],
+      "level": 0
+    },
+    "HF: Guess;SAD Guess": {
+      "wall_time": 0.036745534,
+      "user_time": 0.06666666666666667,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "SAD Guess",
+      "parent_id": "HF: Guess",
+      "timer_path": [
+        "HF: Guess",
+        "SAD Guess"
+      ],
+      "level": 1
+    },
+    "HF: Form G": {
+      "wall_time": 0.003443953,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 16,
+      "timer_name": "HF: Form G",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form G"
+      ],
+      "level": 0
+    },
+    "HF: Form G;JK: D": {
+      "wall_time": 0.000145067,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 16,
+      "timer_name": "JK: D",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: D"
+      ],
+      "level": 1
+    },
+    "HF: Form G;JK: USO2AO": {
+      "wall_time": 7.2229e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 16,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: USO2AO"
+      ],
+      "level": 1
+    },
+    "HF: Form G;JK: JK": {
+      "wall_time": 0.002692475,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 16,
+      "timer_name": "JK: JK",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK"
+      ],
+      "level": 1
+    },
+    "HF: Form G;JK: JK;DFH: compute_JK()": {
+      "wall_time": 0.002556096,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 16,
+      "timer_name": "DFH: compute_JK()",
+      "parent_id": "HF: Form G;JK: JK",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()"
+      ],
+      "level": 2
+    },
+    "HF: Form G;JK: JK;DFH: compute_JK();DFH: Grabbing AOs": {
+      "wall_time": 2.896e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 16,
+      "timer_name": "DFH: Grabbing AOs",
+      "parent_id": "HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: Grabbing AOs"
+      ],
+      "level": 3
+    },
+    "HF: Form G;JK: JK;DFH: compute_JK();DFH: compute_J": {
+      "wall_time": 0.000938548,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 16,
+      "timer_name": "DFH: compute_J",
+      "parent_id": "HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_J"
+      ],
+      "level": 3
+    },
+    "HF: Form G;JK: JK;DFH: compute_JK();DFH: compute_K": {
+      "wall_time": 0.001115134,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 16,
+      "timer_name": "DFH: compute_K",
+      "parent_id": "HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_K"
+      ],
+      "level": 3
+    },
+    "HF: Form G;JK: AO2USO": {
+      "wall_time": 3.2062e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 16,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: AO2USO"
+      ],
+      "level": 1
+    },
+    "HF: Form F": {
+      "wall_time": 0.00012739,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 16,
+      "timer_name": "HF: Form F",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form F"
+      ],
+      "level": 0
+    },
+    "HF: Form D": {
+      "wall_time": 0.000109379,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 16,
+      "timer_name": "HF: Form D",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form D"
+      ],
+      "level": 0
+    },
+    "HF: DIIS": {
+      "wall_time": 0.17054432,
+      "user_time": 0.24999999999999997,
+      "system_time": 0.03333333333333333,
+      "n_calls": 15,
+      "timer_name": "HF: DIIS",
+      "parent_id": null,
+      "timer_path": [
+        "HF: DIIS"
+      ],
+      "level": 0
+    },
+    "HF: Form C": {
+      "wall_time": 0.005928835,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 15,
+      "timer_name": "HF: Form C",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form C"
+      ],
+      "level": 0
+    },
+    "Grad: V T Perturb": {
+      "wall_time": 0.000553817,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "Grad: V T Perturb",
+      "parent_id": null,
+      "timer_path": [
+        "Grad: V T Perturb"
+      ],
+      "level": 0
+    },
+    "Grad: External": {
+      "wall_time": 0.001890744,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Grad: External",
+      "parent_id": null,
+      "timer_path": [
+        "Grad: External"
+      ],
+      "level": 0
+    },
+    "Grad: S": {
+      "wall_time": 0.000155702,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "Grad: S",
+      "parent_id": null,
+      "timer_path": [
+        "Grad: S"
+      ],
+      "level": 0
+    },
+    "Grad: JK": {
+      "wall_time": 0.058931567,
+      "user_time": 0.06666666666666667,
+      "system_time": 0.016666666666666666,
+      "n_calls": 2,
+      "timer_name": "Grad: JK",
+      "parent_id": null,
+      "timer_path": [
+        "Grad: JK"
+      ],
+      "level": 0
+    },
+    "Grad: JK;JKGrad: Amn": {
+      "wall_time": 0.015372155,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "JKGrad: Amn",
+      "parent_id": "Grad: JK",
+      "timer_path": [
+        "Grad: JK",
+        "JKGrad: Amn"
+      ],
+      "level": 1
+    },
+    "Grad: JK;JKGrad: Amn;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.002684755,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "Grad: JK;JKGrad: Amn",
+      "timer_path": [
+        "Grad: JK",
+        "JKGrad: Amn",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 2
+    },
+    "Grad: JK;JKGrad: Awmn": {
+      "wall_time": 6.623e-06,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "JKGrad: Awmn",
+      "parent_id": "Grad: JK",
+      "timer_path": [
+        "Grad: JK",
+        "JKGrad: Awmn"
+      ],
+      "level": 1
+    },
+    "Grad: JK;JKGrad: AB": {
+      "wall_time": 0.018808648,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.016666666666666666,
+      "n_calls": 2,
+      "timer_name": "JKGrad: AB",
+      "parent_id": "Grad: JK",
+      "timer_path": [
+        "Grad: JK",
+        "JKGrad: AB"
+      ],
+      "level": 1
+    },
+    "Grad: JK;JKGrad: AB;Libint2ERI::Libint2ERI": {
+      "wall_time": 8.1153e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "Grad: JK;JKGrad: AB",
+      "timer_path": [
+        "Grad: JK",
+        "JKGrad: AB",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 2
+    },
+    "Grad: JK;JKGrad: UV": {
+      "wall_time": 0.000359607,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "JKGrad: UV",
+      "parent_id": "Grad: JK",
+      "timer_path": [
+        "Grad: JK",
+        "JKGrad: UV"
+      ],
+      "level": 1
+    },
+    "Grad: JK;JKGrad: ABx": {
+      "wall_time": 0.006202125,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "JKGrad: ABx",
+      "parent_id": "Grad: JK",
+      "timer_path": [
+        "Grad: JK",
+        "JKGrad: ABx"
+      ],
+      "level": 1
+    },
+    "Grad: JK;JKGrad: ABx;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.000103218,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "Grad: JK;JKGrad: ABx",
+      "timer_path": [
+        "Grad: JK",
+        "JKGrad: ABx",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 2
+    },
+    "Grad: JK;JKGrad: Amnx": {
+      "wall_time": 0.013822391,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "JKGrad: Amnx",
+      "parent_id": "Grad: JK",
+      "timer_path": [
+        "Grad: JK",
+        "JKGrad: Amnx"
+      ],
+      "level": 1
+    },
+    "Grad: JK;JKGrad: Amnx;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.002800673,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "Grad: JK;JKGrad: Amnx",
+      "timer_path": [
+        "Grad: JK",
+        "JKGrad: Amnx",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 2
+    },
+    "Grad: XC": {
+      "wall_time": 3.882e-06,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "Grad: XC",
+      "parent_id": null,
+      "timer_path": [
+        "Grad: XC"
+      ],
+      "level": 0
+    },
+    "build grid": {
+      "wall_time": 0.353645665,
+      "user_time": 0.5,
+      "system_time": 0.06666666666666667,
+      "n_calls": 1,
+      "timer_name": "build grid",
+      "parent_id": null,
+      "timer_path": [
+        "build grid"
+      ],
+      "level": 0
+    },
+    "post-process grid": {
+      "wall_time": 0.330969733,
+      "user_time": 0.4666666666666667,
+      "system_time": 0.1,
+      "n_calls": 1,
+      "timer_name": "post-process grid",
+      "parent_id": null,
+      "timer_path": [
+        "post-process grid"
+      ],
+      "level": 0
+    },
+    "NumIntHelper: potential_integral": {
+      "wall_time": 0.322942558,
+      "user_time": 0.4666666666666667,
+      "system_time": 0.06666666666666667,
+      "n_calls": 1,
+      "timer_name": "NumIntHelper: potential_integral",
+      "parent_id": null,
+      "timer_path": [
+        "NumIntHelper: potential_integral"
+      ],
+      "level": 0
+    },
+    "NumIntHelper: potential_integral;Properties": {
+      "wall_time": 0.2239374,
+      "user_time": 0.31666666666666665,
+      "system_time": 0.05,
+      "n_calls": 6787,
+      "timer_name": "Properties",
+      "parent_id": "NumIntHelper: potential_integral",
+      "timer_path": [
+        "NumIntHelper: potential_integral",
+        "Properties"
+      ],
+      "level": 1
+    },
+    "NumIntHelper: potential_integral;finish operator": {
+      "wall_time": 0.07340518,
+      "user_time": 0.06666666666666667,
+      "system_time": 0.0,
+      "n_calls": 6787,
+      "timer_name": "finish operator",
+      "parent_id": "NumIntHelper: potential_integral",
+      "timer_path": [
+        "NumIntHelper: potential_integral",
+        "finish operator"
+      ],
+      "level": 1
+    },
+    "NumIntHelper: potential_gradient": {
+      "wall_time": 0.484508876,
+      "user_time": 0.75,
+      "system_time": 0.06666666666666667,
+      "n_calls": 1,
+      "timer_name": "NumIntHelper: potential_gradient",
+      "parent_id": null,
+      "timer_path": [
+        "NumIntHelper: potential_gradient"
+      ],
+      "level": 0
+    },
+    "NumIntHelper: potential_gradient;Properties": {
+      "wall_time": 0.347004007,
+      "user_time": 0.4666666666666666,
+      "system_time": 0.03333333333333333,
+      "n_calls": 6787,
+      "timer_name": "Properties",
+      "parent_id": "NumIntHelper: potential_gradient",
+      "timer_path": [
+        "NumIntHelper: potential_gradient",
+        "Properties"
+      ],
+      "level": 1
+    },
+    "NumIntHelper: potential_gradient;finish operator": {
+      "wall_time": 0.110635785,
+      "user_time": 0.2333333333333333,
+      "system_time": 0.03333333333333333,
+      "n_calls": 6787,
+      "timer_name": "finish operator",
+      "parent_id": "NumIntHelper: potential_gradient",
+      "timer_path": [
+        "NumIntHelper: potential_gradient",
+        "finish operator"
+      ],
+      "level": 1
+    }
+  },
+  "psi4_version": "1.12a1.dev8",
+  "psi4_commit_hash": "f8b18fb"
+}

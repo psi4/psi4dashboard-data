@@ -1,0 +1,25 @@
+{
+  "test_name": "dfmp2-ecp",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 97,
+    "iterations_by_label": {
+      "DF-RHF": 97
+    },
+    "accelerators": {
+      "ADIIS": 31,
+      "DIIS": 96
+    },
+    "accelerator_raw": {
+      "ADIIS/DIIS": 31,
+      "DIIS": 65,
+      "NONE": 1
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

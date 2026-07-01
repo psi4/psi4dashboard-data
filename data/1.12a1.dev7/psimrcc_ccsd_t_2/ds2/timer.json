@@ -1,0 +1,30 @@
+{
+  "timers": {
+    "Libint2ERI::Libint2ERI": {
+      "wall_time": 0.011427169,
+      "user_time": 0.0,
+      "system_time": 0.016666666666666666,
+      "n_calls": 1,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": null,
+      "timer_path": [
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 0
+    },
+    "Generating Denominators": {
+      "wall_time": 0.002634139,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Generating Denominators",
+      "parent_id": null,
+      "timer_path": [
+        "Generating Denominators"
+      ],
+      "level": 0
+    }
+  },
+  "psi4_version": "1.12a1.dev8",
+  "psi4_commit_hash": "f8b18fb"
+}

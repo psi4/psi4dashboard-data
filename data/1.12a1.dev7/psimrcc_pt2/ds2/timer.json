@@ -1,0 +1,222 @@
+{
+  "timers": {
+    "Libint2ERI::Libint2ERI": {
+      "wall_time": 0.014269164,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.016666666666666666,
+      "n_calls": 1,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": null,
+      "timer_path": [
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 0
+    },
+    "Reading the MRPT2 integrals": {
+      "wall_time": 0.029531884,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.016666666666666666,
+      "n_calls": 1,
+      "timer_name": "Reading the MRPT2 integrals",
+      "parent_id": null,
+      "timer_path": [
+        "Reading the MRPT2 integrals"
+      ],
+      "level": 0
+    },
+    "Generating Denominators": {
+      "wall_time": 0.000802343,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Generating Denominators",
+      "parent_id": null,
+      "timer_path": [
+        "Generating Denominators"
+      ],
+      "level": 0
+    },
+    "Building the F_ae Intermediates": {
+      "wall_time": 4.7602e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Building the F_ae Intermediates",
+      "parent_id": null,
+      "timer_path": [
+        "Building the F_ae Intermediates"
+      ],
+      "level": 0
+    },
+    "Building the F_AE Intermediates": {
+      "wall_time": 3.029e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Building the F_AE Intermediates",
+      "parent_id": null,
+      "timer_path": [
+        "Building the F_AE Intermediates"
+      ],
+      "level": 0
+    },
+    "Building the F_mi Intermediates": {
+      "wall_time": 2.7634e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Building the F_mi Intermediates",
+      "parent_id": null,
+      "timer_path": [
+        "Building the F_mi Intermediates"
+      ],
+      "level": 0
+    },
+    "Building the F_MI Intermediates": {
+      "wall_time": 2.2996e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Building the F_MI Intermediates",
+      "parent_id": null,
+      "timer_path": [
+        "Building the F_MI Intermediates"
+      ],
+      "level": 0
+    },
+    "Building the Heff_uv Matrix Elements": {
+      "wall_time": 0.001029087,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 9,
+      "timer_name": "Building the Heff_uv Matrix Elements",
+      "parent_id": null,
+      "timer_path": [
+        "Building the Heff_uv Matrix Elements"
+      ],
+      "level": 0
+    },
+    "Building the Heff_UV Matrix Elements": {
+      "wall_time": 0.000102618,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 9,
+      "timer_name": "Building the Heff_UV Matrix Elements",
+      "parent_id": null,
+      "timer_path": [
+        "Building the Heff_UV Matrix Elements"
+      ],
+      "level": 0
+    },
+    "Building the Heff_uVxY Matrix Elements": {
+      "wall_time": 0.001676422,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 9,
+      "timer_name": "Building the Heff_uVxY Matrix Elements",
+      "parent_id": null,
+      "timer_path": [
+        "Building the Heff_uVxY Matrix Elements"
+      ],
+      "level": 0
+    },
+    "Building the Heff_uvxy Matrix Elements": {
+      "wall_time": 0.001676088,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 9,
+      "timer_name": "Building the Heff_uvxy Matrix Elements",
+      "parent_id": null,
+      "timer_path": [
+        "Building the Heff_uvxy Matrix Elements"
+      ],
+      "level": 0
+    },
+    "Building the Heff_UVXY Matrix Elements": {
+      "wall_time": 0.000114119,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 9,
+      "timer_name": "Building the Heff_UVXY Matrix Elements",
+      "parent_id": null,
+      "timer_path": [
+        "Building the Heff_UVXY Matrix Elements"
+      ],
+      "level": 0
+    },
+    "Building the T1_ia Amplitudes": {
+      "wall_time": 0.000300401,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 5,
+      "timer_name": "Building the T1_ia Amplitudes",
+      "parent_id": null,
+      "timer_path": [
+        "Building the T1_ia Amplitudes"
+      ],
+      "level": 0
+    },
+    "Building the T1_IA Amplitudes": {
+      "wall_time": 5.4255e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 5,
+      "timer_name": "Building the T1_IA Amplitudes",
+      "parent_id": null,
+      "timer_path": [
+        "Building the T1_IA Amplitudes"
+      ],
+      "level": 0
+    },
+    "Building the T2_iJaB Amplitudes": {
+      "wall_time": 0.001283259,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 5,
+      "timer_name": "Building the T2_iJaB Amplitudes",
+      "parent_id": null,
+      "timer_path": [
+        "Building the T2_iJaB Amplitudes"
+      ],
+      "level": 0
+    },
+    "Building the T2_ijab Amplitudes": {
+      "wall_time": 0.000218781,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 5,
+      "timer_name": "Building the T2_ijab Amplitudes",
+      "parent_id": null,
+      "timer_path": [
+        "Building the T2_ijab Amplitudes"
+      ],
+      "level": 0
+    },
+    "Building the T2_IJAB Amplitudes": {
+      "wall_time": 6.5567e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 5,
+      "timer_name": "Building the T2_IJAB Amplitudes",
+      "parent_id": null,
+      "timer_path": [
+        "Building the T2_IJAB Amplitudes"
+      ],
+      "level": 0
+    },
+    "Synchronizing the Amplitudes": {
+      "wall_time": 0.003061459,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 5,
+      "timer_name": "Synchronizing the Amplitudes",
+      "parent_id": null,
+      "timer_path": [
+        "Synchronizing the Amplitudes"
+      ],
+      "level": 0
+    }
+  },
+  "psi4_version": "1.12a1.dev8",
+  "psi4_commit_hash": "f8b18fb"
+}

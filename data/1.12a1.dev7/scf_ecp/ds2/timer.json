@@ -1,0 +1,267 @@
+{
+  "timers": {
+    "Total PK formation time": {
+      "wall_time": 0.311198859,
+      "user_time": 0.41666666666666663,
+      "system_time": 0.09999999999999999,
+      "n_calls": 15,
+      "timer_name": "Total PK formation time",
+      "parent_id": null,
+      "timer_path": [
+        "Total PK formation time"
+      ],
+      "level": 0
+    },
+    "Total PK formation time;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.100750075,
+      "user_time": 0.13333333333333333,
+      "system_time": 0.03333333333333333,
+      "n_calls": 30,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "Total PK formation time",
+      "timer_path": [
+        "Total PK formation time",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 1
+    },
+    "HF: Form core H": {
+      "wall_time": 0.673341588,
+      "user_time": 1.0666666666666667,
+      "system_time": 0.03333333333333333,
+      "n_calls": 15,
+      "timer_name": "HF: Form core H",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form core H"
+      ],
+      "level": 0
+    },
+    "HF: Form S/X": {
+      "wall_time": 0.002560128,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 15,
+      "timer_name": "HF: Form S/X",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form S/X"
+      ],
+      "level": 0
+    },
+    "HF: Guess": {
+      "wall_time": 0.88973181,
+      "user_time": 1.3166666666666667,
+      "system_time": 0.11666666666666667,
+      "n_calls": 15,
+      "timer_name": "HF: Guess",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Guess"
+      ],
+      "level": 0
+    },
+    "HF: Guess;SAD Guess": {
+      "wall_time": 0.85974337,
+      "user_time": 1.283333333333333,
+      "system_time": 0.11666666666666667,
+      "n_calls": 15,
+      "timer_name": "SAD Guess",
+      "parent_id": "HF: Guess",
+      "timer_path": [
+        "HF: Guess",
+        "SAD Guess"
+      ],
+      "level": 1
+    },
+    "HF: Form G": {
+      "wall_time": 0.042802878,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.05,
+      "n_calls": 200,
+      "timer_name": "HF: Form G",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form G"
+      ],
+      "level": 0
+    },
+    "HF: Form G;JK: D": {
+      "wall_time": 0.001890484,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 200,
+      "timer_name": "JK: D",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: D"
+      ],
+      "level": 1
+    },
+    "HF: Form G;JK: USO2AO": {
+      "wall_time": 0.011691932,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.016666666666666666,
+      "n_calls": 200,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: USO2AO"
+      ],
+      "level": 1
+    },
+    "HF: Form G;JK: JK": {
+      "wall_time": 0.021553653,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.03333333333333333,
+      "n_calls": 200,
+      "timer_name": "JK: JK",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK"
+      ],
+      "level": 1
+    },
+    "HF: Form G;JK: JK;PK computes JK": {
+      "wall_time": 0.020275187,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.03333333333333333,
+      "n_calls": 200,
+      "timer_name": "PK computes JK",
+      "parent_id": "HF: Form G;JK: JK",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK",
+        "PK computes JK"
+      ],
+      "level": 2
+    },
+    "HF: Form G;JK: AO2USO": {
+      "wall_time": 0.00214348,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 200,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: AO2USO"
+      ],
+      "level": 1
+    },
+    "HF: Form F": {
+      "wall_time": 0.002195417,
+      "user_time": 0.0,
+      "system_time": 0.016666666666666666,
+      "n_calls": 200,
+      "timer_name": "HF: Form F",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form F"
+      ],
+      "level": 0
+    },
+    "HF: Form D": {
+      "wall_time": 0.001670097,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 200,
+      "timer_name": "HF: Form D",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form D"
+      ],
+      "level": 0
+    },
+    "HF: DIIS": {
+      "wall_time": 0.86069809,
+      "user_time": 1.4166666666666665,
+      "system_time": 0.05,
+      "n_calls": 185,
+      "timer_name": "HF: DIIS",
+      "parent_id": null,
+      "timer_path": [
+        "HF: DIIS"
+      ],
+      "level": 0
+    },
+    "HF: Form C": {
+      "wall_time": 0.065914069,
+      "user_time": 0.11666666666666665,
+      "system_time": 0.0,
+      "n_calls": 185,
+      "timer_name": "HF: Form C",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form C"
+      ],
+      "level": 0
+    },
+    "Grad: V T Perturb": {
+      "wall_time": 0.121170017,
+      "user_time": 0.2,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Grad: V T Perturb",
+      "parent_id": null,
+      "timer_path": [
+        "Grad: V T Perturb"
+      ],
+      "level": 0
+    },
+    "Grad: S": {
+      "wall_time": 0.00087225,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Grad: S",
+      "parent_id": null,
+      "timer_path": [
+        "Grad: S"
+      ],
+      "level": 0
+    },
+    "Grad: JK": {
+      "wall_time": 0.030060496,
+      "user_time": 0.05,
+      "system_time": 0.016666666666666666,
+      "n_calls": 1,
+      "timer_name": "Grad: JK",
+      "parent_id": null,
+      "timer_path": [
+        "Grad: JK"
+      ],
+      "level": 0
+    },
+    "Grad: JK;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.007223252,
+      "user_time": 0.0,
+      "system_time": 0.016666666666666666,
+      "n_calls": 1,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "Grad: JK",
+      "timer_path": [
+        "Grad: JK",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 1
+    },
+    "Grad: XC": {
+      "wall_time": 1.821e-06,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Grad: XC",
+      "parent_id": null,
+      "timer_path": [
+        "Grad: XC"
+      ],
+      "level": 0
+    }
+  },
+  "psi4_version": "1.12a1.dev8",
+  "psi4_commit_hash": "f8b18fb"
+}

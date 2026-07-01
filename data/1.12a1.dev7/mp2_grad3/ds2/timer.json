@@ -1,0 +1,873 @@
+{
+  "timers": {
+    "Libint2ERI::Libint2ERI": {
+      "wall_time": 0.593763743,
+      "user_time": 0.95,
+      "system_time": 0.08333333333333333,
+      "n_calls": 6,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": null,
+      "timer_path": [
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 0
+    },
+    "JK: (A|mn)": {
+      "wall_time": 0.286083125,
+      "user_time": 0.43333333333333335,
+      "system_time": 0.05,
+      "n_calls": 1,
+      "timer_name": "JK: (A|mn)",
+      "parent_id": null,
+      "timer_path": [
+        "JK: (A|mn)"
+      ],
+      "level": 0
+    },
+    "JK: (A|Q)^-1/2": {
+      "wall_time": 0.080190677,
+      "user_time": 0.13333333333333333,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "JK: (A|Q)^-1/2",
+      "parent_id": null,
+      "timer_path": [
+        "JK: (A|Q)^-1/2"
+      ],
+      "level": 0
+    },
+    "JK: (A|Q)^-1/2;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.000779249,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "JK: (A|Q)^-1/2",
+      "timer_path": [
+        "JK: (A|Q)^-1/2",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 1
+    },
+    "JK: (Q|mn)": {
+      "wall_time": 0.118594993,
+      "user_time": 0.13333333333333333,
+      "system_time": 0.05,
+      "n_calls": 1,
+      "timer_name": "JK: (Q|mn)",
+      "parent_id": null,
+      "timer_path": [
+        "JK: (Q|mn)"
+      ],
+      "level": 0
+    },
+    "HF: Form core H": {
+      "wall_time": 0.014418459,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "HF: Form core H",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form core H"
+      ],
+      "level": 0
+    },
+    "HF: Form S/X": {
+      "wall_time": 0.00127984,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "HF: Form S/X",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form S/X"
+      ],
+      "level": 0
+    },
+    "HF: Guess": {
+      "wall_time": 0.412484182,
+      "user_time": 0.5333333333333333,
+      "system_time": 0.15,
+      "n_calls": 1,
+      "timer_name": "HF: Guess",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Guess"
+      ],
+      "level": 0
+    },
+    "HF: Guess;SAD Guess": {
+      "wall_time": 0.407142585,
+      "user_time": 0.5333333333333333,
+      "system_time": 0.15,
+      "n_calls": 1,
+      "timer_name": "SAD Guess",
+      "parent_id": "HF: Guess",
+      "timer_path": [
+        "HF: Guess",
+        "SAD Guess"
+      ],
+      "level": 1
+    },
+    "HF: Form G": {
+      "wall_time": 4.452603293,
+      "user_time": 7.366666666666664,
+      "system_time": 0.016666666666666666,
+      "n_calls": 21,
+      "timer_name": "HF: Form G",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form G"
+      ],
+      "level": 0
+    },
+    "HF: Form G;JK: D": {
+      "wall_time": 0.000940477,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 21,
+      "timer_name": "JK: D",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: D"
+      ],
+      "level": 1
+    },
+    "HF: Form G;JK: USO2AO": {
+      "wall_time": 0.017021326,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 21,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: USO2AO"
+      ],
+      "level": 1
+    },
+    "HF: Form G;JK: JK": {
+      "wall_time": 4.403054941,
+      "user_time": 7.299999999999997,
+      "system_time": 0.016666666666666666,
+      "n_calls": 21,
+      "timer_name": "JK: JK",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK"
+      ],
+      "level": 1
+    },
+    "HF: Form G;JK: JK;JK: J": {
+      "wall_time": 0.429130345,
+      "user_time": 0.7,
+      "system_time": 0.0,
+      "n_calls": 21,
+      "timer_name": "JK: J",
+      "parent_id": "HF: Form G;JK: JK",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK",
+        "JK: J"
+      ],
+      "level": 2
+    },
+    "HF: Form G;JK: JK;JK: J;JK: J1": {
+      "wall_time": 0.215377985,
+      "user_time": 0.3333333333333333,
+      "system_time": 0.0,
+      "n_calls": 42,
+      "timer_name": "JK: J1",
+      "parent_id": "HF: Form G;JK: JK;JK: J",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK",
+        "JK: J",
+        "JK: J1"
+      ],
+      "level": 3
+    },
+    "HF: Form G;JK: JK;JK: J;JK: J2": {
+      "wall_time": 0.206706266,
+      "user_time": 0.35,
+      "system_time": 0.0,
+      "n_calls": 42,
+      "timer_name": "JK: J2",
+      "parent_id": "HF: Form G;JK: JK;JK: J",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK",
+        "JK: J",
+        "JK: J2"
+      ],
+      "level": 3
+    },
+    "HF: Form G;JK: JK;JK: K": {
+      "wall_time": 3.957289747,
+      "user_time": 6.566666666666664,
+      "system_time": 0.016666666666666666,
+      "n_calls": 21,
+      "timer_name": "JK: K",
+      "parent_id": "HF: Form G;JK: JK",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK",
+        "JK: K"
+      ],
+      "level": 2
+    },
+    "HF: Form G;JK: JK;JK: K;JK: K1": {
+      "wall_time": 3.548845687,
+      "user_time": 5.866666666666671,
+      "system_time": 0.016666666666666666,
+      "n_calls": 42,
+      "timer_name": "JK: K1",
+      "parent_id": "HF: Form G;JK: JK;JK: K",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK",
+        "JK: K",
+        "JK: K1"
+      ],
+      "level": 3
+    },
+    "HF: Form G;JK: JK;JK: K;JK: K2": {
+      "wall_time": 0.407384349,
+      "user_time": 0.7000000000000005,
+      "system_time": 0.0,
+      "n_calls": 42,
+      "timer_name": "JK: K2",
+      "parent_id": "HF: Form G;JK: JK;JK: K",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK",
+        "JK: K",
+        "JK: K2"
+      ],
+      "level": 3
+    },
+    "HF: Form G;JK: AO2USO": {
+      "wall_time": 0.028000902,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 21,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: AO2USO"
+      ],
+      "level": 1
+    },
+    "HF: Form F": {
+      "wall_time": 0.001271764,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 21,
+      "timer_name": "HF: Form F",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form F"
+      ],
+      "level": 0
+    },
+    "HF: Form D": {
+      "wall_time": 0.000927592,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 21,
+      "timer_name": "HF: Form D",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form D"
+      ],
+      "level": 0
+    },
+    "HF: DIIS": {
+      "wall_time": 0.256947425,
+      "user_time": 0.3333333333333333,
+      "system_time": 0.08333333333333333,
+      "n_calls": 20,
+      "timer_name": "HF: DIIS",
+      "parent_id": null,
+      "timer_path": [
+        "HF: DIIS"
+      ],
+      "level": 0
+    },
+    "HF: Form C": {
+      "wall_time": 0.047895914,
+      "user_time": 0.09999999999999999,
+      "system_time": 0.0,
+      "n_calls": 20,
+      "timer_name": "HF: Form C",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form C"
+      ],
+      "level": 0
+    },
+    "DF CC Integrals": {
+      "wall_time": 5.599372261,
+      "user_time": 5.316666666666666,
+      "system_time": 3.9833333333333334,
+      "n_calls": 1,
+      "timer_name": "DF CC Integrals",
+      "parent_id": null,
+      "timer_path": [
+        "DF CC Integrals"
+      ],
+      "level": 0
+    },
+    "DF CC Integrals;Form J": {
+      "wall_time": 0.056789515,
+      "user_time": 0.08333333333333333,
+      "system_time": 0.016666666666666666,
+      "n_calls": 2,
+      "timer_name": "Form J",
+      "parent_id": "DF CC Integrals",
+      "timer_path": [
+        "DF CC Integrals",
+        "Form J"
+      ],
+      "level": 1
+    },
+    "DF CC Integrals;Form J;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.000342597,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "DF CC Integrals;Form J",
+      "timer_path": [
+        "DF CC Integrals",
+        "Form J",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 2
+    },
+    "DF CC Integrals;Form B(Q,munu)": {
+      "wall_time": 1.31161341,
+      "user_time": 1.6333333333333333,
+      "system_time": 0.55,
+      "n_calls": 1,
+      "timer_name": "Form B(Q,munu)",
+      "parent_id": "DF CC Integrals",
+      "timer_path": [
+        "DF CC Integrals",
+        "Form B(Q,munu)"
+      ],
+      "level": 1
+    },
+    "DF CC Integrals;Form B(Q,munu);Libint2ERI::Libint2ERI": {
+      "wall_time": 0.135163144,
+      "user_time": 0.21666666666666667,
+      "system_time": 0.016666666666666666,
+      "n_calls": 1,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "DF CC Integrals;Form B(Q,munu)",
+      "timer_path": [
+        "DF CC Integrals",
+        "Form B(Q,munu)",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 2
+    },
+    "DF CC Integrals;Form B(Q,ij)": {
+      "wall_time": 0.134849831,
+      "user_time": 0.18333333333333335,
+      "system_time": 0.03333333333333333,
+      "n_calls": 2,
+      "timer_name": "Form B(Q,ij)",
+      "parent_id": "DF CC Integrals",
+      "timer_path": [
+        "DF CC Integrals",
+        "Form B(Q,ij)"
+      ],
+      "level": 1
+    },
+    "DF CC Integrals;Form B(Q,ia)": {
+      "wall_time": 1.252357108,
+      "user_time": 1.0333333333333332,
+      "system_time": 1.0333333333333332,
+      "n_calls": 2,
+      "timer_name": "Form B(Q,ia)",
+      "parent_id": "DF CC Integrals",
+      "timer_path": [
+        "DF CC Integrals",
+        "Form B(Q,ia)"
+      ],
+      "level": 1
+    },
+    "DF CC Integrals;Form B(Q,ab)": {
+      "wall_time": 1.978429543,
+      "user_time": 1.5666666666666667,
+      "system_time": 1.7166666666666666,
+      "n_calls": 2,
+      "timer_name": "Form B(Q,ab)",
+      "parent_id": "DF CC Integrals",
+      "timer_path": [
+        "DF CC Integrals",
+        "Form B(Q,ab)"
+      ],
+      "level": 1
+    },
+    "DF CC Integrals;Trans OEI": {
+      "wall_time": 0.001340904,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Trans OEI",
+      "parent_id": "DF CC Integrals",
+      "timer_path": [
+        "DF CC Integrals",
+        "Trans OEI"
+      ],
+      "level": 1
+    },
+    "DF CC Integrals;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.134288943,
+      "user_time": 0.21666666666666667,
+      "system_time": 0.016666666666666666,
+      "n_calls": 1,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "DF CC Integrals",
+      "timer_path": [
+        "DF CC Integrals",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 1
+    },
+    "Fock": {
+      "wall_time": 0.296710167,
+      "user_time": 0.23333333333333334,
+      "system_time": 0.26666666666666666,
+      "n_calls": 1,
+      "timer_name": "Fock",
+      "parent_id": null,
+      "timer_path": [
+        "Fock"
+      ],
+      "level": 0
+    },
+    "MP2": {
+      "wall_time": 1.694185199,
+      "user_time": 1.8833333333333333,
+      "system_time": 0.8,
+      "n_calls": 1,
+      "timer_name": "MP2",
+      "parent_id": null,
+      "timer_path": [
+        "MP2"
+      ],
+      "level": 0
+    },
+    "MP2;Build (IA|JB)": {
+      "wall_time": 0.257522987,
+      "user_time": 0.2833333333333333,
+      "system_time": 0.016666666666666666,
+      "n_calls": 1,
+      "timer_name": "Build (IA|JB)",
+      "parent_id": "MP2",
+      "timer_path": [
+        "MP2",
+        "Build (IA|JB)"
+      ],
+      "level": 1
+    },
+    "MP2;Build <PQ||RS>": {
+      "wall_time": 0.248301934,
+      "user_time": 0.3833333333333333,
+      "system_time": 0.03333333333333333,
+      "n_calls": 2,
+      "timer_name": "Build <PQ||RS>",
+      "parent_id": "MP2",
+      "timer_path": [
+        "MP2",
+        "Build <PQ||RS>"
+      ],
+      "level": 1
+    },
+    "MP2;Build (ia|jb)": {
+      "wall_time": 0.1333304,
+      "user_time": 0.21666666666666667,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Build (ia|jb)",
+      "parent_id": "MP2",
+      "timer_path": [
+        "MP2",
+        "Build (ia|jb)"
+      ],
+      "level": 1
+    },
+    "MP2;Build (IA|jb)": {
+      "wall_time": 0.167178634,
+      "user_time": 0.26666666666666666,
+      "system_time": 0.016666666666666666,
+      "n_calls": 1,
+      "timer_name": "Build (IA|jb)",
+      "parent_id": "MP2",
+      "timer_path": [
+        "MP2",
+        "Build (IA|jb)"
+      ],
+      "level": 1
+    },
+    "opdm": {
+      "wall_time": 3.051556225,
+      "user_time": 3.6,
+      "system_time": 1.4666666666666666,
+      "n_calls": 1,
+      "timer_name": "opdm",
+      "parent_id": null,
+      "timer_path": [
+        "opdm"
+      ],
+      "level": 0
+    },
+    "opdm;T2AA_MP2": {
+      "wall_time": 0.556281675,
+      "user_time": 0.7,
+      "system_time": 0.23333333333333334,
+      "n_calls": 1,
+      "timer_name": "T2AA_MP2",
+      "parent_id": "opdm",
+      "timer_path": [
+        "opdm",
+        "T2AA_MP2"
+      ],
+      "level": 1
+    },
+    "opdm;T2AA_MP2;Build (IA|JB)": {
+      "wall_time": 0.163364303,
+      "user_time": 0.26666666666666666,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Build (IA|JB)",
+      "parent_id": "opdm;T2AA_MP2",
+      "timer_path": [
+        "opdm",
+        "T2AA_MP2",
+        "Build (IA|JB)"
+      ],
+      "level": 2
+    },
+    "opdm;T2AA_MP2;Build <PQ||RS>": {
+      "wall_time": 0.130756195,
+      "user_time": 0.21666666666666667,
+      "system_time": 0.016666666666666666,
+      "n_calls": 1,
+      "timer_name": "Build <PQ||RS>",
+      "parent_id": "opdm;T2AA_MP2",
+      "timer_path": [
+        "opdm",
+        "T2AA_MP2",
+        "Build <PQ||RS>"
+      ],
+      "level": 2
+    },
+    "opdm;T2AB_MP2": {
+      "wall_time": 0.342196049,
+      "user_time": 0.4166666666666667,
+      "system_time": 0.15,
+      "n_calls": 1,
+      "timer_name": "T2AB_MP2",
+      "parent_id": "opdm",
+      "timer_path": [
+        "opdm",
+        "T2AB_MP2"
+      ],
+      "level": 1
+    },
+    "opdm;T2AB_MP2;Build (IA|jb)": {
+      "wall_time": 0.170939312,
+      "user_time": 0.2833333333333333,
+      "system_time": 0.016666666666666666,
+      "n_calls": 1,
+      "timer_name": "Build (IA|jb)",
+      "parent_id": "opdm;T2AB_MP2",
+      "timer_path": [
+        "opdm",
+        "T2AB_MP2",
+        "Build (IA|jb)"
+      ],
+      "level": 2
+    },
+    "opdm;T2BB_MP2": {
+      "wall_time": 0.456994428,
+      "user_time": 0.5666666666666667,
+      "system_time": 0.18333333333333332,
+      "n_calls": 1,
+      "timer_name": "T2BB_MP2",
+      "parent_id": "opdm",
+      "timer_path": [
+        "opdm",
+        "T2BB_MP2"
+      ],
+      "level": 1
+    },
+    "opdm;T2BB_MP2;Build (ia|jb)": {
+      "wall_time": 0.134698343,
+      "user_time": 0.21666666666666667,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Build (ia|jb)",
+      "parent_id": "opdm;T2BB_MP2",
+      "timer_path": [
+        "opdm",
+        "T2BB_MP2",
+        "Build (ia|jb)"
+      ],
+      "level": 2
+    },
+    "opdm;T2BB_MP2;Build <PQ||RS>": {
+      "wall_time": 0.117022604,
+      "user_time": 0.18333333333333332,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Build <PQ||RS>",
+      "parent_id": "opdm;T2BB_MP2",
+      "timer_path": [
+        "opdm",
+        "T2BB_MP2",
+        "Build <PQ||RS>"
+      ],
+      "level": 2
+    },
+    "tpdm": {
+      "wall_time": 2.961957682,
+      "user_time": 3.6333333333333333,
+      "system_time": 1.3166666666666667,
+      "n_calls": 1,
+      "timer_name": "tpdm",
+      "parent_id": null,
+      "timer_path": [
+        "tpdm"
+      ],
+      "level": 0
+    },
+    "tpdm;T2AA_MP2": {
+      "wall_time": 0.536421077,
+      "user_time": 0.6833333333333333,
+      "system_time": 0.21666666666666667,
+      "n_calls": 1,
+      "timer_name": "T2AA_MP2",
+      "parent_id": "tpdm",
+      "timer_path": [
+        "tpdm",
+        "T2AA_MP2"
+      ],
+      "level": 1
+    },
+    "tpdm;T2AA_MP2;Build (IA|JB)": {
+      "wall_time": 0.161195171,
+      "user_time": 0.25,
+      "system_time": 0.016666666666666666,
+      "n_calls": 1,
+      "timer_name": "Build (IA|JB)",
+      "parent_id": "tpdm;T2AA_MP2",
+      "timer_path": [
+        "tpdm",
+        "T2AA_MP2",
+        "Build (IA|JB)"
+      ],
+      "level": 2
+    },
+    "tpdm;T2AA_MP2;Build <PQ||RS>": {
+      "wall_time": 0.129395526,
+      "user_time": 0.2,
+      "system_time": 0.016666666666666666,
+      "n_calls": 1,
+      "timer_name": "Build <PQ||RS>",
+      "parent_id": "tpdm;T2AA_MP2",
+      "timer_path": [
+        "tpdm",
+        "T2AA_MP2",
+        "Build <PQ||RS>"
+      ],
+      "level": 2
+    },
+    "tpdm;T2AB_MP2": {
+      "wall_time": 0.649939916,
+      "user_time": 0.8166666666666667,
+      "system_time": 0.26666666666666666,
+      "n_calls": 2,
+      "timer_name": "T2AB_MP2",
+      "parent_id": "tpdm",
+      "timer_path": [
+        "tpdm",
+        "T2AB_MP2"
+      ],
+      "level": 1
+    },
+    "tpdm;T2AB_MP2;Build (IA|jb)": {
+      "wall_time": 0.307104085,
+      "user_time": 0.48333333333333334,
+      "system_time": 0.03333333333333333,
+      "n_calls": 2,
+      "timer_name": "Build (IA|jb)",
+      "parent_id": "tpdm;T2AB_MP2",
+      "timer_path": [
+        "tpdm",
+        "T2AB_MP2",
+        "Build (IA|jb)"
+      ],
+      "level": 2
+    },
+    "tpdm;T2BB_MP2": {
+      "wall_time": 0.458250249,
+      "user_time": 0.6,
+      "system_time": 0.16666666666666666,
+      "n_calls": 1,
+      "timer_name": "T2BB_MP2",
+      "parent_id": "tpdm",
+      "timer_path": [
+        "tpdm",
+        "T2BB_MP2"
+      ],
+      "level": 1
+    },
+    "tpdm;T2BB_MP2;Build (ia|jb)": {
+      "wall_time": 0.135598298,
+      "user_time": 0.21666666666666667,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Build (ia|jb)",
+      "parent_id": "tpdm;T2BB_MP2",
+      "timer_path": [
+        "tpdm",
+        "T2BB_MP2",
+        "Build (ia|jb)"
+      ],
+      "level": 2
+    },
+    "tpdm;T2BB_MP2;Build <PQ||RS>": {
+      "wall_time": 0.117233102,
+      "user_time": 0.18333333333333332,
+      "system_time": 0.016666666666666666,
+      "n_calls": 1,
+      "timer_name": "Build <PQ||RS>",
+      "parent_id": "tpdm;T2BB_MP2",
+      "timer_path": [
+        "tpdm",
+        "T2BB_MP2",
+        "Build <PQ||RS>"
+      ],
+      "level": 2
+    },
+    "sep_tpdm": {
+      "wall_time": 0.612578614,
+      "user_time": 0.43333333333333335,
+      "system_time": 0.5666666666666667,
+      "n_calls": 1,
+      "timer_name": "sep_tpdm",
+      "parent_id": null,
+      "timer_path": [
+        "sep_tpdm"
+      ],
+      "level": 0
+    },
+    "GFM VO": {
+      "wall_time": 0.987735778,
+      "user_time": 0.85,
+      "system_time": 0.6333333333333333,
+      "n_calls": 1,
+      "timer_name": "GFM VO",
+      "parent_id": null,
+      "timer_path": [
+        "GFM VO"
+      ],
+      "level": 0
+    },
+    "GFM OV": {
+      "wall_time": 0.330385946,
+      "user_time": 0.2833333333333333,
+      "system_time": 0.26666666666666666,
+      "n_calls": 1,
+      "timer_name": "GFM OV",
+      "parent_id": null,
+      "timer_path": [
+        "GFM OV"
+      ],
+      "level": 0
+    },
+    "GFM OO": {
+      "wall_time": 0.065333986,
+      "user_time": 0.06666666666666667,
+      "system_time": 0.05,
+      "n_calls": 1,
+      "timer_name": "GFM OO",
+      "parent_id": null,
+      "timer_path": [
+        "GFM OO"
+      ],
+      "level": 0
+    },
+    "GFM VV": {
+      "wall_time": 0.791292102,
+      "user_time": 0.8166666666666667,
+      "system_time": 0.5,
+      "n_calls": 1,
+      "timer_name": "GFM VV",
+      "parent_id": null,
+      "timer_path": [
+        "GFM VV"
+      ],
+      "level": 0
+    },
+    "Z-vector": {
+      "wall_time": 3.886813749,
+      "user_time": 3.5,
+      "system_time": 2.9166666666666665,
+      "n_calls": 1,
+      "timer_name": "Z-vector",
+      "parent_id": null,
+      "timer_path": [
+        "Z-vector"
+      ],
+      "level": 0
+    },
+    "Gamma^eff": {
+      "wall_time": 0.446128584,
+      "user_time": 0.43333333333333335,
+      "system_time": 0.3,
+      "n_calls": 1,
+      "timer_name": "Gamma^eff",
+      "parent_id": null,
+      "timer_path": [
+        "Gamma^eff"
+      ],
+      "level": 0
+    },
+    "tpdm_tilde": {
+      "wall_time": 1.004051136,
+      "user_time": 1.0,
+      "system_time": 0.6833333333333333,
+      "n_calls": 1,
+      "timer_name": "tpdm_tilde",
+      "parent_id": null,
+      "timer_path": [
+        "tpdm_tilde"
+      ],
+      "level": 0
+    },
+    "back_trans": {
+      "wall_time": 3.256091923,
+      "user_time": 3.55,
+      "system_time": 1.85,
+      "n_calls": 1,
+      "timer_name": "back_trans",
+      "parent_id": null,
+      "timer_path": [
+        "back_trans"
+      ],
+      "level": 0
+    }
+  },
+  "psi4_version": "1.12a1.dev8",
+  "psi4_commit_hash": "f8b18fb"
+}

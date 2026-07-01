@@ -1,0 +1,25 @@
+{
+  "test_name": "freq-isotope2",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 78,
+    "iterations_by_label": {
+      "RHF": 78
+    },
+    "accelerators": {
+      "ADIIS": 23,
+      "DIIS": 69
+    },
+    "accelerator_raw": {
+      "ADIIS/DIIS": 23,
+      "DIIS": 46,
+      "NONE": 9
+    }
+  },
+  "optimization": {
+    "cycles": 10
+  }
+}

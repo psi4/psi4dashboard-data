@@ -1,0 +1,23 @@
+{
+  "test_name": "scf-level-shift-cuhf",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 36,
+    "iterations_by_label": {
+      "DF-CUHF": 36
+    },
+    "accelerators": {
+      "ADIIS": 25
+    },
+    "accelerator_raw": {
+      "ADIIS": 25,
+      "NONE": 11
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

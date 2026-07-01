@@ -1,0 +1,26 @@
+{
+  "test_name": "pywrap-cbs1",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 96,
+    "iterations_by_label": {
+      "RHF": 75,
+      "ROHF": 21
+    },
+    "accelerators": {
+      "ADIIS": 35,
+      "DIIS": 94
+    },
+    "accelerator_raw": {
+      "ADIIS": 2,
+      "ADIIS/DIIS": 33,
+      "DIIS": 61
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "test_name": "dft-freq-analytic2",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 114,
+    "iterations_by_label": {
+      "UKS": 114
+    },
+    "accelerators": {
+      "ADIIS": 44,
+      "DIIS": 114
+    },
+    "accelerator_raw": {
+      "ADIIS/DIIS": 44,
+      "DIIS": 70
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

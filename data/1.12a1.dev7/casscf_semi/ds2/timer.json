@@ -1,0 +1,402 @@
+{
+  "timers": {
+    "Libint2ERI::Libint2ERI": {
+      "wall_time": 0.00959407,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": null,
+      "timer_path": [
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 0
+    },
+    "HF: Form core H": {
+      "wall_time": 0.005877951,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "HF: Form core H",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form core H"
+      ],
+      "level": 0
+    },
+    "HF: Form S/X": {
+      "wall_time": 0.000370934,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "HF: Form S/X",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form S/X"
+      ],
+      "level": 0
+    },
+    "HF: Guess": {
+      "wall_time": 0.048544301,
+      "user_time": 0.08333333333333333,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "HF: Guess",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Guess"
+      ],
+      "level": 0
+    },
+    "HF: Guess;SAD Guess": {
+      "wall_time": 0.044879666,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "SAD Guess",
+      "parent_id": "HF: Guess",
+      "timer_path": [
+        "HF: Guess",
+        "SAD Guess"
+      ],
+      "level": 1
+    },
+    "HF: Form G": {
+      "wall_time": 0.022883518,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 11,
+      "timer_name": "HF: Form G",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form G"
+      ],
+      "level": 0
+    },
+    "HF: Form G;JK: D": {
+      "wall_time": 0.000107403,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 11,
+      "timer_name": "JK: D",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: D"
+      ],
+      "level": 1
+    },
+    "HF: Form G;JK: JK": {
+      "wall_time": 0.022512575,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 11,
+      "timer_name": "JK: JK",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK"
+      ],
+      "level": 1
+    },
+    "HF: Form F": {
+      "wall_time": 0.000102481,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 11,
+      "timer_name": "HF: Form F",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form F"
+      ],
+      "level": 0
+    },
+    "HF: Form D": {
+      "wall_time": 8.6455e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 11,
+      "timer_name": "HF: Form D",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form D"
+      ],
+      "level": 0
+    },
+    "HF: DIIS": {
+      "wall_time": 0.159099898,
+      "user_time": 0.2833333333333333,
+      "system_time": 0.016666666666666666,
+      "n_calls": 10,
+      "timer_name": "HF: DIIS",
+      "parent_id": null,
+      "timer_path": [
+        "HF: DIIS"
+      ],
+      "level": 0
+    },
+    "HF: Form C": {
+      "wall_time": 0.003380063,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 10,
+      "timer_name": "HF: Form C",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form C"
+      ],
+      "level": 0
+    },
+    "JK: D": {
+      "wall_time": 2.2603e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "JK: D",
+      "parent_id": null,
+      "timer_path": [
+        "JK: D"
+      ],
+      "level": 0
+    },
+    "JK: JK": {
+      "wall_time": 0.000661847,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "JK: JK",
+      "parent_id": null,
+      "timer_path": [
+        "JK: JK"
+      ],
+      "level": 0
+    },
+    "CIWave: MCSCF integral transform": {
+      "wall_time": 0.332052407,
+      "user_time": 0.06666666666666667,
+      "system_time": 0.19999999999999998,
+      "n_calls": 11,
+      "timer_name": "CIWave: MCSCF integral transform",
+      "parent_id": null,
+      "timer_path": [
+        "CIWave: MCSCF integral transform"
+      ],
+      "level": 0
+    },
+    "CIWave: MCSCF integral transform;JK: D": {
+      "wall_time": 9.0601e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 12,
+      "timer_name": "JK: D",
+      "parent_id": "CIWave: MCSCF integral transform",
+      "timer_path": [
+        "CIWave: MCSCF integral transform",
+        "JK: D"
+      ],
+      "level": 1
+    },
+    "CIWave: MCSCF integral transform;JK: JK": {
+      "wall_time": 0.020748468,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.016666666666666666,
+      "n_calls": 12,
+      "timer_name": "JK: JK",
+      "parent_id": "CIWave: MCSCF integral transform",
+      "timer_path": [
+        "CIWave: MCSCF integral transform",
+        "JK: JK"
+      ],
+      "level": 1
+    },
+    "CIWave: CIvect write": {
+      "wall_time": 0.008911872,
+      "user_time": 0.0,
+      "system_time": 0.03333333333333333,
+      "n_calls": 482,
+      "timer_name": "CIWave: CIvect write",
+      "parent_id": null,
+      "timer_path": [
+        "CIWave: CIvect write"
+      ],
+      "level": 0
+    },
+    "CIWave: CIvect read": {
+      "wall_time": 0.026618545,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.03333333333333333,
+      "n_calls": 2258,
+      "timer_name": "CIWave: CIvect read",
+      "parent_id": null,
+      "timer_path": [
+        "CIWave: CIvect read"
+      ],
+      "level": 0
+    },
+    "CIWave: s2": {
+      "wall_time": 0.001825713,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 252,
+      "timer_name": "CIWave: s2",
+      "parent_id": null,
+      "timer_path": [
+        "CIWave: s2"
+      ],
+      "level": 0
+    },
+    "CIWave: s3": {
+      "wall_time": 0.005678152,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 1008,
+      "timer_name": "CIWave: s3",
+      "parent_id": null,
+      "timer_path": [
+        "CIWave: s3"
+      ],
+      "level": 0
+    },
+    "CIWave: opdm": {
+      "wall_time": 0.000772168,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 11,
+      "timer_name": "CIWave: opdm",
+      "parent_id": null,
+      "timer_path": [
+        "CIWave: opdm"
+      ],
+      "level": 0
+    },
+    "CIWave: opdm;CIWave: CIvect read": {
+      "wall_time": 0.000281888,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 22,
+      "timer_name": "CIWave: CIvect read",
+      "parent_id": "CIWave: opdm",
+      "timer_path": [
+        "CIWave: opdm",
+        "CIWave: CIvect read"
+      ],
+      "level": 1
+    },
+    "CIWave: TPDM": {
+      "wall_time": 0.00314757,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 11,
+      "timer_name": "CIWave: TPDM",
+      "parent_id": null,
+      "timer_path": [
+        "CIWave: TPDM"
+      ],
+      "level": 0
+    },
+    "CIWave: TPDM;CIWave: CIvect read": {
+      "wall_time": 0.000277198,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 22,
+      "timer_name": "CIWave: CIvect read",
+      "parent_id": "CIWave: TPDM",
+      "timer_path": [
+        "CIWave: TPDM",
+        "CIWave: CIvect read"
+      ],
+      "level": 1
+    },
+    "CIWave: TPDM;CIWave: TPDM Block": {
+      "wall_time": 0.00171002,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 176,
+      "timer_name": "CIWave: TPDM Block",
+      "parent_id": "CIWave: TPDM",
+      "timer_path": [
+        "CIWave: TPDM",
+        "CIWave: TPDM Block"
+      ],
+      "level": 1
+    },
+    "CIWave: TPDM;CIWave: TPDM Reorder": {
+      "wall_time": 0.000269493,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 11,
+      "timer_name": "CIWave: TPDM Reorder",
+      "parent_id": "CIWave: TPDM",
+      "timer_path": [
+        "CIWave: TPDM",
+        "CIWave: TPDM Reorder"
+      ],
+      "level": 1
+    },
+    "SOMCSCF: Compute Gradient": {
+      "wall_time": 0.069151399,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.016666666666666666,
+      "n_calls": 10,
+      "timer_name": "SOMCSCF: Compute Gradient",
+      "parent_id": null,
+      "timer_path": [
+        "SOMCSCF: Compute Gradient"
+      ],
+      "level": 0
+    },
+    "SOMCSCF: Compute Gradient;JK: D": {
+      "wall_time": 0.000136965,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 10,
+      "timer_name": "JK: D",
+      "parent_id": "SOMCSCF: Compute Gradient",
+      "timer_path": [
+        "SOMCSCF: Compute Gradient",
+        "JK: D"
+      ],
+      "level": 1
+    },
+    "SOMCSCF: Compute Gradient;JK: JK": {
+      "wall_time": 0.024886485,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 10,
+      "timer_name": "JK: JK",
+      "parent_id": "SOMCSCF: Compute Gradient",
+      "timer_path": [
+        "SOMCSCF: Compute Gradient",
+        "JK: JK"
+      ],
+      "level": 1
+    },
+    "SOMCSCF: Compute Gradient;SOMCSCF: Q matrix": {
+      "wall_time": 0.042331095,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.016666666666666666,
+      "n_calls": 10,
+      "timer_name": "SOMCSCF: Q matrix",
+      "parent_id": "SOMCSCF: Compute Gradient",
+      "timer_path": [
+        "SOMCSCF: Compute Gradient",
+        "SOMCSCF: Q matrix"
+      ],
+      "level": 1
+    },
+    "SOMCSCF: Approximate hessian": {
+      "wall_time": 0.000137895,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 10,
+      "timer_name": "SOMCSCF: Approximate hessian",
+      "parent_id": null,
+      "timer_path": [
+        "SOMCSCF: Approximate hessian"
+      ],
+      "level": 0
+    }
+  },
+  "psi4_version": "1.12a1.dev8",
+  "psi4_commit_hash": "f8b18fb"
+}

@@ -1,0 +1,23 @@
+{
+  "test_name": "sad-scf-type",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 6,
+    "iterations_by_label": {
+      "DF-RHF": 1,
+      "RHF": 5
+    },
+    "accelerators": {
+      "DIIS": 6
+    },
+    "accelerator_raw": {
+      "DIIS": 6
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

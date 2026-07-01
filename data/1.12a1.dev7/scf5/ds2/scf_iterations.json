@@ -1,0 +1,32 @@
+{
+  "test_name": "scf5",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 363,
+    "iterations_by_label": {
+      "CUHF": 73,
+      "DF-CUHF": 48,
+      "DF-RHF": 21,
+      "DF-ROHF": 27,
+      "DF-UHF": 48,
+      "RHF": 33,
+      "ROHF": 40,
+      "UHF": 73
+    },
+    "accelerators": {
+      "ADIIS": 173,
+      "DIIS": 335
+    },
+    "accelerator_raw": {
+      "ADIIS": 28,
+      "ADIIS/DIIS": 145,
+      "DIIS": 190
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "test_name": "fnocc2",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 196,
+    "iterations_by_label": {
+      "RHF": 196
+    },
+    "accelerators": {
+      "ADIIS": 38,
+      "DIIS": 186
+    },
+    "accelerator_raw": {
+      "ADIIS/DIIS": 38,
+      "DIIS": 148,
+      "NONE": 10
+    }
+  },
+  "optimization": {
+    "cycles": 12
+  }
+}

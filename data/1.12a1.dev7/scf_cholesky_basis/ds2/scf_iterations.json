@@ -1,0 +1,25 @@
+{
+  "test_name": "scf-cholesky-basis",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 77,
+    "iterations_by_label": {
+      "DF-UHF": 77
+    },
+    "accelerators": {
+      "ADIIS": 4,
+      "DIIS": 69
+    },
+    "accelerator_raw": {
+      "ADIIS/DIIS": 4,
+      "DIIS": 65,
+      "NONE": 8
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

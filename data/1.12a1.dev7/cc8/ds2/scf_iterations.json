@@ -1,0 +1,24 @@
+{
+  "test_name": "cc8",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 20,
+    "iterations_by_label": {
+      "UHF": 20
+    },
+    "accelerators": {
+      "ADIIS": 10,
+      "DIIS": 20
+    },
+    "accelerator_raw": {
+      "ADIIS/DIIS": 10,
+      "DIIS": 10
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

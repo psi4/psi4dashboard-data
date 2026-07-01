@@ -1,0 +1,25 @@
+{
+  "test_name": "dfomp3-grad2",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 15,
+    "iterations_by_label": {
+      "DF-UHF": 15
+    },
+    "accelerators": {
+      "ADIIS": 6,
+      "DIIS": 14
+    },
+    "accelerator_raw": {
+      "ADIIS": 1,
+      "ADIIS/DIIS": 5,
+      "DIIS": 9
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

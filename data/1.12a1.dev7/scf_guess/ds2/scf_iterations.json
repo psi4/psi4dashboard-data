@@ -1,0 +1,28 @@
+{
+  "test_name": "scf-guess",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 261,
+    "iterations_by_label": {
+      "CUHF": 62,
+      "RHF": 65,
+      "ROHF": 62,
+      "UHF": 72
+    },
+    "accelerators": {
+      "ADIIS": 112,
+      "DIIS": 251
+    },
+    "accelerator_raw": {
+      "ADIIS": 10,
+      "ADIIS/DIIS": 102,
+      "DIIS": 149
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

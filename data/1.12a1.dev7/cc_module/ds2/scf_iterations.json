@@ -1,0 +1,25 @@
+{
+  "test_name": "cc-module",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 132,
+    "iterations_by_label": {
+      "DF-RHF": 44,
+      "RHF": 88
+    },
+    "accelerators": {
+      "ADIIS": 48,
+      "DIIS": 132
+    },
+    "accelerator_raw": {
+      "ADIIS/DIIS": 48,
+      "DIIS": 84
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

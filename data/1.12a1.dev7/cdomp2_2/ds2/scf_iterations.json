@@ -1,0 +1,24 @@
+{
+  "test_name": "cdomp2-2",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 21,
+    "iterations_by_label": {
+      "UHF": 21
+    },
+    "accelerators": {
+      "ADIIS": 11,
+      "DIIS": 21
+    },
+    "accelerator_raw": {
+      "ADIIS/DIIS": 11,
+      "DIIS": 10
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

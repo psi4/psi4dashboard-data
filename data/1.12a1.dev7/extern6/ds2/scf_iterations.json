@@ -1,0 +1,24 @@
+{
+  "test_name": "extern6",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 30,
+    "iterations_by_label": {
+      "DF-RHF": 30
+    },
+    "accelerators": {
+      "ADIIS": 8,
+      "DIIS": 30
+    },
+    "accelerator_raw": {
+      "ADIIS/DIIS": 8,
+      "DIIS": 22
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

@@ -1,0 +1,768 @@
+{
+  "timers": {
+    "Total PK formation time": {
+      "wall_time": 0.16853452,
+      "user_time": 0.2,
+      "system_time": 0.08333333333333333,
+      "n_calls": 4,
+      "timer_name": "Total PK formation time",
+      "parent_id": null,
+      "timer_path": [
+        "Total PK formation time"
+      ],
+      "level": 0
+    },
+    "Total PK formation time;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.080264449,
+      "user_time": 0.08333333333333333,
+      "system_time": 0.05,
+      "n_calls": 8,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "Total PK formation time",
+      "timer_path": [
+        "Total PK formation time",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 1
+    },
+    "HF: Form core H": {
+      "wall_time": 0.002970685,
+      "user_time": 0.0,
+      "system_time": 0.016666666666666666,
+      "n_calls": 4,
+      "timer_name": "HF: Form core H",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form core H"
+      ],
+      "level": 0
+    },
+    "HF: Form S/X": {
+      "wall_time": 0.000766597,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "HF: Form S/X",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form S/X"
+      ],
+      "level": 0
+    },
+    "HF: Guess": {
+      "wall_time": 0.190169361,
+      "user_time": 0.26666666666666666,
+      "system_time": 0.016666666666666666,
+      "n_calls": 4,
+      "timer_name": "HF: Guess",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Guess"
+      ],
+      "level": 0
+    },
+    "HF: Guess;SAD Guess": {
+      "wall_time": 0.182368627,
+      "user_time": 0.25,
+      "system_time": 0.016666666666666666,
+      "n_calls": 4,
+      "timer_name": "SAD Guess",
+      "parent_id": "HF: Guess",
+      "timer_path": [
+        "HF: Guess",
+        "SAD Guess"
+      ],
+      "level": 1
+    },
+    "HF: Form G": {
+      "wall_time": 0.01617195,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 68,
+      "timer_name": "HF: Form G",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form G"
+      ],
+      "level": 0
+    },
+    "HF: Form G;JK: D": {
+      "wall_time": 0.000583,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 68,
+      "timer_name": "JK: D",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: D"
+      ],
+      "level": 1
+    },
+    "HF: Form G;JK: USO2AO": {
+      "wall_time": 0.003096826,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 68,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: USO2AO"
+      ],
+      "level": 1
+    },
+    "HF: Form G;JK: JK": {
+      "wall_time": 0.010263621,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 68,
+      "timer_name": "JK: JK",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK"
+      ],
+      "level": 1
+    },
+    "HF: Form G;JK: JK;PK computes JK": {
+      "wall_time": 0.009858734,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 68,
+      "timer_name": "PK computes JK",
+      "parent_id": "HF: Form G;JK: JK",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK",
+        "PK computes JK"
+      ],
+      "level": 2
+    },
+    "HF: Form G;JK: AO2USO": {
+      "wall_time": 0.000664207,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 68,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: AO2USO"
+      ],
+      "level": 1
+    },
+    "HF: Form F": {
+      "wall_time": 0.000562803,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 68,
+      "timer_name": "HF: Form F",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form F"
+      ],
+      "level": 0
+    },
+    "HF: Form D": {
+      "wall_time": 0.000428437,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 68,
+      "timer_name": "HF: Form D",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form D"
+      ],
+      "level": 0
+    },
+    "HF: DIIS": {
+      "wall_time": 0.320347838,
+      "user_time": 0.39999999999999997,
+      "system_time": 0.03333333333333333,
+      "n_calls": 64,
+      "timer_name": "HF: DIIS",
+      "parent_id": null,
+      "timer_path": [
+        "HF: DIIS"
+      ],
+      "level": 0
+    },
+    "HF: Form C": {
+      "wall_time": 0.022040941,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 64,
+      "timer_name": "HF: Form C",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form C"
+      ],
+      "level": 0
+    },
+    "Libint2ERI::Libint2ERI": {
+      "wall_time": 0.054925837,
+      "user_time": 0.06666666666666667,
+      "system_time": 0.016666666666666666,
+      "n_calls": 8,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": null,
+      "timer_path": [
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 0
+    },
+    "DCTSolver::rhf_guess": {
+      "wall_time": 0.00021655,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DCTSolver::rhf_guess",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::rhf_guess"
+      ],
+      "level": 0
+    },
+    "DCTSolver::rhf_guess;DCTSolver::update_rhf_density": {
+      "wall_time": 6.6785e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DCTSolver::update_rhf_density",
+      "parent_id": "DCTSolver::rhf_guess",
+      "timer_path": [
+        "DCTSolver::rhf_guess",
+        "DCTSolver::update_rhf_density"
+      ],
+      "level": 1
+    },
+    "DCTSolver::transform_integrals()": {
+      "wall_time": 11.781103107,
+      "user_time": 3.2999999999999994,
+      "system_time": 4.949999999999997,
+      "n_calls": 80,
+      "timer_name": "DCTSolver::transform_integrals()",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::transform_integrals()"
+      ],
+      "level": 0
+    },
+    "DCTSolver::transform_integrals();DCTSolver::transform_OVOV": {
+      "wall_time": 1.38608852,
+      "user_time": 0.31666666666666665,
+      "system_time": 0.3,
+      "n_calls": 80,
+      "timer_name": "DCTSolver::transform_OVOV",
+      "parent_id": "DCTSolver::transform_integrals()",
+      "timer_path": [
+        "DCTSolver::transform_integrals()",
+        "DCTSolver::transform_OVOV"
+      ],
+      "level": 1
+    },
+    "DCTSolver::transform_integrals();DCTSolver::transform_OOOO": {
+      "wall_time": 1.995394139,
+      "user_time": 0.4666666666666666,
+      "system_time": 0.8166666666666674,
+      "n_calls": 80,
+      "timer_name": "DCTSolver::transform_OOOO",
+      "parent_id": "DCTSolver::transform_integrals()",
+      "timer_path": [
+        "DCTSolver::transform_integrals()",
+        "DCTSolver::transform_OOOO"
+      ],
+      "level": 1
+    },
+    "DCTSolver::transform_integrals();DCTSolver::transform_OOVV": {
+      "wall_time": 2.334408079,
+      "user_time": 0.6833333333333338,
+      "system_time": 1.1500000000000004,
+      "n_calls": 80,
+      "timer_name": "DCTSolver::transform_OOVV",
+      "parent_id": "DCTSolver::transform_integrals()",
+      "timer_path": [
+        "DCTSolver::transform_integrals()",
+        "DCTSolver::transform_OOVV"
+      ],
+      "level": 1
+    },
+    "DCTSolver::transform_integrals();DCTSolver::transform_VOOO": {
+      "wall_time": 1.630224928,
+      "user_time": 0.3333333333333333,
+      "system_time": 0.6000000000000002,
+      "n_calls": 80,
+      "timer_name": "DCTSolver::transform_VOOO",
+      "parent_id": "DCTSolver::transform_integrals()",
+      "timer_path": [
+        "DCTSolver::transform_integrals()",
+        "DCTSolver::transform_VOOO"
+      ],
+      "level": 1
+    },
+    "DCTSolver::transform_integrals();DCTSolver::transform_OVVV": {
+      "wall_time": 2.039375643,
+      "user_time": 0.4666666666666666,
+      "system_time": 0.6833333333333338,
+      "n_calls": 80,
+      "timer_name": "DCTSolver::transform_OVVV",
+      "parent_id": "DCTSolver::transform_integrals()",
+      "timer_path": [
+        "DCTSolver::transform_integrals()",
+        "DCTSolver::transform_OVVV"
+      ],
+      "level": 1
+    },
+    "DCTSolver::transform_integrals();DCTSolver::build_denominators()": {
+      "wall_time": 0.01875296,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 80,
+      "timer_name": "DCTSolver::build_denominators()",
+      "parent_id": "DCTSolver::transform_integrals()",
+      "timer_path": [
+        "DCTSolver::transform_integrals()",
+        "DCTSolver::build_denominators()"
+      ],
+      "level": 1
+    },
+    "DCTSolver::initialize_amplitudes()": {
+      "wall_time": 0.012692248,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.03333333333333333,
+      "n_calls": 4,
+      "timer_name": "DCTSolver::initialize_amplitudes()",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::initialize_amplitudes()"
+      ],
+      "level": 0
+    },
+    "DCTSolver::initialize_amplitudes();DCTSolver::g_IJAB / D_IJAB": {
+      "wall_time": 0.001508129,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.016666666666666666,
+      "n_calls": 4,
+      "timer_name": "DCTSolver::g_IJAB / D_IJAB",
+      "parent_id": "DCTSolver::initialize_amplitudes()",
+      "timer_path": [
+        "DCTSolver::initialize_amplitudes()",
+        "DCTSolver::g_IJAB / D_IJAB"
+      ],
+      "level": 1
+    },
+    "DCTSolver::initialize_amplitudes();DCTSolver::2 * g_IJAB - g_JIAB": {
+      "wall_time": 0.001488299,
+      "user_time": 0.0,
+      "system_time": 0.016666666666666666,
+      "n_calls": 4,
+      "timer_name": "DCTSolver::2 * g_IJAB - g_JIAB",
+      "parent_id": "DCTSolver::initialize_amplitudes()",
+      "timer_path": [
+        "DCTSolver::initialize_amplitudes()",
+        "DCTSolver::2 * g_IJAB - g_JIAB"
+      ],
+      "level": 1
+    },
+    "DCTSolver::initialize_amplitudes();DCTSolver::lambda_IjAb M_IjAb": {
+      "wall_time": 0.000290065,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DCTSolver::lambda_IjAb M_IjAb",
+      "parent_id": "DCTSolver::initialize_amplitudes()",
+      "timer_path": [
+        "DCTSolver::initialize_amplitudes()",
+        "DCTSolver::lambda_IjAb M_IjAb"
+      ],
+      "level": 1
+    },
+    "DCTSolver::build_d()": {
+      "wall_time": 0.053485193,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.03333333333333333,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::build_d()",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::build_d()"
+      ],
+      "level": 0
+    },
+    "DCTSolver::build_tau()": {
+      "wall_time": 0.003272743,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 34,
+      "timer_name": "DCTSolver::build_tau()",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::build_tau()"
+      ],
+      "level": 0
+    },
+    "DCTSolver::transform_tau()": {
+      "wall_time": 0.005168256,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::transform_tau()",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::transform_tau()"
+      ],
+      "level": 0
+    },
+    "DCTSolver::process_so_ints": {
+      "wall_time": 0.822274974,
+      "user_time": 0.5499999999999999,
+      "system_time": 0.06666666666666667,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::process_so_ints",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::process_so_ints"
+      ],
+      "level": 0
+    },
+    "DCTSolver::process_so_ints;DCTSolver::half_transform": {
+      "wall_time": 0.008817261,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::half_transform",
+      "parent_id": "DCTSolver::process_so_ints",
+      "timer_path": [
+        "DCTSolver::process_so_ints",
+        "DCTSolver::half_transform"
+      ],
+      "level": 1
+    },
+    "DCTSolver::compute_scf_energy": {
+      "wall_time": 0.001153944,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::compute_scf_energy",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::compute_scf_energy"
+      ],
+      "level": 0
+    },
+    "DCTSolver::build_intermediates()": {
+      "wall_time": 1.594952082,
+      "user_time": 0.08333333333333333,
+      "system_time": 0.15,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::build_intermediates()",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::build_intermediates()"
+      ],
+      "level": 0
+    },
+    "DCTSolver::build_intermediates();DCTSolver::copy <Ij|Ab>": {
+      "wall_time": 0.005418611,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::copy <Ij|Ab>",
+      "parent_id": "DCTSolver::build_intermediates()",
+      "timer_path": [
+        "DCTSolver::build_intermediates()",
+        "DCTSolver::copy <Ij|Ab>"
+      ],
+      "level": 1
+    },
+    "DCTSolver::build_intermediates();DCTSolver::g_AbCd lambda_IjCd": {
+      "wall_time": 0.016800559,
+      "user_time": 0.0,
+      "system_time": 0.016666666666666666,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::g_AbCd lambda_IjCd",
+      "parent_id": "DCTSolver::build_intermediates()",
+      "timer_path": [
+        "DCTSolver::build_intermediates()",
+        "DCTSolver::g_AbCd lambda_IjCd"
+      ],
+      "level": 1
+    },
+    "DCTSolver::build_intermediates();DCTSolver::g_IjKl lambda_KlAb": {
+      "wall_time": 0.006960898,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::g_IjKl lambda_KlAb",
+      "parent_id": "DCTSolver::build_intermediates()",
+      "timer_path": [
+        "DCTSolver::build_intermediates()",
+        "DCTSolver::g_IjKl lambda_KlAb"
+      ],
+      "level": 1
+    },
+    "DCTSolver::build_intermediates();DCTSolver::g_JcKb lambda_IkAc (4 times)": {
+      "wall_time": 0.079894301,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.05,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::g_JcKb lambda_IkAc (4 times)",
+      "parent_id": "DCTSolver::build_intermediates()",
+      "timer_path": [
+        "DCTSolver::build_intermediates()",
+        "DCTSolver::g_JcKb lambda_IkAc (4 times)"
+      ],
+      "level": 1
+    },
+    "DCTSolver::compute_lambda_residual()": {
+      "wall_time": 0.010446966,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::compute_lambda_residual()",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::compute_lambda_residual()"
+      ],
+      "level": 0
+    },
+    "DCTSolver::update_lambda_from_residual()": {
+      "wall_time": 0.046737684,
+      "user_time": 0.05,
+      "system_time": 0.016666666666666666,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::update_lambda_from_residual()",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::update_lambda_from_residual()"
+      ],
+      "level": 0
+    },
+    "DCTSolver::compute_dct_energy()": {
+      "wall_time": 0.23962838,
+      "user_time": 0.13333333333333333,
+      "system_time": 0.05,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::compute_dct_energy()",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::compute_dct_energy()"
+      ],
+      "level": 0
+    },
+    "DCTSolver::compute_dct_energy();DCTSolver::G_IjAb + g_IjAb": {
+      "wall_time": 0.010464896,
+      "user_time": 0.06666666666666667,
+      "system_time": 0.016666666666666666,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::G_IjAb + g_IjAb",
+      "parent_id": "DCTSolver::compute_dct_energy()",
+      "timer_path": [
+        "DCTSolver::compute_dct_energy()",
+        "DCTSolver::G_IjAb + g_IjAb"
+      ],
+      "level": 1
+    },
+    "DCTSolver::orbital_optimization": {
+      "wall_time": 2.816846518,
+      "user_time": 0.9000000000000007,
+      "system_time": 1.266666666666667,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::orbital_optimization",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::orbital_optimization"
+      ],
+      "level": 0
+    },
+    "DCTSolver::orbital_optimization;DCTSolver::compute_orbital_residual_RHF()": {
+      "wall_time": 2.538442435,
+      "user_time": 0.6833333333333338,
+      "system_time": 1.033333333333334,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::compute_orbital_residual_RHF()",
+      "parent_id": "DCTSolver::orbital_optimization",
+      "timer_path": [
+        "DCTSolver::orbital_optimization",
+        "DCTSolver::compute_orbital_residual_RHF()"
+      ],
+      "level": 1
+    },
+    "DCTSolver::orbital_optimization;DCTSolver::compute_orbital_residual_RHF();DCTSolver::g_IbCd tau_CA tau_DB": {
+      "wall_time": 0.06236138,
+      "user_time": 0.09999999999999999,
+      "system_time": 0.05,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::g_IbCd tau_CA tau_DB",
+      "parent_id": "DCTSolver::orbital_optimization;DCTSolver::compute_orbital_residual_RHF()",
+      "timer_path": [
+        "DCTSolver::orbital_optimization",
+        "DCTSolver::compute_orbital_residual_RHF()",
+        "DCTSolver::g_IbCd tau_CA tau_DB"
+      ],
+      "level": 2
+    },
+    "DCTSolver::orbital_optimization;DCTSolver::compute_orbital_residual_RHF();DCTSolver::g_BiJk Gamma_BaJk": {
+      "wall_time": 0.052866781,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.09999999999999999,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::g_BiJk Gamma_BaJk",
+      "parent_id": "DCTSolver::orbital_optimization;DCTSolver::compute_orbital_residual_RHF()",
+      "timer_path": [
+        "DCTSolver::orbital_optimization",
+        "DCTSolver::compute_orbital_residual_RHF()",
+        "DCTSolver::g_BiJk Gamma_BaJk"
+      ],
+      "level": 2
+    },
+    "DCTSolver::orbital_optimization;DCTSolver::compute_orbital_residual_RHF();DCTSolver::g_IbJk Gamma_AbJk": {
+      "wall_time": 0.008801792,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::g_IbJk Gamma_AbJk",
+      "parent_id": "DCTSolver::orbital_optimization;DCTSolver::compute_orbital_residual_RHF()",
+      "timer_path": [
+        "DCTSolver::orbital_optimization",
+        "DCTSolver::compute_orbital_residual_RHF()",
+        "DCTSolver::g_IbJk Gamma_AbJk"
+      ],
+      "level": 2
+    },
+    "DCTSolver::orbital_optimization;DCTSolver::compute_orbital_residual_RHF();DCTSolver::g_JbKi Gamma_JbKa": {
+      "wall_time": 0.052006947,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.03333333333333333,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::g_JbKi Gamma_JbKa",
+      "parent_id": "DCTSolver::orbital_optimization;DCTSolver::compute_orbital_residual_RHF()",
+      "timer_path": [
+        "DCTSolver::orbital_optimization",
+        "DCTSolver::compute_orbital_residual_RHF()",
+        "DCTSolver::g_JbKi Gamma_JbKa"
+      ],
+      "level": 2
+    },
+    "DCTSolver::orbital_optimization;DCTSolver::compute_orbital_residual_RHF();DCTSolver::2 * g_AjKl Gamma_IjKl": {
+      "wall_time": 0.052543685,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.05,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::2 * g_AjKl Gamma_IjKl",
+      "parent_id": "DCTSolver::orbital_optimization;DCTSolver::compute_orbital_residual_RHF()",
+      "timer_path": [
+        "DCTSolver::orbital_optimization",
+        "DCTSolver::compute_orbital_residual_RHF()",
+        "DCTSolver::2 * g_AjKl Gamma_IjKl"
+      ],
+      "level": 2
+    },
+    "DCTSolver::orbital_optimization;DCTSolver::compute_orbital_residual_RHF();DCTSolver::2 * g_JaBc Gamma_JiBc": {
+      "wall_time": 0.067082901,
+      "user_time": 0.09999999999999999,
+      "system_time": 0.03333333333333333,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::2 * g_JaBc Gamma_JiBc",
+      "parent_id": "DCTSolver::orbital_optimization;DCTSolver::compute_orbital_residual_RHF()",
+      "timer_path": [
+        "DCTSolver::orbital_optimization",
+        "DCTSolver::compute_orbital_residual_RHF()",
+        "DCTSolver::2 * g_JaBc Gamma_JiBc"
+      ],
+      "level": 2
+    },
+    "DCTSolver::orbital_optimization;DCTSolver::compute_orbital_residual_RHF();DCTSolver::g_JbAc Gamma_JbIc": {
+      "wall_time": 0.06124121,
+      "user_time": 0.0,
+      "system_time": 0.03333333333333333,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::g_JbAc Gamma_JbIc",
+      "parent_id": "DCTSolver::orbital_optimization;DCTSolver::compute_orbital_residual_RHF()",
+      "timer_path": [
+        "DCTSolver::orbital_optimization",
+        "DCTSolver::compute_orbital_residual_RHF()",
+        "DCTSolver::g_JbAc Gamma_JbIc"
+      ],
+      "level": 2
+    },
+    "DCTSolver::orbital_optimization;DCTSolver::ccompute_orbital_rotation_jacobi_RHF()": {
+      "wall_time": 0.001174022,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::ccompute_orbital_rotation_jacobi_RHF()",
+      "parent_id": "DCTSolver::orbital_optimization",
+      "timer_path": [
+        "DCTSolver::orbital_optimization",
+        "DCTSolver::ccompute_orbital_rotation_jacobi_RHF()"
+      ],
+      "level": 1
+    },
+    "DCTSolver::orbital_optimization;DCTSolver::rotate_orbitals_RHF()": {
+      "wall_time": 0.00712916,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::rotate_orbitals_RHF()",
+      "parent_id": "DCTSolver::orbital_optimization",
+      "timer_path": [
+        "DCTSolver::orbital_optimization",
+        "DCTSolver::rotate_orbitals_RHF()"
+      ],
+      "level": 1
+    },
+    "DCTSolver::orbital_optimization;DCTSolver::compute_R_AA_and_BB": {
+      "wall_time": 0.027364287,
+      "user_time": 0.0,
+      "system_time": 0.016666666666666666,
+      "n_calls": 64,
+      "timer_name": "DCTSolver::compute_R_AA_and_BB",
+      "parent_id": "DCTSolver::orbital_optimization",
+      "timer_path": [
+        "DCTSolver::orbital_optimization",
+        "DCTSolver::compute_R_AA_and_BB"
+      ],
+      "level": 1
+    },
+    "DCTSolver::correct_mo_phases()": {
+      "wall_time": 0.002504257,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::correct_mo_phases()",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::correct_mo_phases()"
+      ],
+      "level": 0
+    },
+    "DCTSolver::update_rhf_density": {
+      "wall_time": 0.002098393,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 76,
+      "timer_name": "DCTSolver::update_rhf_density",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::update_rhf_density"
+      ],
+      "level": 0
+    },
+    "DCTSolver::2 * g_EBCD Gamma_ABCD": {
+      "wall_time": 0.013035646,
+      "user_time": 0.0,
+      "system_time": 0.03333333333333333,
+      "n_calls": 4,
+      "timer_name": "DCTSolver::2 * g_EBCD Gamma_ABCD",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::2 * g_EBCD Gamma_ABCD"
+      ],
+      "level": 0
+    }
+  },
+  "psi4_version": "1.12a1.dev8",
+  "psi4_commit_hash": "f8b18fb"
+}

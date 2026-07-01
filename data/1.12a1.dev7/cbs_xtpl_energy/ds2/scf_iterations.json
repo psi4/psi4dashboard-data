@@ -1,0 +1,24 @@
+{
+  "test_name": "cbs-xtpl-energy",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 90,
+    "iterations_by_label": {
+      "DF-RHF": 90
+    },
+    "accelerators": {
+      "ADIIS": 40,
+      "DIIS": 90
+    },
+    "accelerator_raw": {
+      "ADIIS/DIIS": 40,
+      "DIIS": 50
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

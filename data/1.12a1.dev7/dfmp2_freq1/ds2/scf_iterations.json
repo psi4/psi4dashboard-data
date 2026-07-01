@@ -1,0 +1,24 @@
+{
+  "test_name": "dfmp2-freq1",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 171,
+    "iterations_by_label": {
+      "DF-RHF": 171
+    },
+    "accelerators": {
+      "ADIIS": 52,
+      "DIIS": 171
+    },
+    "accelerator_raw": {
+      "ADIIS/DIIS": 52,
+      "DIIS": 119
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "test_name": "sad1",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 26,
+    "iterations_by_label": {
+      "RHF": 26
+    },
+    "accelerators": {
+      "ADIIS": 8,
+      "DIIS": 26
+    },
+    "accelerator_raw": {
+      "ADIIS/DIIS": 8,
+      "DIIS": 18
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

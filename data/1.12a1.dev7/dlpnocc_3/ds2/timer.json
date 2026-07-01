@@ -1,0 +1,1166 @@
+{
+  "timers": {
+    "DFH: sparsity prep": {
+      "wall_time": 2.055877081,
+      "user_time": 2.9333333333333336,
+      "system_time": 0.4833333333333333,
+      "n_calls": 6,
+      "timer_name": "DFH: sparsity prep",
+      "parent_id": null,
+      "timer_path": [
+        "DFH: sparsity prep"
+      ],
+      "level": 0
+    },
+    "DFH: sparsity prep;Libint2ERI::Libint2ERI": {
+      "wall_time": 1.479017039,
+      "user_time": 1.9666666666666668,
+      "system_time": 0.4833333333333333,
+      "n_calls": 6,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "DFH: sparsity prep",
+      "timer_path": [
+        "DFH: sparsity prep",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 1
+    },
+    "DFH: initialize()": {
+      "wall_time": 2.059241884,
+      "user_time": 3.083333333333333,
+      "system_time": 0.35,
+      "n_calls": 6,
+      "timer_name": "DFH: initialize()",
+      "parent_id": null,
+      "timer_path": [
+        "DFH: initialize()"
+      ],
+      "level": 0
+    },
+    "DFH: initialize();Libint2ERI::Libint2ERI": {
+      "wall_time": 1.214788682,
+      "user_time": 1.8,
+      "system_time": 0.23333333333333334,
+      "n_calls": 12,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "DFH: initialize()",
+      "timer_path": [
+        "DFH: initialize()",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 1
+    },
+    "DFH: initialize();DFH: AO Construction": {
+      "wall_time": 0.565722727,
+      "user_time": 0.95,
+      "system_time": 0.03333333333333333,
+      "n_calls": 6,
+      "timer_name": "DFH: AO Construction",
+      "parent_id": "DFH: initialize()",
+      "timer_path": [
+        "DFH: initialize()",
+        "DFH: AO Construction"
+      ],
+      "level": 1
+    },
+    "DFH: initialize();DFH: AO-Met. Contraction": {
+      "wall_time": 0.152310315,
+      "user_time": 0.2,
+      "system_time": 0.03333333333333333,
+      "n_calls": 6,
+      "timer_name": "DFH: AO-Met. Contraction",
+      "parent_id": "DFH: initialize()",
+      "timer_path": [
+        "DFH: initialize()",
+        "DFH: AO-Met. Contraction"
+      ],
+      "level": 1
+    },
+    "HF: Form core H": {
+      "wall_time": 0.017051113,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "HF: Form core H",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form core H"
+      ],
+      "level": 0
+    },
+    "HF: Form S/X": {
+      "wall_time": 0.007340605,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "HF: Form S/X",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form S/X"
+      ],
+      "level": 0
+    },
+    "HF: Guess": {
+      "wall_time": 1.330569592,
+      "user_time": 1.45,
+      "system_time": 0.7833333333333333,
+      "n_calls": 6,
+      "timer_name": "HF: Guess",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Guess"
+      ],
+      "level": 0
+    },
+    "HF: Guess;SAD Guess": {
+      "wall_time": 1.317904885,
+      "user_time": 1.4166666666666667,
+      "system_time": 0.7833333333333333,
+      "n_calls": 6,
+      "timer_name": "SAD Guess",
+      "parent_id": "HF: Guess",
+      "timer_path": [
+        "HF: Guess",
+        "SAD Guess"
+      ],
+      "level": 1
+    },
+    "HF: Form G": {
+      "wall_time": 0.328547343,
+      "user_time": 0.6500000000000001,
+      "system_time": 0.03333333333333333,
+      "n_calls": 43,
+      "timer_name": "HF: Form G",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form G"
+      ],
+      "level": 0
+    },
+    "HF: Form G;JK: D": {
+      "wall_time": 0.001196745,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 43,
+      "timer_name": "JK: D",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: D"
+      ],
+      "level": 1
+    },
+    "HF: Form G;JK: USO2AO": {
+      "wall_time": 0.000237413,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 43,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: USO2AO"
+      ],
+      "level": 1
+    },
+    "HF: Form G;JK: JK": {
+      "wall_time": 0.322962591,
+      "user_time": 0.6500000000000001,
+      "system_time": 0.03333333333333333,
+      "n_calls": 43,
+      "timer_name": "JK: JK",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK"
+      ],
+      "level": 1
+    },
+    "HF: Form G;JK: JK;DFH: compute_JK()": {
+      "wall_time": 0.322024933,
+      "user_time": 0.6333333333333335,
+      "system_time": 0.03333333333333333,
+      "n_calls": 43,
+      "timer_name": "DFH: compute_JK()",
+      "parent_id": "HF: Form G;JK: JK",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()"
+      ],
+      "level": 2
+    },
+    "HF: Form G;JK: JK;DFH: compute_JK();DFH: Grabbing AOs": {
+      "wall_time": 9.1032e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 43,
+      "timer_name": "DFH: Grabbing AOs",
+      "parent_id": "HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: Grabbing AOs"
+      ],
+      "level": 3
+    },
+    "HF: Form G;JK: JK;DFH: compute_JK();DFH: compute_J": {
+      "wall_time": 0.119506015,
+      "user_time": 0.2333333333333333,
+      "system_time": 0.0,
+      "n_calls": 43,
+      "timer_name": "DFH: compute_J",
+      "parent_id": "HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_J"
+      ],
+      "level": 3
+    },
+    "HF: Form G;JK: JK;DFH: compute_JK();DFH: compute_K": {
+      "wall_time": 0.196173521,
+      "user_time": 0.39999999999999997,
+      "system_time": 0.016666666666666666,
+      "n_calls": 43,
+      "timer_name": "DFH: compute_K",
+      "parent_id": "HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_K"
+      ],
+      "level": 3
+    },
+    "HF: Form G;JK: AO2USO": {
+      "wall_time": 0.000103957,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 43,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: AO2USO"
+      ],
+      "level": 1
+    },
+    "HF: Form F": {
+      "wall_time": 0.001323898,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 43,
+      "timer_name": "HF: Form F",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form F"
+      ],
+      "level": 0
+    },
+    "HF: Form D": {
+      "wall_time": 0.000891646,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 43,
+      "timer_name": "HF: Form D",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form D"
+      ],
+      "level": 0
+    },
+    "HF: DIIS": {
+      "wall_time": 0.299102518,
+      "user_time": 0.35,
+      "system_time": 0.016666666666666666,
+      "n_calls": 37,
+      "timer_name": "HF: DIIS",
+      "parent_id": null,
+      "timer_path": [
+        "HF: DIIS"
+      ],
+      "level": 0
+    },
+    "HF: Form C": {
+      "wall_time": 0.058760866,
+      "user_time": 0.13333333333333333,
+      "system_time": 0.0,
+      "n_calls": 37,
+      "timer_name": "HF: Form C",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form C"
+      ],
+      "level": 0
+    },
+    "DLPNO-CCSD(T)": {
+      "wall_time": 91.522158909,
+      "user_time": 147.91666666666666,
+      "system_time": 4.516666666666667,
+      "n_calls": 6,
+      "timer_name": "DLPNO-CCSD(T)",
+      "parent_id": null,
+      "timer_path": [
+        "DLPNO-CCSD(T)"
+      ],
+      "level": 0
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD": {
+      "wall_time": 29.726104069,
+      "user_time": 45.78333333333333,
+      "system_time": 3.7,
+      "n_calls": 6,
+      "timer_name": "DLPNO-CCSD",
+      "parent_id": "DLPNO-CCSD(T)",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD"
+      ],
+      "level": 1
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Setup Orbitals": {
+      "wall_time": 0.164152583,
+      "user_time": 0.2,
+      "system_time": 0.06666666666666667,
+      "n_calls": 6,
+      "timer_name": "Setup Orbitals",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Setup Orbitals"
+      ],
+      "level": 2
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Setup Orbitals;Local MOs": {
+      "wall_time": 0.161774077,
+      "user_time": 0.2,
+      "system_time": 0.06666666666666667,
+      "n_calls": 6,
+      "timer_name": "Local MOs",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;Setup Orbitals",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Setup Orbitals",
+        "Local MOs"
+      ],
+      "level": 3
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Setup Orbitals;Projected AOs": {
+      "wall_time": 0.001793326,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "Projected AOs",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;Setup Orbitals",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Setup Orbitals",
+        "Projected AOs"
+      ],
+      "level": 3
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Overlap Ints": {
+      "wall_time": 0.031533177,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "Overlap Ints",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Overlap Ints"
+      ],
+      "level": 2
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Overlap Ints;Construct Grid": {
+      "wall_time": 0.00809784,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "Construct Grid",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;Overlap Ints",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Overlap Ints",
+        "Construct Grid"
+      ],
+      "level": 3
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Overlap Ints;Construct Grid;build grid": {
+      "wall_time": 0.005458197,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "build grid",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;Overlap Ints;Construct Grid",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Overlap Ints",
+        "Construct Grid",
+        "build grid"
+      ],
+      "level": 4
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Overlap Ints;Construct Grid;post-process grid": {
+      "wall_time": 0.001543806,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "post-process grid",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;Overlap Ints;Construct Grid",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Overlap Ints",
+        "Construct Grid",
+        "post-process grid"
+      ],
+      "level": 4
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Overlap Ints;Integration": {
+      "wall_time": 0.022727543,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "Integration",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;Overlap Ints",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Overlap Ints",
+        "Integration"
+      ],
+      "level": 3
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Dipole Ints": {
+      "wall_time": 0.048565006,
+      "user_time": 0.08333333333333333,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "Dipole Ints",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Dipole Ints"
+      ],
+      "level": 2
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Compute Metric": {
+      "wall_time": 0.033857464,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "Compute Metric",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Compute Metric"
+      ],
+      "level": 2
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Compute Metric;(K|L)": {
+      "wall_time": 0.033814168,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "(K|L)",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;Compute Metric",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Compute Metric",
+        "(K|L)"
+      ],
+      "level": 3
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Compute Metric;(K|L);Libint2ERI::Libint2ERI": {
+      "wall_time": 0.000402377,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;Compute Metric;(K|L)",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Compute Metric",
+        "(K|L)",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 4
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Sparsity": {
+      "wall_time": 0.0459398,
+      "user_time": 0.08333333333333333,
+      "system_time": 0.016666666666666666,
+      "n_calls": 18,
+      "timer_name": "Sparsity",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Sparsity"
+      ],
+      "level": 2
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Crude DF Ints": {
+      "wall_time": 1.625706625,
+      "user_time": 2.45,
+      "system_time": 0.2833333333333333,
+      "n_calls": 6,
+      "timer_name": "Crude DF Ints",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Crude DF Ints"
+      ],
+      "level": 2
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Crude DF Ints;(mn|K) -> (ia|K)": {
+      "wall_time": 1.569680035,
+      "user_time": 2.3833333333333333,
+      "system_time": 0.21666666666666665,
+      "n_calls": 6,
+      "timer_name": "(mn|K) -> (ia|K)",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;Crude DF Ints",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Crude DF Ints",
+        "(mn|K) -> (ia|K)"
+      ],
+      "level": 3
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Crude DF Ints;(mn|K) -> (ia|K);Libint2ERI::Libint2ERI": {
+      "wall_time": 1.196879568,
+      "user_time": 1.7666666666666668,
+      "system_time": 0.21666666666666665,
+      "n_calls": 6,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;Crude DF Ints;(mn|K) -> (ia|K)",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Crude DF Ints",
+        "(mn|K) -> (ia|K)",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 4
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Crude DF Ints;(K|L)": {
+      "wall_time": 0.031773201,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "(K|L)",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;Crude DF Ints",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Crude DF Ints",
+        "(K|L)"
+      ],
+      "level": 3
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Crude DF Ints;(K|L);Libint2ERI::Libint2ERI": {
+      "wall_time": 0.000293321,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;Crude DF Ints;(K|L)",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Crude DF Ints",
+        "(K|L)",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 4
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Initial Pair Prescreening": {
+      "wall_time": 0.356613552,
+      "user_time": 0.5833333333333333,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "Initial Pair Prescreening",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Initial Pair Prescreening"
+      ],
+      "level": 2
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Refined DF Ints": {
+      "wall_time": 1.666590194,
+      "user_time": 2.533333333333333,
+      "system_time": 0.23333333333333334,
+      "n_calls": 6,
+      "timer_name": "Refined DF Ints",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Refined DF Ints"
+      ],
+      "level": 2
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Refined DF Ints;(mn|K) -> (ia|K)": {
+      "wall_time": 1.610906087,
+      "user_time": 2.4499999999999997,
+      "system_time": 0.19999999999999998,
+      "n_calls": 6,
+      "timer_name": "(mn|K) -> (ia|K)",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;Refined DF Ints",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Refined DF Ints",
+        "(mn|K) -> (ia|K)"
+      ],
+      "level": 3
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Refined DF Ints;(mn|K) -> (ia|K);Libint2ERI::Libint2ERI": {
+      "wall_time": 1.233919233,
+      "user_time": 1.8333333333333333,
+      "system_time": 0.19999999999999998,
+      "n_calls": 6,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;Refined DF Ints;(mn|K) -> (ia|K)",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Refined DF Ints",
+        "(mn|K) -> (ia|K)",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 4
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Refined DF Ints;(K|L)": {
+      "wall_time": 0.03101128,
+      "user_time": 0.08333333333333333,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "(K|L)",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;Refined DF Ints",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Refined DF Ints",
+        "(K|L)"
+      ],
+      "level": 3
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Refined DF Ints;(K|L);Libint2ERI::Libint2ERI": {
+      "wall_time": 0.000292169,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;Refined DF Ints;(K|L)",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Refined DF Ints",
+        "(K|L)",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 4
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Refined Pair Prescreening": {
+      "wall_time": 0.988995423,
+      "user_time": 1.5999999999999999,
+      "system_time": 0.03333333333333333,
+      "n_calls": 6,
+      "timer_name": "Refined Pair Prescreening",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Refined Pair Prescreening"
+      ],
+      "level": 2
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Refined Pair Prescreening;PNO-LMP2 Iterations": {
+      "wall_time": 0.582573455,
+      "user_time": 0.9833333333333334,
+      "system_time": 0.016666666666666666,
+      "n_calls": 6,
+      "timer_name": "PNO-LMP2 Iterations",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;Refined Pair Prescreening",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Refined Pair Prescreening",
+        "PNO-LMP2 Iterations"
+      ],
+      "level": 3
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;Compute PNOs (CCSD)": {
+      "wall_time": 0.247592368,
+      "user_time": 0.4166666666666667,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "Compute PNOs (CCSD)",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "Compute PNOs (CCSD)"
+      ],
+      "level": 2
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;DF Ints": {
+      "wall_time": 3.338740104,
+      "user_time": 5.016666666666666,
+      "system_time": 0.5666666666666667,
+      "n_calls": 6,
+      "timer_name": "DF Ints",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "DF Ints"
+      ],
+      "level": 2
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;DF Ints;(mn|K)->(ij|K)": {
+      "wall_time": 1.592088141,
+      "user_time": 2.433333333333333,
+      "system_time": 0.25,
+      "n_calls": 6,
+      "timer_name": "(mn|K)->(ij|K)",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;DF Ints",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "DF Ints",
+        "(mn|K)->(ij|K)"
+      ],
+      "level": 3
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;DF Ints;(mn|K)->(ij|K);Libint2ERI::Libint2ERI": {
+      "wall_time": 1.249629421,
+      "user_time": 1.85,
+      "system_time": 0.25,
+      "n_calls": 6,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;DF Ints;(mn|K)->(ij|K)",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "DF Ints",
+        "(mn|K)->(ij|K)",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 4
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;DF Ints;(mn|K)->(ab|K)": {
+      "wall_time": 1.695999645,
+      "user_time": 2.583333333333333,
+      "system_time": 0.23333333333333334,
+      "n_calls": 6,
+      "timer_name": "(mn|K)->(ab|K)",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;DF Ints",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "DF Ints",
+        "(mn|K)->(ab|K)"
+      ],
+      "level": 3
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;DF Ints;(mn|K)->(ab|K);Libint2ERI::Libint2ERI": {
+      "wall_time": 1.243459663,
+      "user_time": 1.8333333333333335,
+      "system_time": 0.21666666666666667,
+      "n_calls": 6,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;DF Ints;(mn|K)->(ab|K)",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "DF Ints",
+        "(mn|K)->(ab|K)",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 4
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;PNO Integrals": {
+      "wall_time": 3.871139665,
+      "user_time": 6.25,
+      "system_time": 0.18333333333333332,
+      "n_calls": 6,
+      "timer_name": "PNO Integrals",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "PNO Integrals"
+      ],
+      "level": 2
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;PNO Integrals;DLPNO-CCSD: Setup Integrals": {
+      "wall_time": 2.340042157,
+      "user_time": 3.9833333333333294,
+      "system_time": 0.0,
+      "n_calls": 112,
+      "timer_name": "DLPNO-CCSD: Setup Integrals",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;PNO Integrals",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "PNO Integrals",
+        "DLPNO-CCSD: Setup Integrals"
+      ],
+      "level": 3
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;PNO Integrals;DLPNO-CCSD: J_ikac integrals": {
+      "wall_time": 1.145413008,
+      "user_time": 1.866666666666666,
+      "system_time": 0.0,
+      "n_calls": 112,
+      "timer_name": "DLPNO-CCSD: J_ikac integrals",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;PNO Integrals",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "PNO Integrals",
+        "DLPNO-CCSD: J_ikac integrals"
+      ],
+      "level": 3
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;PNO Integrals;DLPNO-CCSD: K_iakc integrals": {
+      "wall_time": 0.125118896,
+      "user_time": 0.15,
+      "system_time": 0.03333333333333333,
+      "n_calls": 112,
+      "timer_name": "DLPNO-CCSD: K_iakc integrals",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;PNO Integrals",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "PNO Integrals",
+        "DLPNO-CCSD: K_iakc integrals"
+      ],
+      "level": 3
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;PNO Integrals;DLPNO-CCSD: Contract Integrals": {
+      "wall_time": 0.233485872,
+      "user_time": 0.21666666666666665,
+      "system_time": 0.15,
+      "n_calls": 112,
+      "timer_name": "DLPNO-CCSD: Contract Integrals",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;PNO Integrals",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "PNO Integrals",
+        "DLPNO-CCSD: Contract Integrals"
+      ],
+      "level": 3
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;PNO Overlaps": {
+      "wall_time": 0.058849736,
+      "user_time": 0.1,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "PNO Overlaps",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "PNO Overlaps"
+      ],
+      "level": 2
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;LCCSD": {
+      "wall_time": 17.201080791,
+      "user_time": 26.383333333333336,
+      "system_time": 2.2666666666666666,
+      "n_calls": 6,
+      "timer_name": "LCCSD",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "LCCSD"
+      ],
+      "level": 2
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;LCCSD;DLPNO-CCSD: T1 Ints": {
+      "wall_time": 3.037165875,
+      "user_time": 4.166666666666668,
+      "system_time": 0.8333333333333336,
+      "n_calls": 61,
+      "timer_name": "DLPNO-CCSD: T1 Ints",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;LCCSD",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "LCCSD",
+        "DLPNO-CCSD: T1 Ints"
+      ],
+      "level": 3
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;LCCSD;DLPNO-CCSD: T1 Fock": {
+      "wall_time": 3.662236296,
+      "user_time": 5.549999999999996,
+      "system_time": 0.6166666666666669,
+      "n_calls": 61,
+      "timer_name": "DLPNO-CCSD: T1 Fock",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;LCCSD",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "LCCSD",
+        "DLPNO-CCSD: T1 Fock"
+      ],
+      "level": 3
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;LCCSD;DLPNO-CCSD: Compute R1": {
+      "wall_time": 0.418923382,
+      "user_time": 0.6666666666666671,
+      "system_time": 0.0,
+      "n_calls": 61,
+      "timer_name": "DLPNO-CCSD: Compute R1",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;LCCSD",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "LCCSD",
+        "DLPNO-CCSD: Compute R1"
+      ],
+      "level": 3
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;LCCSD;DLPNO-CCSD: Compute R2": {
+      "wall_time": 9.862329632,
+      "user_time": 15.700000000000005,
+      "system_time": 0.8166666666666671,
+      "n_calls": 61,
+      "timer_name": "DLPNO-CCSD: Compute R2",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;LCCSD",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "LCCSD",
+        "DLPNO-CCSD: Compute R2"
+      ],
+      "level": 3
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;LCCSD;DLPNO-CCSD: Compute R2;DLPNO-CCSD: beta": {
+      "wall_time": 1.580839541,
+      "user_time": 2.4166666666666683,
+      "system_time": 0.2333333333333333,
+      "n_calls": 61,
+      "timer_name": "DLPNO-CCSD: beta",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;LCCSD;DLPNO-CCSD: Compute R2",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "LCCSD",
+        "DLPNO-CCSD: Compute R2",
+        "DLPNO-CCSD: beta"
+      ],
+      "level": 4
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;LCCSD;DLPNO-CCSD: Compute R2;DLPNO-CCSD: gamma": {
+      "wall_time": 0.478992164,
+      "user_time": 0.8000000000000006,
+      "system_time": 0.0,
+      "n_calls": 61,
+      "timer_name": "DLPNO-CCSD: gamma",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;LCCSD;DLPNO-CCSD: Compute R2",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "LCCSD",
+        "DLPNO-CCSD: Compute R2",
+        "DLPNO-CCSD: gamma"
+      ],
+      "level": 4
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;LCCSD;DLPNO-CCSD: Compute R2;DLPNO-CCSD: delta": {
+      "wall_time": 0.699920427,
+      "user_time": 1.1499999999999995,
+      "system_time": 0.016666666666666666,
+      "n_calls": 61,
+      "timer_name": "DLPNO-CCSD: delta",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;LCCSD;DLPNO-CCSD: Compute R2",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "LCCSD",
+        "DLPNO-CCSD: Compute R2",
+        "DLPNO-CCSD: delta"
+      ],
+      "level": 4
+    },
+    "DLPNO-CCSD(T);DLPNO-CCSD;LCCSD;DLPNO-CCSD: Compute R2;DLPNO-CCSD: Fkj double tilde": {
+      "wall_time": 0.126994401,
+      "user_time": 0.2333333333333333,
+      "system_time": 0.0,
+      "n_calls": 61,
+      "timer_name": "DLPNO-CCSD: Fkj double tilde",
+      "parent_id": "DLPNO-CCSD(T);DLPNO-CCSD;LCCSD;DLPNO-CCSD: Compute R2",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "DLPNO-CCSD",
+        "LCCSD",
+        "DLPNO-CCSD: Compute R2",
+        "DLPNO-CCSD: Fkj double tilde"
+      ],
+      "level": 4
+    },
+    "DLPNO-CCSD(T);Triples Sparsity": {
+      "wall_time": 0.006907652,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 12,
+      "timer_name": "Triples Sparsity",
+      "parent_id": "DLPNO-CCSD(T)",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "Triples Sparsity"
+      ],
+      "level": 1
+    },
+    "DLPNO-CCSD(T);TNO transform": {
+      "wall_time": 1.989077893,
+      "user_time": 3.266666666666666,
+      "system_time": 0.0,
+      "n_calls": 18,
+      "timer_name": "TNO transform",
+      "parent_id": "DLPNO-CCSD(T)",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "TNO transform"
+      ],
+      "level": 1
+    },
+    "DLPNO-CCSD(T);LCCSD(T0)": {
+      "wall_time": 30.054156577,
+      "user_time": 49.76666666666667,
+      "system_time": 0.35,
+      "n_calls": 18,
+      "timer_name": "LCCSD(T0)",
+      "parent_id": "DLPNO-CCSD(T)",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "LCCSD(T0)"
+      ],
+      "level": 1
+    },
+    "DLPNO-CCSD(T);LCCSD(T0);LCCSD(T0): Setup Integrals": {
+      "wall_time": 18.933138532,
+      "user_time": 31.75000000000023,
+      "system_time": 0.0,
+      "n_calls": 864,
+      "timer_name": "LCCSD(T0): Setup Integrals",
+      "parent_id": "DLPNO-CCSD(T);LCCSD(T0)",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "LCCSD(T0)",
+        "LCCSD(T0): Setup Integrals"
+      ],
+      "level": 2
+    },
+    "DLPNO-CCSD(T);LCCSD(T0);LCCSD(T0): Contract Integrals": {
+      "wall_time": 2.907390808,
+      "user_time": 4.783333333333324,
+      "system_time": 0.03333333333333333,
+      "n_calls": 864,
+      "timer_name": "LCCSD(T0): Contract Integrals",
+      "parent_id": "DLPNO-CCSD(T);LCCSD(T0)",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "LCCSD(T0)",
+        "LCCSD(T0): Contract Integrals"
+      ],
+      "level": 2
+    },
+    "DLPNO-CCSD(T);LCCSD(T0);LCCSD(T0): Form W": {
+      "wall_time": 5.403741996,
+      "user_time": 8.900000000000022,
+      "system_time": 0.016666666666666666,
+      "n_calls": 864,
+      "timer_name": "LCCSD(T0): Form W",
+      "parent_id": "DLPNO-CCSD(T);LCCSD(T0)",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "LCCSD(T0)",
+        "LCCSD(T0): Form W"
+      ],
+      "level": 2
+    },
+    "DLPNO-CCSD(T);LCCSD(T0);LCCSD(T0): Form V": {
+      "wall_time": 0.269145048,
+      "user_time": 0.44999999999999996,
+      "system_time": 0.016666666666666666,
+      "n_calls": 864,
+      "timer_name": "LCCSD(T0): Form V",
+      "parent_id": "DLPNO-CCSD(T);LCCSD(T0)",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "LCCSD(T0)",
+        "LCCSD(T0): Form V"
+      ],
+      "level": 2
+    },
+    "DLPNO-CCSD(T);Sort Triplets": {
+      "wall_time": 0.000159204,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "Sort Triplets",
+      "parent_id": "DLPNO-CCSD(T)",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "Sort Triplets"
+      ],
+      "level": 1
+    },
+    "DLPNO-CCSD(T);LCCSD(T) Iterations": {
+      "wall_time": 29.6805722,
+      "user_time": 49.050000000000004,
+      "system_time": 0.41666666666666663,
+      "n_calls": 6,
+      "timer_name": "LCCSD(T) Iterations",
+      "parent_id": "DLPNO-CCSD(T)",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "LCCSD(T) Iterations"
+      ],
+      "level": 1
+    },
+    "DLPNO-CCSD(T);LCCSD(T) Iterations;Compute (T) Energy": {
+      "wall_time": 1.165176916,
+      "user_time": 1.8166666666666669,
+      "system_time": 0.16666666666666666,
+      "n_calls": 24,
+      "timer_name": "Compute (T) Energy",
+      "parent_id": "DLPNO-CCSD(T);LCCSD(T) Iterations",
+      "timer_path": [
+        "DLPNO-CCSD(T)",
+        "LCCSD(T) Iterations",
+        "Compute (T) Energy"
+      ],
+      "level": 2
+    }
+  },
+  "psi4_version": "1.12a1.dev8",
+  "psi4_commit_hash": "f8b18fb"
+}

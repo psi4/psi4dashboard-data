@@ -1,0 +1,22 @@
+{
+  "test_name": "sapt-sf1",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 16,
+    "iterations_by_label": {
+      "ROHF": 16
+    },
+    "accelerators": {
+      "DIIS": 16
+    },
+    "accelerator_raw": {
+      "DIIS": 16
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

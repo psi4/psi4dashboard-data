@@ -1,0 +1,2061 @@
+{
+  "timers": {
+    "FISAPT": {
+      "wall_time": 1.05620114,
+      "user_time": 1.6333333333333333,
+      "system_time": 0.11666666666666667,
+      "n_calls": 1,
+      "timer_name": "FISAPT",
+      "parent_id": null,
+      "timer_path": [
+        "FISAPT"
+      ],
+      "level": 0
+    },
+    "FISAPT;FISAPT: Dimer SCF": {
+      "wall_time": 0.525473113,
+      "user_time": 0.8,
+      "system_time": 0.08333333333333333,
+      "n_calls": 1,
+      "timer_name": "FISAPT: Dimer SCF",
+      "parent_id": "FISAPT",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF"
+      ],
+      "level": 1
+    },
+    "FISAPT;FISAPT: Dimer SCF;DFH: sparsity prep": {
+      "wall_time": 0.021318831,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: sparsity prep",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "DFH: sparsity prep"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT: Dimer SCF;DFH: sparsity prep;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.016389055,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF;DFH: sparsity prep",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "DFH: sparsity prep",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT: Dimer SCF;DFH: initialize()": {
+      "wall_time": 0.064548036,
+      "user_time": 0.1,
+      "system_time": 0.016666666666666666,
+      "n_calls": 1,
+      "timer_name": "DFH: initialize()",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "DFH: initialize()"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT: Dimer SCF;DFH: initialize();Libint2ERI::Libint2ERI": {
+      "wall_time": 0.011343984,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF;DFH: initialize()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "DFH: initialize()",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT: Dimer SCF;DFH: initialize();DFH: AO Construction": {
+      "wall_time": 0.02896617,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: AO Construction",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF;DFH: initialize()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "DFH: initialize()",
+        "DFH: AO Construction"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT: Dimer SCF;DFH: initialize();DFH: AO-Met. Contraction": {
+      "wall_time": 0.008165146,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.016666666666666666,
+      "n_calls": 1,
+      "timer_name": "DFH: AO-Met. Contraction",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF;DFH: initialize()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "DFH: initialize()",
+        "DFH: AO-Met. Contraction"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT: Dimer SCF;HF: Form core H": {
+      "wall_time": 0.004340364,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "HF: Form core H",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "HF: Form core H"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT: Dimer SCF;HF: Form S/X": {
+      "wall_time": 0.000546532,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "HF: Form S/X",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "HF: Form S/X"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT: Dimer SCF;HF: Guess": {
+      "wall_time": 0.046690495,
+      "user_time": 0.06666666666666667,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "HF: Guess",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "HF: Guess"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT: Dimer SCF;HF: Guess;SAD Guess": {
+      "wall_time": 0.044648238,
+      "user_time": 0.06666666666666667,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "SAD Guess",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF;HF: Guess",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "HF: Guess",
+        "SAD Guess"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT: Dimer SCF;HF: Form G": {
+      "wall_time": 0.025527635,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 12,
+      "timer_name": "HF: Form G",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "HF: Form G"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT: Dimer SCF;HF: Form G;JK: D": {
+      "wall_time": 0.000172765,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 12,
+      "timer_name": "JK: D",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF;HF: Form G",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "HF: Form G",
+        "JK: D"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT: Dimer SCF;HF: Form G;JK: USO2AO": {
+      "wall_time": 6.2165e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 12,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF;HF: Form G",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "HF: Form G",
+        "JK: USO2AO"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT: Dimer SCF;HF: Form G;JK: JK": {
+      "wall_time": 0.024578631,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 12,
+      "timer_name": "JK: JK",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF;HF: Form G",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "HF: Form G",
+        "JK: JK"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT: Dimer SCF;HF: Form G;JK: JK;DFH: compute_JK()": {
+      "wall_time": 0.024464206,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 12,
+      "timer_name": "DFH: compute_JK()",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF;HF: Form G;JK: JK",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT: Dimer SCF;HF: Form G;JK: JK;DFH: compute_JK();DFH: Grabbing AOs": {
+      "wall_time": 2.3577e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 12,
+      "timer_name": "DFH: Grabbing AOs",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: Grabbing AOs"
+      ],
+      "level": 5
+    },
+    "FISAPT;FISAPT: Dimer SCF;HF: Form G;JK: JK;DFH: compute_JK();DFH: compute_J": {
+      "wall_time": 0.008881466,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 12,
+      "timer_name": "DFH: compute_J",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_J"
+      ],
+      "level": 5
+    },
+    "FISAPT;FISAPT: Dimer SCF;HF: Form G;JK: JK;DFH: compute_JK();DFH: compute_K": {
+      "wall_time": 0.013857863,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 12,
+      "timer_name": "DFH: compute_K",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_K"
+      ],
+      "level": 5
+    },
+    "FISAPT;FISAPT: Dimer SCF;HF: Form G;JK: AO2USO": {
+      "wall_time": 2.6704e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 12,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF;HF: Form G",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "HF: Form G",
+        "JK: AO2USO"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT: Dimer SCF;HF: Form F": {
+      "wall_time": 0.00019258,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 12,
+      "timer_name": "HF: Form F",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "HF: Form F"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT: Dimer SCF;HF: Form D": {
+      "wall_time": 0.000149478,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 12,
+      "timer_name": "HF: Form D",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "HF: Form D"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT: Dimer SCF;HF: DIIS": {
+      "wall_time": 0.15577563,
+      "user_time": 0.21666666666666665,
+      "system_time": 0.016666666666666666,
+      "n_calls": 11,
+      "timer_name": "HF: DIIS",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "HF: DIIS"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT: Dimer SCF;HF: Form C": {
+      "wall_time": 0.00694932,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 11,
+      "timer_name": "HF: Form C",
+      "parent_id": "FISAPT;FISAPT: Dimer SCF",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Dimer SCF",
+        "HF: Form C"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT: Setup": {
+      "wall_time": 0.018627828,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "FISAPT: Setup",
+      "parent_id": "FISAPT",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Setup"
+      ],
+      "level": 1
+    },
+    "FISAPT;FISAPT: Setup;JK: D": {
+      "wall_time": 5.081e-06,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "JK: D",
+      "parent_id": "FISAPT;FISAPT: Setup",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Setup",
+        "JK: D"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT: Setup;JK: USO2AO": {
+      "wall_time": 8.46e-06,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "FISAPT;FISAPT: Setup",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Setup",
+        "JK: USO2AO"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT: Setup;JK: JK": {
+      "wall_time": 3.523e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "JK: JK",
+      "parent_id": "FISAPT;FISAPT: Setup",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Setup",
+        "JK: JK"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT: Setup;JK: JK;DFH: compute_JK()": {
+      "wall_time": 2.9711e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: compute_JK()",
+      "parent_id": "FISAPT;FISAPT: Setup;JK: JK",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Setup",
+        "JK: JK",
+        "DFH: compute_JK()"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT: Setup;JK: JK;DFH: compute_JK();DFH: Grabbing AOs": {
+      "wall_time": 2.203e-06,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: Grabbing AOs",
+      "parent_id": "FISAPT;FISAPT: Setup;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Setup",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: Grabbing AOs"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT: Setup;JK: JK;DFH: compute_JK();DFH: compute_J": {
+      "wall_time": 2.136e-06,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: compute_J",
+      "parent_id": "FISAPT;FISAPT: Setup;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Setup",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_J"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT: Setup;JK: JK;DFH: compute_JK();DFH: compute_K": {
+      "wall_time": 1.996e-06,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: compute_K",
+      "parent_id": "FISAPT;FISAPT: Setup;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Setup",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_K"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT: Setup;JK: AO2USO": {
+      "wall_time": 1.992e-06,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "FISAPT;FISAPT: Setup",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Setup",
+        "JK: AO2USO"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT: Monomer SCF": {
+      "wall_time": 0.056346922,
+      "user_time": 0.1,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "FISAPT: Monomer SCF",
+      "parent_id": "FISAPT",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Monomer SCF"
+      ],
+      "level": 1
+    },
+    "FISAPT;FISAPT: Monomer SCF;JK: D": {
+      "wall_time": 0.000135526,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 20,
+      "timer_name": "JK: D",
+      "parent_id": "FISAPT;FISAPT: Monomer SCF",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Monomer SCF",
+        "JK: D"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT: Monomer SCF;JK: USO2AO": {
+      "wall_time": 7.0304e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 20,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "FISAPT;FISAPT: Monomer SCF",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Monomer SCF",
+        "JK: USO2AO"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT: Monomer SCF;JK: JK": {
+      "wall_time": 0.035855162,
+      "user_time": 0.08333333333333333,
+      "system_time": 0.0,
+      "n_calls": 20,
+      "timer_name": "JK: JK",
+      "parent_id": "FISAPT;FISAPT: Monomer SCF",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Monomer SCF",
+        "JK: JK"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT: Monomer SCF;JK: JK;DFH: compute_JK()": {
+      "wall_time": 0.035683336,
+      "user_time": 0.08333333333333333,
+      "system_time": 0.0,
+      "n_calls": 20,
+      "timer_name": "DFH: compute_JK()",
+      "parent_id": "FISAPT;FISAPT: Monomer SCF;JK: JK",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Monomer SCF",
+        "JK: JK",
+        "DFH: compute_JK()"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT: Monomer SCF;JK: JK;DFH: compute_JK();DFH: Grabbing AOs": {
+      "wall_time": 3.646e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 20,
+      "timer_name": "DFH: Grabbing AOs",
+      "parent_id": "FISAPT;FISAPT: Monomer SCF;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Monomer SCF",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: Grabbing AOs"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT: Monomer SCF;JK: JK;DFH: compute_JK();DFH: compute_J": {
+      "wall_time": 0.01318205,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 20,
+      "timer_name": "DFH: compute_J",
+      "parent_id": "FISAPT;FISAPT: Monomer SCF;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Monomer SCF",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_J"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT: Monomer SCF;JK: JK;DFH: compute_JK();DFH: compute_K": {
+      "wall_time": 0.021181424,
+      "user_time": 0.06666666666666667,
+      "system_time": 0.0,
+      "n_calls": 20,
+      "timer_name": "DFH: compute_K",
+      "parent_id": "FISAPT;FISAPT: Monomer SCF;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Monomer SCF",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_K"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT: Monomer SCF;JK: AO2USO": {
+      "wall_time": 4.1569e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 20,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "FISAPT;FISAPT: Monomer SCF",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Monomer SCF",
+        "JK: AO2USO"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT: Subsys E": {
+      "wall_time": 0.004280677,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "FISAPT: Subsys E",
+      "parent_id": "FISAPT",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Subsys E"
+      ],
+      "level": 1
+    },
+    "FISAPT;FISAPT: Subsys E;JK: D": {
+      "wall_time": 1.7468e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "JK: D",
+      "parent_id": "FISAPT;FISAPT: Subsys E",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Subsys E",
+        "JK: D"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT: Subsys E;JK: USO2AO": {
+      "wall_time": 1.3515e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "FISAPT;FISAPT: Subsys E",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Subsys E",
+        "JK: USO2AO"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT: Subsys E;JK: JK": {
+      "wall_time": 0.003886952,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "JK: JK",
+      "parent_id": "FISAPT;FISAPT: Subsys E",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Subsys E",
+        "JK: JK"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT: Subsys E;JK: JK;DFH: compute_JK()": {
+      "wall_time": 0.003872659,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: compute_JK()",
+      "parent_id": "FISAPT;FISAPT: Subsys E;JK: JK",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Subsys E",
+        "JK: JK",
+        "DFH: compute_JK()"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT: Subsys E;JK: JK;DFH: compute_JK();DFH: Grabbing AOs": {
+      "wall_time": 1.763e-06,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: Grabbing AOs",
+      "parent_id": "FISAPT;FISAPT: Subsys E;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Subsys E",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: Grabbing AOs"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT: Subsys E;JK: JK;DFH: compute_JK();DFH: compute_J": {
+      "wall_time": 0.001735442,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: compute_J",
+      "parent_id": "FISAPT;FISAPT: Subsys E;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Subsys E",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_J"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT: Subsys E;JK: JK;DFH: compute_JK();DFH: compute_K": {
+      "wall_time": 0.002070486,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: compute_K",
+      "parent_id": "FISAPT;FISAPT: Subsys E;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Subsys E",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_K"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT: Subsys E;JK: AO2USO": {
+      "wall_time": 2.068e-06,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "FISAPT;FISAPT: Subsys E",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT: Subsys E",
+        "JK: AO2USO"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT:SAPT:elst": {
+      "wall_time": 2.7411e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "FISAPT:SAPT:elst",
+      "parent_id": "FISAPT",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:SAPT:elst"
+      ],
+      "level": 1
+    },
+    "FISAPT;FISAPT:SAPT:exch": {
+      "wall_time": 0.00541115,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "FISAPT:SAPT:exch",
+      "parent_id": "FISAPT",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:SAPT:exch"
+      ],
+      "level": 1
+    },
+    "FISAPT;FISAPT:SAPT:exch;JK: D": {
+      "wall_time": 2.7324e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "JK: D",
+      "parent_id": "FISAPT;FISAPT:SAPT:exch",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:SAPT:exch",
+        "JK: D"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT:SAPT:exch;JK: USO2AO": {
+      "wall_time": 2.1501e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "FISAPT;FISAPT:SAPT:exch",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:SAPT:exch",
+        "JK: USO2AO"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT:SAPT:exch;JK: JK": {
+      "wall_time": 0.004829377,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "JK: JK",
+      "parent_id": "FISAPT;FISAPT:SAPT:exch",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:SAPT:exch",
+        "JK: JK"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT:SAPT:exch;JK: JK;DFH: compute_JK()": {
+      "wall_time": 0.004811523,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "DFH: compute_JK()",
+      "parent_id": "FISAPT;FISAPT:SAPT:exch;JK: JK",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:SAPT:exch",
+        "JK: JK",
+        "DFH: compute_JK()"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:SAPT:exch;JK: JK;DFH: compute_JK();DFH: Grabbing AOs": {
+      "wall_time": 3.531e-06,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "DFH: Grabbing AOs",
+      "parent_id": "FISAPT;FISAPT:SAPT:exch;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:SAPT:exch",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: Grabbing AOs"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT:SAPT:exch;JK: JK;DFH: compute_JK();DFH: compute_J": {
+      "wall_time": 0.001681702,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "DFH: compute_J",
+      "parent_id": "FISAPT;FISAPT:SAPT:exch;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:SAPT:exch",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_J"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT:SAPT:exch;JK: JK;DFH: compute_JK();DFH: compute_K": {
+      "wall_time": 0.003017957,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "DFH: compute_K",
+      "parent_id": "FISAPT;FISAPT:SAPT:exch;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:SAPT:exch",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_K"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT:SAPT:exch;JK: AO2USO": {
+      "wall_time": 4.635e-06,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "FISAPT;FISAPT:SAPT:exch",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:SAPT:exch",
+        "JK: AO2USO"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT:SAPT:ind": {
+      "wall_time": 0.045806385,
+      "user_time": 0.08333333333333333,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "FISAPT:SAPT:ind",
+      "parent_id": "FISAPT",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:SAPT:ind"
+      ],
+      "level": 1
+    },
+    "FISAPT;FISAPT:SAPT:ind;JK: D": {
+      "wall_time": 0.000143573,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 13,
+      "timer_name": "JK: D",
+      "parent_id": "FISAPT;FISAPT:SAPT:ind",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:SAPT:ind",
+        "JK: D"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT:SAPT:ind;JK: USO2AO": {
+      "wall_time": 7.4939e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 13,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "FISAPT;FISAPT:SAPT:ind",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:SAPT:ind",
+        "JK: USO2AO"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT:SAPT:ind;JK: JK": {
+      "wall_time": 0.043440154,
+      "user_time": 0.08333333333333333,
+      "system_time": 0.0,
+      "n_calls": 13,
+      "timer_name": "JK: JK",
+      "parent_id": "FISAPT;FISAPT:SAPT:ind",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:SAPT:ind",
+        "JK: JK"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT:SAPT:ind;JK: JK;DFH: compute_JK()": {
+      "wall_time": 0.043313275,
+      "user_time": 0.08333333333333333,
+      "system_time": 0.0,
+      "n_calls": 13,
+      "timer_name": "DFH: compute_JK()",
+      "parent_id": "FISAPT;FISAPT:SAPT:ind;JK: JK",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:SAPT:ind",
+        "JK: JK",
+        "DFH: compute_JK()"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:SAPT:ind;JK: JK;DFH: compute_JK();DFH: Grabbing AOs": {
+      "wall_time": 2.3502e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 13,
+      "timer_name": "DFH: Grabbing AOs",
+      "parent_id": "FISAPT;FISAPT:SAPT:ind;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:SAPT:ind",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: Grabbing AOs"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT:SAPT:ind;JK: JK;DFH: compute_JK();DFH: compute_J": {
+      "wall_time": 0.014856126,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 13,
+      "timer_name": "DFH: compute_J",
+      "parent_id": "FISAPT;FISAPT:SAPT:ind;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:SAPT:ind",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_J"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT:SAPT:ind;JK: JK;DFH: compute_JK();DFH: compute_K": {
+      "wall_time": 0.027802056,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 13,
+      "timer_name": "DFH: compute_K",
+      "parent_id": "FISAPT;FISAPT:SAPT:ind;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:SAPT:ind",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_K"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT:SAPT:ind;JK: AO2USO": {
+      "wall_time": 3.2781e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 13,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "FISAPT;FISAPT:SAPT:ind",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:SAPT:ind",
+        "JK: AO2USO"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT:FSAPT:loc": {
+      "wall_time": 0.013214559,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "FISAPT:FSAPT:loc",
+      "parent_id": "FISAPT",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:loc"
+      ],
+      "level": 1
+    },
+    "FISAPT;FISAPT:FSAPT:elst": {
+      "wall_time": 0.092929912,
+      "user_time": 0.15,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "FISAPT:FSAPT:elst",
+      "parent_id": "FISAPT",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:elst"
+      ],
+      "level": 1
+    },
+    "FISAPT;FISAPT:FSAPT:elst;DFH: initialize()": {
+      "wall_time": 0.074490436,
+      "user_time": 0.13333333333333333,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: initialize()",
+      "parent_id": "FISAPT;FISAPT:FSAPT:elst",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:elst",
+        "DFH: initialize()"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT:FSAPT:elst;DFH: initialize();Libint2ERI::Libint2ERI": {
+      "wall_time": 0.004160195,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "FISAPT;FISAPT:FSAPT:elst;DFH: initialize()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:elst",
+        "DFH: initialize()",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:elst;DFH: initialize();DFH: sparsity prep": {
+      "wall_time": 0.010045011,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: sparsity prep",
+      "parent_id": "FISAPT;FISAPT:FSAPT:elst;DFH: initialize()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:elst",
+        "DFH: initialize()",
+        "DFH: sparsity prep"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:elst;DFH: initialize();DFH: sparsity prep;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.005206958,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "FISAPT;FISAPT:FSAPT:elst;DFH: initialize();DFH: sparsity prep",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:elst",
+        "DFH: initialize()",
+        "DFH: sparsity prep",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT:FSAPT:elst;DFH: initialize();DFH: AO Construction": {
+      "wall_time": 0.052932058,
+      "user_time": 0.08333333333333333,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: AO Construction",
+      "parent_id": "FISAPT;FISAPT:FSAPT:elst;DFH: initialize()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:elst",
+        "DFH: initialize()",
+        "DFH: AO Construction"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:elst;DFH: transform()": {
+      "wall_time": 0.014893426,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: transform()",
+      "parent_id": "FISAPT;FISAPT:FSAPT:elst",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:elst",
+        "DFH: transform()"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT:FSAPT:elst;DFH: transform();Libint2ERI::Libint2ERI": {
+      "wall_time": 0.004225841,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "FISAPT;FISAPT:FSAPT:elst;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:elst",
+        "DFH: transform()",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:elst;DFH: transform();DFH: Total Workflow": {
+      "wall_time": 0.001902484,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DFH: Total Workflow",
+      "parent_id": "FISAPT;FISAPT:FSAPT:elst;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:elst",
+        "DFH: transform()",
+        "DFH: Total Workflow"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:elst;DFH: transform();DFH: Total Workflow;DFH: Total Transform": {
+      "wall_time": 0.001886889,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DFH: Total Transform",
+      "parent_id": "FISAPT;FISAPT:FSAPT:elst;DFH: transform();DFH: Total Workflow",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:elst",
+        "DFH: transform()",
+        "DFH: Total Workflow",
+        "DFH: Total Transform"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT:FSAPT:elst;DFH: transform();DFH: Total Workflow;DFH: Total Transform;DFH: 1st Contraction": {
+      "wall_time": 0.001665487,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "DFH: 1st Contraction",
+      "parent_id": "FISAPT;FISAPT:FSAPT:elst;DFH: transform();DFH: Total Workflow;DFH: Total Transform",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:elst",
+        "DFH: transform()",
+        "DFH: Total Workflow",
+        "DFH: Total Transform",
+        "DFH: 1st Contraction"
+      ],
+      "level": 5
+    },
+    "FISAPT;FISAPT:FSAPT:elst;DFH: transform();DFH: Total Workflow;DFH: Total Transform;DFH: 2nd Contraction": {
+      "wall_time": 0.000204281,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "DFH: 2nd Contraction",
+      "parent_id": "FISAPT;FISAPT:FSAPT:elst;DFH: transform();DFH: Total Workflow;DFH: Total Transform",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:elst",
+        "DFH: transform()",
+        "DFH: Total Workflow",
+        "DFH: Total Transform",
+        "DFH: 2nd Contraction"
+      ],
+      "level": 5
+    },
+    "FISAPT;FISAPT:FSAPT:elst;DFH: transform();DFH: MO to disk, Aaa": {
+      "wall_time": 0.00012269,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: MO to disk, Aaa",
+      "parent_id": "FISAPT;FISAPT:FSAPT:elst;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:elst",
+        "DFH: transform()",
+        "DFH: MO to disk, Aaa"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:elst;DFH: transform();DFH: MO to disk, Abb": {
+      "wall_time": 8.6976e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: MO to disk, Abb",
+      "parent_id": "FISAPT;FISAPT:FSAPT:elst;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:elst",
+        "DFH: transform()",
+        "DFH: MO to disk, Abb"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:elst;DFH: transform();DFH: Metric Contractions": {
+      "wall_time": 0.006755073,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: Metric Contractions",
+      "parent_id": "FISAPT;FISAPT:FSAPT:elst;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:elst",
+        "DFH: transform()",
+        "DFH: Metric Contractions"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:elst;DFH: transform();DFH: Metric Contractions;DFH: Total Workflow": {
+      "wall_time": 0.000128431,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "DFH: Total Workflow",
+      "parent_id": "FISAPT;FISAPT:FSAPT:elst;DFH: transform();DFH: Metric Contractions",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:elst",
+        "DFH: transform()",
+        "DFH: Metric Contractions",
+        "DFH: Total Workflow"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT:FSAPT:exch": {
+      "wall_time": 0.012473775,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "FISAPT:FSAPT:exch",
+      "parent_id": "FISAPT",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:exch"
+      ],
+      "level": 1
+    },
+    "FISAPT;FISAPT:FSAPT:exch;DFH: transform()": {
+      "wall_time": 0.011538963,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: transform()",
+      "parent_id": "FISAPT;FISAPT:FSAPT:exch",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:exch",
+        "DFH: transform()"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT:FSAPT:exch;DFH: transform();Libint2ERI::Libint2ERI": {
+      "wall_time": 0.004299689,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "FISAPT;FISAPT:FSAPT:exch;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:exch",
+        "DFH: transform()",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:exch;DFH: transform();DFH: Total Workflow": {
+      "wall_time": 0.002524179,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "DFH: Total Workflow",
+      "parent_id": "FISAPT;FISAPT:FSAPT:exch;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:exch",
+        "DFH: transform()",
+        "DFH: Total Workflow"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:exch;DFH: transform();DFH: Total Workflow;DFH: Total Transform": {
+      "wall_time": 0.002501553,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "DFH: Total Transform",
+      "parent_id": "FISAPT;FISAPT:FSAPT:exch;DFH: transform();DFH: Total Workflow",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:exch",
+        "DFH: transform()",
+        "DFH: Total Workflow",
+        "DFH: Total Transform"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT:FSAPT:exch;DFH: transform();DFH: Total Workflow;DFH: Total Transform;DFH: 1st Contraction": {
+      "wall_time": 0.001909391,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "DFH: 1st Contraction",
+      "parent_id": "FISAPT;FISAPT:FSAPT:exch;DFH: transform();DFH: Total Workflow;DFH: Total Transform",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:exch",
+        "DFH: transform()",
+        "DFH: Total Workflow",
+        "DFH: Total Transform",
+        "DFH: 1st Contraction"
+      ],
+      "level": 5
+    },
+    "FISAPT;FISAPT:FSAPT:exch;DFH: transform();DFH: Total Workflow;DFH: Total Transform;DFH: 2nd Contraction": {
+      "wall_time": 0.000569193,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DFH: 2nd Contraction",
+      "parent_id": "FISAPT;FISAPT:FSAPT:exch;DFH: transform();DFH: Total Workflow;DFH: Total Transform",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:exch",
+        "DFH: transform()",
+        "DFH: Total Workflow",
+        "DFH: Total Transform",
+        "DFH: 2nd Contraction"
+      ],
+      "level": 5
+    },
+    "FISAPT;FISAPT:FSAPT:exch;DFH: transform();DFH: MO to disk, Aaa": {
+      "wall_time": 7.4065e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: MO to disk, Aaa",
+      "parent_id": "FISAPT;FISAPT:FSAPT:exch;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:exch",
+        "DFH: transform()",
+        "DFH: MO to disk, Aaa"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:exch;DFH: transform();DFH: MO to disk, Aar": {
+      "wall_time": 0.000313967,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: MO to disk, Aar",
+      "parent_id": "FISAPT;FISAPT:FSAPT:exch;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:exch",
+        "DFH: transform()",
+        "DFH: MO to disk, Aar"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:exch;DFH: transform();DFH: MO to disk, Abb": {
+      "wall_time": 6.3282e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: MO to disk, Abb",
+      "parent_id": "FISAPT;FISAPT:FSAPT:exch;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:exch",
+        "DFH: transform()",
+        "DFH: MO to disk, Abb"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:exch;DFH: transform();DFH: MO to disk, Abs": {
+      "wall_time": 0.000293259,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: MO to disk, Abs",
+      "parent_id": "FISAPT;FISAPT:FSAPT:exch;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:exch",
+        "DFH: transform()",
+        "DFH: MO to disk, Abs"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:exch;DFH: transform();DFH: Metric Contractions": {
+      "wall_time": 0.002174544,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: Metric Contractions",
+      "parent_id": "FISAPT;FISAPT:FSAPT:exch;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:exch",
+        "DFH: transform()",
+        "DFH: Metric Contractions"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:exch;DFH: transform();DFH: Metric Contractions;DFH: Total Workflow": {
+      "wall_time": 0.001086288,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DFH: Total Workflow",
+      "parent_id": "FISAPT;FISAPT:FSAPT:exch;DFH: transform();DFH: Metric Contractions",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:exch",
+        "DFH: transform()",
+        "DFH: Metric Contractions",
+        "DFH: Total Workflow"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT:FSAPT:ind": {
+      "wall_time": 0.025388617,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.016666666666666666,
+      "n_calls": 1,
+      "timer_name": "FISAPT:FSAPT:ind",
+      "parent_id": "FISAPT",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:ind"
+      ],
+      "level": 1
+    },
+    "FISAPT;FISAPT:FSAPT:ind;DFH: transform()": {
+      "wall_time": 0.011606227,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: transform()",
+      "parent_id": "FISAPT;FISAPT:FSAPT:ind",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:ind",
+        "DFH: transform()"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT:FSAPT:ind;DFH: transform();Libint2ERI::Libint2ERI": {
+      "wall_time": 0.004358378,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "FISAPT;FISAPT:FSAPT:ind;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:ind",
+        "DFH: transform()",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:ind;DFH: transform();DFH: Total Workflow": {
+      "wall_time": 0.002596739,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "DFH: Total Workflow",
+      "parent_id": "FISAPT;FISAPT:FSAPT:ind;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:ind",
+        "DFH: transform()",
+        "DFH: Total Workflow"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:ind;DFH: transform();DFH: Total Workflow;DFH: Total Transform": {
+      "wall_time": 0.002572881,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "DFH: Total Transform",
+      "parent_id": "FISAPT;FISAPT:FSAPT:ind;DFH: transform();DFH: Total Workflow",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:ind",
+        "DFH: transform()",
+        "DFH: Total Workflow",
+        "DFH: Total Transform"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT:FSAPT:ind;DFH: transform();DFH: Total Workflow;DFH: Total Transform;DFH: 1st Contraction": {
+      "wall_time": 0.001969271,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "DFH: 1st Contraction",
+      "parent_id": "FISAPT;FISAPT:FSAPT:ind;DFH: transform();DFH: Total Workflow;DFH: Total Transform",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:ind",
+        "DFH: transform()",
+        "DFH: Total Workflow",
+        "DFH: Total Transform",
+        "DFH: 1st Contraction"
+      ],
+      "level": 5
+    },
+    "FISAPT;FISAPT:FSAPT:ind;DFH: transform();DFH: Total Workflow;DFH: Total Transform;DFH: 2nd Contraction": {
+      "wall_time": 0.000578851,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DFH: 2nd Contraction",
+      "parent_id": "FISAPT;FISAPT:FSAPT:ind;DFH: transform();DFH: Total Workflow;DFH: Total Transform",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:ind",
+        "DFH: transform()",
+        "DFH: Total Workflow",
+        "DFH: Total Transform",
+        "DFH: 2nd Contraction"
+      ],
+      "level": 5
+    },
+    "FISAPT;FISAPT:FSAPT:ind;DFH: transform();DFH: MO to disk, Aaa": {
+      "wall_time": 8.3732e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: MO to disk, Aaa",
+      "parent_id": "FISAPT;FISAPT:FSAPT:ind;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:ind",
+        "DFH: transform()",
+        "DFH: MO to disk, Aaa"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:ind;DFH: transform();DFH: MO to disk, Aar": {
+      "wall_time": 0.000323334,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: MO to disk, Aar",
+      "parent_id": "FISAPT;FISAPT:FSAPT:ind;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:ind",
+        "DFH: transform()",
+        "DFH: MO to disk, Aar"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:ind;DFH: transform();DFH: MO to disk, Abb": {
+      "wall_time": 6.4517e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: MO to disk, Abb",
+      "parent_id": "FISAPT;FISAPT:FSAPT:ind;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:ind",
+        "DFH: transform()",
+        "DFH: MO to disk, Abb"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:ind;DFH: transform();DFH: MO to disk, Abs": {
+      "wall_time": 0.0002953,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: MO to disk, Abs",
+      "parent_id": "FISAPT;FISAPT:FSAPT:ind;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:ind",
+        "DFH: transform()",
+        "DFH: MO to disk, Abs"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:ind;DFH: transform();DFH: Metric Contractions": {
+      "wall_time": 0.002074313,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: Metric Contractions",
+      "parent_id": "FISAPT;FISAPT:FSAPT:ind;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:ind",
+        "DFH: transform()",
+        "DFH: Metric Contractions"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:ind;DFH: transform();DFH: Metric Contractions;DFH: Total Workflow": {
+      "wall_time": 0.001089883,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DFH: Total Workflow",
+      "parent_id": "FISAPT;FISAPT:FSAPT:ind;DFH: transform();DFH: Metric Contractions",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:ind",
+        "DFH: transform()",
+        "DFH: Metric Contractions",
+        "DFH: Total Workflow"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT:FSAPT:disp": {
+      "wall_time": 0.157971816,
+      "user_time": 0.25,
+      "system_time": 0.016666666666666666,
+      "n_calls": 1,
+      "timer_name": "FISAPT:FSAPT:disp",
+      "parent_id": "FISAPT",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp"
+      ],
+      "level": 1
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: initialize()": {
+      "wall_time": 0.070840259,
+      "user_time": 0.11666666666666667,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: initialize()",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: initialize()"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: initialize();Libint2ERI::Libint2ERI": {
+      "wall_time": 0.004355418,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp;DFH: initialize()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: initialize()",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: initialize();DFH: sparsity prep": {
+      "wall_time": 0.01628742,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: sparsity prep",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp;DFH: initialize()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: initialize()",
+        "DFH: sparsity prep"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: initialize();DFH: sparsity prep;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.009916373,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp;DFH: initialize();DFH: sparsity prep",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: initialize()",
+        "DFH: sparsity prep",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: initialize();DFH: AO Construction": {
+      "wall_time": 0.03924312,
+      "user_time": 0.06666666666666667,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: AO Construction",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp;DFH: initialize()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: initialize()",
+        "DFH: AO Construction"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: transform()": {
+      "wall_time": 0.020490987,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: transform()",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: transform()"
+      ],
+      "level": 2
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: transform();Libint2ERI::Libint2ERI": {
+      "wall_time": 0.004268797,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: transform()",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: transform();DFH: Total Workflow": {
+      "wall_time": 0.004663164,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 16,
+      "timer_name": "DFH: Total Workflow",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: transform()",
+        "DFH: Total Workflow"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: transform();DFH: Total Workflow;DFH: Total Transform": {
+      "wall_time": 0.004602238,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 16,
+      "timer_name": "DFH: Total Transform",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp;DFH: transform();DFH: Total Workflow",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: transform()",
+        "DFH: Total Workflow",
+        "DFH: Total Transform"
+      ],
+      "level": 4
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: transform();DFH: Total Workflow;DFH: Total Transform;DFH: 1st Contraction": {
+      "wall_time": 0.002593852,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "DFH: 1st Contraction",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp;DFH: transform();DFH: Total Workflow;DFH: Total Transform",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: transform()",
+        "DFH: Total Workflow",
+        "DFH: Total Transform",
+        "DFH: 1st Contraction"
+      ],
+      "level": 5
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: transform();DFH: Total Workflow;DFH: Total Transform;DFH: 2nd Contraction": {
+      "wall_time": 0.001938805,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 10,
+      "timer_name": "DFH: 2nd Contraction",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp;DFH: transform();DFH: Total Workflow;DFH: Total Transform",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: transform()",
+        "DFH: Total Workflow",
+        "DFH: Total Transform",
+        "DFH: 2nd Contraction"
+      ],
+      "level": 5
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: transform();DFH: MO to disk, Aar": {
+      "wall_time": 0.000239781,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: MO to disk, Aar",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: transform()",
+        "DFH: MO to disk, Aar"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: transform();DFH: MO to disk, Bas": {
+      "wall_time": 0.000175842,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: MO to disk, Bas",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: transform()",
+        "DFH: MO to disk, Bas"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: transform();DFH: MO to disk, Dar": {
+      "wall_time": 0.00017022,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: MO to disk, Dar",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: transform()",
+        "DFH: MO to disk, Dar"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: transform();DFH: MO to disk, Abs": {
+      "wall_time": 0.000190664,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: MO to disk, Abs",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: transform()",
+        "DFH: MO to disk, Abs"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: transform();DFH: MO to disk, Bbr": {
+      "wall_time": 0.000180861,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: MO to disk, Bbr",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: transform()",
+        "DFH: MO to disk, Bbr"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: transform();DFH: MO to disk, Dbs": {
+      "wall_time": 0.000170574,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: MO to disk, Dbs",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: transform()",
+        "DFH: MO to disk, Dbs"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: transform();DFH: MO to disk, Cas": {
+      "wall_time": 0.00018105,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: MO to disk, Cas",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: transform()",
+        "DFH: MO to disk, Cas"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: transform();DFH: MO to disk, Cbr": {
+      "wall_time": 0.00018839,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: MO to disk, Cbr",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: transform()",
+        "DFH: MO to disk, Cbr"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: transform();DFH: MO to disk, Ear": {
+      "wall_time": 0.000177783,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: MO to disk, Ear",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: transform()",
+        "DFH: MO to disk, Ear"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: transform();DFH: MO to disk, Ebs": {
+      "wall_time": 0.000177519,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: MO to disk, Ebs",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: transform()",
+        "DFH: MO to disk, Ebs"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: transform();DFH: Metric Contractions": {
+      "wall_time": 0.007830196,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 1,
+      "timer_name": "DFH: Metric Contractions",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp;DFH: transform()",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: transform()",
+        "DFH: Metric Contractions"
+      ],
+      "level": 3
+    },
+    "FISAPT;FISAPT:FSAPT:disp;DFH: transform();DFH: Metric Contractions;DFH: Total Workflow": {
+      "wall_time": 0.002146276,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 10,
+      "timer_name": "DFH: Total Workflow",
+      "parent_id": "FISAPT;FISAPT:FSAPT:disp;DFH: transform();DFH: Metric Contractions",
+      "timer_path": [
+        "FISAPT",
+        "FISAPT:FSAPT:disp",
+        "DFH: transform()",
+        "DFH: Metric Contractions",
+        "DFH: Total Workflow"
+      ],
+      "level": 4
+    }
+  },
+  "psi4_version": "1.12a1.dev8",
+  "psi4_commit_hash": "f8b18fb"
+}

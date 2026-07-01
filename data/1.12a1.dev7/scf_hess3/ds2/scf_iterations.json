@@ -1,0 +1,24 @@
+{
+  "test_name": "scf-hess3",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 407,
+    "iterations_by_label": {
+      "UHF": 407
+    },
+    "accelerators": {
+      "ADIIS": 108,
+      "DIIS": 407
+    },
+    "accelerator_raw": {
+      "ADIIS/DIIS": 108,
+      "DIIS": 299
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

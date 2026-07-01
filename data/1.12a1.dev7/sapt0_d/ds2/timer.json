@@ -1,0 +1,1121 @@
+{
+  "timers": {
+    "SAPT: Dimer SCF": {
+      "wall_time": 3.824899031,
+      "user_time": 5.85,
+      "system_time": 0.31666666666666665,
+      "n_calls": 4,
+      "timer_name": "SAPT: Dimer SCF",
+      "parent_id": null,
+      "timer_path": [
+        "SAPT: Dimer SCF"
+      ],
+      "level": 0
+    },
+    "SAPT: Dimer SCF;DFH: sparsity prep": {
+      "wall_time": 0.153923246,
+      "user_time": 0.25,
+      "system_time": 0.016666666666666666,
+      "n_calls": 4,
+      "timer_name": "DFH: sparsity prep",
+      "parent_id": "SAPT: Dimer SCF",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "DFH: sparsity prep"
+      ],
+      "level": 1
+    },
+    "SAPT: Dimer SCF;DFH: sparsity prep;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.1041397,
+      "user_time": 0.16666666666666669,
+      "system_time": 0.016666666666666666,
+      "n_calls": 4,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "SAPT: Dimer SCF;DFH: sparsity prep",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "DFH: sparsity prep",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 2
+    },
+    "SAPT: Dimer SCF;DFH: initialize()": {
+      "wall_time": 1.160702861,
+      "user_time": 1.8,
+      "system_time": 0.16666666666666669,
+      "n_calls": 4,
+      "timer_name": "DFH: initialize()",
+      "parent_id": "SAPT: Dimer SCF",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "DFH: initialize()"
+      ],
+      "level": 1
+    },
+    "SAPT: Dimer SCF;DFH: initialize();Libint2ERI::Libint2ERI": {
+      "wall_time": 0.090922333,
+      "user_time": 0.15,
+      "system_time": 0.0,
+      "n_calls": 8,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "SAPT: Dimer SCF;DFH: initialize()",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "DFH: initialize()",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 2
+    },
+    "SAPT: Dimer SCF;DFH: initialize();DFH: AO Construction": {
+      "wall_time": 0.625951561,
+      "user_time": 1.0333333333333332,
+      "system_time": 0.05,
+      "n_calls": 4,
+      "timer_name": "DFH: AO Construction",
+      "parent_id": "SAPT: Dimer SCF;DFH: initialize()",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "DFH: initialize()",
+        "DFH: AO Construction"
+      ],
+      "level": 2
+    },
+    "SAPT: Dimer SCF;DFH: initialize();DFH: AO-Met. Contraction": {
+      "wall_time": 0.269281033,
+      "user_time": 0.35,
+      "system_time": 0.08333333333333334,
+      "n_calls": 4,
+      "timer_name": "DFH: AO-Met. Contraction",
+      "parent_id": "SAPT: Dimer SCF;DFH: initialize()",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "DFH: initialize()",
+        "DFH: AO-Met. Contraction"
+      ],
+      "level": 2
+    },
+    "SAPT: Dimer SCF;HF: Form core H": {
+      "wall_time": 0.172195706,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "HF: Form core H",
+      "parent_id": "SAPT: Dimer SCF",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "HF: Form core H"
+      ],
+      "level": 1
+    },
+    "SAPT: Dimer SCF;HF: Form S/X": {
+      "wall_time": 0.006849847,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "HF: Form S/X",
+      "parent_id": "SAPT: Dimer SCF",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "HF: Form S/X"
+      ],
+      "level": 1
+    },
+    "SAPT: Dimer SCF;HF: Guess": {
+      "wall_time": 0.170715337,
+      "user_time": 0.25,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "HF: Guess",
+      "parent_id": "SAPT: Dimer SCF",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "HF: Guess"
+      ],
+      "level": 1
+    },
+    "SAPT: Dimer SCF;HF: Guess;SAD Guess": {
+      "wall_time": 0.159438581,
+      "user_time": 0.21666666666666667,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "SAD Guess",
+      "parent_id": "SAPT: Dimer SCF;HF: Guess",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "HF: Guess",
+        "SAD Guess"
+      ],
+      "level": 2
+    },
+    "SAPT: Dimer SCF;HF: Form G": {
+      "wall_time": 0.64958156,
+      "user_time": 0.9833333333333341,
+      "system_time": 0.016666666666666666,
+      "n_calls": 44,
+      "timer_name": "HF: Form G",
+      "parent_id": "SAPT: Dimer SCF",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "HF: Form G"
+      ],
+      "level": 1
+    },
+    "SAPT: Dimer SCF;HF: Form G;JK: D": {
+      "wall_time": 0.001109558,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 44,
+      "timer_name": "JK: D",
+      "parent_id": "SAPT: Dimer SCF;HF: Form G",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "HF: Form G",
+        "JK: D"
+      ],
+      "level": 2
+    },
+    "SAPT: Dimer SCF;HF: Form G;JK: USO2AO": {
+      "wall_time": 0.000204172,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 44,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "SAPT: Dimer SCF;HF: Form G",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "HF: Form G",
+        "JK: USO2AO"
+      ],
+      "level": 2
+    },
+    "SAPT: Dimer SCF;HF: Form G;JK: JK": {
+      "wall_time": 0.64380728,
+      "user_time": 0.9833333333333341,
+      "system_time": 0.016666666666666666,
+      "n_calls": 44,
+      "timer_name": "JK: JK",
+      "parent_id": "SAPT: Dimer SCF;HF: Form G",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "HF: Form G",
+        "JK: JK"
+      ],
+      "level": 2
+    },
+    "SAPT: Dimer SCF;HF: Form G;JK: JK;DFH: compute_JK()": {
+      "wall_time": 0.642820411,
+      "user_time": 0.9833333333333341,
+      "system_time": 0.016666666666666666,
+      "n_calls": 44,
+      "timer_name": "DFH: compute_JK()",
+      "parent_id": "SAPT: Dimer SCF;HF: Form G;JK: JK",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()"
+      ],
+      "level": 3
+    },
+    "SAPT: Dimer SCF;HF: Form G;JK: JK;DFH: compute_JK();DFH: Grabbing AOs": {
+      "wall_time": 8.5024e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 44,
+      "timer_name": "DFH: Grabbing AOs",
+      "parent_id": "SAPT: Dimer SCF;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: Grabbing AOs"
+      ],
+      "level": 4
+    },
+    "SAPT: Dimer SCF;HF: Form G;JK: JK;DFH: compute_JK();DFH: compute_J": {
+      "wall_time": 0.225526666,
+      "user_time": 0.3,
+      "system_time": 0.0,
+      "n_calls": 44,
+      "timer_name": "DFH: compute_J",
+      "parent_id": "SAPT: Dimer SCF;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_J"
+      ],
+      "level": 4
+    },
+    "SAPT: Dimer SCF;HF: Form G;JK: JK;DFH: compute_JK();DFH: compute_K": {
+      "wall_time": 0.403589923,
+      "user_time": 0.6500000000000004,
+      "system_time": 0.0,
+      "n_calls": 44,
+      "timer_name": "DFH: compute_K",
+      "parent_id": "SAPT: Dimer SCF;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_K"
+      ],
+      "level": 4
+    },
+    "SAPT: Dimer SCF;HF: Form G;JK: AO2USO": {
+      "wall_time": 0.000108307,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 44,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "SAPT: Dimer SCF;HF: Form G",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "HF: Form G",
+        "JK: AO2USO"
+      ],
+      "level": 2
+    },
+    "SAPT: Dimer SCF;HF: Form F": {
+      "wall_time": 0.001372023,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 44,
+      "timer_name": "HF: Form F",
+      "parent_id": "SAPT: Dimer SCF",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "HF: Form F"
+      ],
+      "level": 1
+    },
+    "SAPT: Dimer SCF;HF: Form D": {
+      "wall_time": 0.000932618,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 44,
+      "timer_name": "HF: Form D",
+      "parent_id": "SAPT: Dimer SCF",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "HF: Form D"
+      ],
+      "level": 1
+    },
+    "SAPT: Dimer SCF;HF: DIIS": {
+      "wall_time": 0.294385376,
+      "user_time": 0.4333333333333333,
+      "system_time": 0.06666666666666667,
+      "n_calls": 40,
+      "timer_name": "HF: DIIS",
+      "parent_id": "SAPT: Dimer SCF",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "HF: DIIS"
+      ],
+      "level": 1
+    },
+    "SAPT: Dimer SCF;HF: Form C": {
+      "wall_time": 0.057228795,
+      "user_time": 0.11666666666666665,
+      "system_time": 0.0,
+      "n_calls": 40,
+      "timer_name": "HF: Form C",
+      "parent_id": "SAPT: Dimer SCF",
+      "timer_path": [
+        "SAPT: Dimer SCF",
+        "HF: Form C"
+      ],
+      "level": 1
+    },
+    "SAPT: Monomer A SCF": {
+      "wall_time": 3.323158739,
+      "user_time": 5.3,
+      "system_time": 0.21666666666666667,
+      "n_calls": 4,
+      "timer_name": "SAPT: Monomer A SCF",
+      "parent_id": null,
+      "timer_path": [
+        "SAPT: Monomer A SCF"
+      ],
+      "level": 0
+    },
+    "SAPT: Monomer A SCF;DFH: sparsity prep": {
+      "wall_time": 0.148769924,
+      "user_time": 0.23333333333333334,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DFH: sparsity prep",
+      "parent_id": "SAPT: Monomer A SCF",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "DFH: sparsity prep"
+      ],
+      "level": 1
+    },
+    "SAPT: Monomer A SCF;DFH: sparsity prep;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.098181305,
+      "user_time": 0.15,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "SAPT: Monomer A SCF;DFH: sparsity prep",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "DFH: sparsity prep",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 2
+    },
+    "SAPT: Monomer A SCF;DFH: initialize()": {
+      "wall_time": 1.140779719,
+      "user_time": 1.7666666666666666,
+      "system_time": 0.11666666666666667,
+      "n_calls": 4,
+      "timer_name": "DFH: initialize()",
+      "parent_id": "SAPT: Monomer A SCF",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "DFH: initialize()"
+      ],
+      "level": 1
+    },
+    "SAPT: Monomer A SCF;DFH: initialize();Libint2ERI::Libint2ERI": {
+      "wall_time": 0.088094965,
+      "user_time": 0.16666666666666669,
+      "system_time": 0.0,
+      "n_calls": 8,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "SAPT: Monomer A SCF;DFH: initialize()",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "DFH: initialize()",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 2
+    },
+    "SAPT: Monomer A SCF;DFH: initialize();DFH: AO Construction": {
+      "wall_time": 0.611897863,
+      "user_time": 1.0333333333333332,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DFH: AO Construction",
+      "parent_id": "SAPT: Monomer A SCF;DFH: initialize()",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "DFH: initialize()",
+        "DFH: AO Construction"
+      ],
+      "level": 2
+    },
+    "SAPT: Monomer A SCF;DFH: initialize();DFH: AO-Met. Contraction": {
+      "wall_time": 0.273854932,
+      "user_time": 0.3333333333333333,
+      "system_time": 0.1,
+      "n_calls": 4,
+      "timer_name": "DFH: AO-Met. Contraction",
+      "parent_id": "SAPT: Monomer A SCF;DFH: initialize()",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "DFH: initialize()",
+        "DFH: AO-Met. Contraction"
+      ],
+      "level": 2
+    },
+    "SAPT: Monomer A SCF;HF: Form core H": {
+      "wall_time": 0.031623348,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "HF: Form core H",
+      "parent_id": "SAPT: Monomer A SCF",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "HF: Form core H"
+      ],
+      "level": 1
+    },
+    "SAPT: Monomer A SCF;HF: Form S/X": {
+      "wall_time": 0.005054848,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "HF: Form S/X",
+      "parent_id": "SAPT: Monomer A SCF",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "HF: Form S/X"
+      ],
+      "level": 1
+    },
+    "SAPT: Monomer A SCF;HF: Guess": {
+      "wall_time": 0.156404566,
+      "user_time": 0.23333333333333334,
+      "system_time": 0.016666666666666666,
+      "n_calls": 4,
+      "timer_name": "HF: Guess",
+      "parent_id": "SAPT: Monomer A SCF",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "HF: Guess"
+      ],
+      "level": 1
+    },
+    "SAPT: Monomer A SCF;HF: Guess;SAD Guess": {
+      "wall_time": 0.148350098,
+      "user_time": 0.21666666666666667,
+      "system_time": 0.016666666666666666,
+      "n_calls": 4,
+      "timer_name": "SAD Guess",
+      "parent_id": "SAPT: Monomer A SCF;HF: Guess",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "HF: Guess",
+        "SAD Guess"
+      ],
+      "level": 2
+    },
+    "SAPT: Monomer A SCF;HF: Form G": {
+      "wall_time": 0.490770974,
+      "user_time": 0.9000000000000008,
+      "system_time": 0.0,
+      "n_calls": 40,
+      "timer_name": "HF: Form G",
+      "parent_id": "SAPT: Monomer A SCF",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "HF: Form G"
+      ],
+      "level": 1
+    },
+    "SAPT: Monomer A SCF;HF: Form G;JK: D": {
+      "wall_time": 0.001019305,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 40,
+      "timer_name": "JK: D",
+      "parent_id": "SAPT: Monomer A SCF;HF: Form G",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "HF: Form G",
+        "JK: D"
+      ],
+      "level": 2
+    },
+    "SAPT: Monomer A SCF;HF: Form G;JK: USO2AO": {
+      "wall_time": 0.00018151,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 40,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "SAPT: Monomer A SCF;HF: Form G",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "HF: Form G",
+        "JK: USO2AO"
+      ],
+      "level": 2
+    },
+    "SAPT: Monomer A SCF;HF: Form G;JK: JK": {
+      "wall_time": 0.486065563,
+      "user_time": 0.9000000000000008,
+      "system_time": 0.0,
+      "n_calls": 40,
+      "timer_name": "JK: JK",
+      "parent_id": "SAPT: Monomer A SCF;HF: Form G",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "HF: Form G",
+        "JK: JK"
+      ],
+      "level": 2
+    },
+    "SAPT: Monomer A SCF;HF: Form G;JK: JK;DFH: compute_JK()": {
+      "wall_time": 0.485187047,
+      "user_time": 0.9000000000000008,
+      "system_time": 0.0,
+      "n_calls": 40,
+      "timer_name": "DFH: compute_JK()",
+      "parent_id": "SAPT: Monomer A SCF;HF: Form G;JK: JK",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()"
+      ],
+      "level": 3
+    },
+    "SAPT: Monomer A SCF;HF: Form G;JK: JK;DFH: compute_JK();DFH: Grabbing AOs": {
+      "wall_time": 7.5142e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 40,
+      "timer_name": "DFH: Grabbing AOs",
+      "parent_id": "SAPT: Monomer A SCF;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: Grabbing AOs"
+      ],
+      "level": 4
+    },
+    "SAPT: Monomer A SCF;HF: Form G;JK: JK;DFH: compute_JK();DFH: compute_J": {
+      "wall_time": 0.201580857,
+      "user_time": 0.41666666666666663,
+      "system_time": 0.0,
+      "n_calls": 40,
+      "timer_name": "DFH: compute_J",
+      "parent_id": "SAPT: Monomer A SCF;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_J"
+      ],
+      "level": 4
+    },
+    "SAPT: Monomer A SCF;HF: Form G;JK: JK;DFH: compute_JK();DFH: compute_K": {
+      "wall_time": 0.276862253,
+      "user_time": 0.4666666666666666,
+      "system_time": 0.0,
+      "n_calls": 40,
+      "timer_name": "DFH: compute_K",
+      "parent_id": "SAPT: Monomer A SCF;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_K"
+      ],
+      "level": 4
+    },
+    "SAPT: Monomer A SCF;HF: Form G;JK: AO2USO": {
+      "wall_time": 9.5725e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 40,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "SAPT: Monomer A SCF;HF: Form G",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "HF: Form G",
+        "JK: AO2USO"
+      ],
+      "level": 2
+    },
+    "SAPT: Monomer A SCF;HF: Form F": {
+      "wall_time": 0.001250072,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 40,
+      "timer_name": "HF: Form F",
+      "parent_id": "SAPT: Monomer A SCF",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "HF: Form F"
+      ],
+      "level": 1
+    },
+    "SAPT: Monomer A SCF;HF: Form D": {
+      "wall_time": 0.000771476,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 40,
+      "timer_name": "HF: Form D",
+      "parent_id": "SAPT: Monomer A SCF",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "HF: Form D"
+      ],
+      "level": 1
+    },
+    "SAPT: Monomer A SCF;HF: DIIS": {
+      "wall_time": 0.152255913,
+      "user_time": 0.18333333333333332,
+      "system_time": 0.05,
+      "n_calls": 36,
+      "timer_name": "HF: DIIS",
+      "parent_id": "SAPT: Monomer A SCF",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "HF: DIIS"
+      ],
+      "level": 1
+    },
+    "SAPT: Monomer A SCF;HF: Form C": {
+      "wall_time": 0.050379492,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 36,
+      "timer_name": "HF: Form C",
+      "parent_id": "SAPT: Monomer A SCF",
+      "timer_path": [
+        "SAPT: Monomer A SCF",
+        "HF: Form C"
+      ],
+      "level": 1
+    },
+    "SAPT: Monomer B SCF": {
+      "wall_time": 3.361319573,
+      "user_time": 5.35,
+      "system_time": 0.23333333333333334,
+      "n_calls": 4,
+      "timer_name": "SAPT: Monomer B SCF",
+      "parent_id": null,
+      "timer_path": [
+        "SAPT: Monomer B SCF"
+      ],
+      "level": 0
+    },
+    "SAPT: Monomer B SCF;DFH: sparsity prep": {
+      "wall_time": 0.142326213,
+      "user_time": 0.26666666666666666,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DFH: sparsity prep",
+      "parent_id": "SAPT: Monomer B SCF",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "DFH: sparsity prep"
+      ],
+      "level": 1
+    },
+    "SAPT: Monomer B SCF;DFH: sparsity prep;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.092029644,
+      "user_time": 0.16666666666666669,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "SAPT: Monomer B SCF;DFH: sparsity prep",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "DFH: sparsity prep",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 2
+    },
+    "SAPT: Monomer B SCF;DFH: initialize()": {
+      "wall_time": 1.1485919,
+      "user_time": 1.8,
+      "system_time": 0.13333333333333333,
+      "n_calls": 4,
+      "timer_name": "DFH: initialize()",
+      "parent_id": "SAPT: Monomer B SCF",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "DFH: initialize()"
+      ],
+      "level": 1
+    },
+    "SAPT: Monomer B SCF;DFH: initialize();Libint2ERI::Libint2ERI": {
+      "wall_time": 0.089772873,
+      "user_time": 0.13333333333333333,
+      "system_time": 0.0,
+      "n_calls": 8,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "SAPT: Monomer B SCF;DFH: initialize()",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "DFH: initialize()",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 2
+    },
+    "SAPT: Monomer B SCF;DFH: initialize();DFH: AO Construction": {
+      "wall_time": 0.607889216,
+      "user_time": 1.0,
+      "system_time": 0.016666666666666666,
+      "n_calls": 4,
+      "timer_name": "DFH: AO Construction",
+      "parent_id": "SAPT: Monomer B SCF;DFH: initialize()",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "DFH: initialize()",
+        "DFH: AO Construction"
+      ],
+      "level": 2
+    },
+    "SAPT: Monomer B SCF;DFH: initialize();DFH: AO-Met. Contraction": {
+      "wall_time": 0.274232257,
+      "user_time": 0.35,
+      "system_time": 0.09999999999999999,
+      "n_calls": 4,
+      "timer_name": "DFH: AO-Met. Contraction",
+      "parent_id": "SAPT: Monomer B SCF;DFH: initialize()",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "DFH: initialize()",
+        "DFH: AO-Met. Contraction"
+      ],
+      "level": 2
+    },
+    "SAPT: Monomer B SCF;HF: Form core H": {
+      "wall_time": 0.034332047,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "HF: Form core H",
+      "parent_id": "SAPT: Monomer B SCF",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "HF: Form core H"
+      ],
+      "level": 1
+    },
+    "SAPT: Monomer B SCF;HF: Form S/X": {
+      "wall_time": 0.004971702,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "HF: Form S/X",
+      "parent_id": "SAPT: Monomer B SCF",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "HF: Form S/X"
+      ],
+      "level": 1
+    },
+    "SAPT: Monomer B SCF;HF: Guess": {
+      "wall_time": 0.156388327,
+      "user_time": 0.25,
+      "system_time": 0.016666666666666666,
+      "n_calls": 4,
+      "timer_name": "HF: Guess",
+      "parent_id": "SAPT: Monomer B SCF",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "HF: Guess"
+      ],
+      "level": 1
+    },
+    "SAPT: Monomer B SCF;HF: Guess;SAD Guess": {
+      "wall_time": 0.148317281,
+      "user_time": 0.23333333333333334,
+      "system_time": 0.016666666666666666,
+      "n_calls": 4,
+      "timer_name": "SAD Guess",
+      "parent_id": "SAPT: Monomer B SCF;HF: Guess",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "HF: Guess",
+        "SAD Guess"
+      ],
+      "level": 2
+    },
+    "SAPT: Monomer B SCF;HF: Form G": {
+      "wall_time": 0.487016523,
+      "user_time": 0.8166666666666674,
+      "system_time": 0.016666666666666666,
+      "n_calls": 40,
+      "timer_name": "HF: Form G",
+      "parent_id": "SAPT: Monomer B SCF",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "HF: Form G"
+      ],
+      "level": 1
+    },
+    "SAPT: Monomer B SCF;HF: Form G;JK: D": {
+      "wall_time": 0.000996249,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 40,
+      "timer_name": "JK: D",
+      "parent_id": "SAPT: Monomer B SCF;HF: Form G",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "HF: Form G",
+        "JK: D"
+      ],
+      "level": 2
+    },
+    "SAPT: Monomer B SCF;HF: Form G;JK: USO2AO": {
+      "wall_time": 0.000202967,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 40,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "SAPT: Monomer B SCF;HF: Form G",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "HF: Form G",
+        "JK: USO2AO"
+      ],
+      "level": 2
+    },
+    "SAPT: Monomer B SCF;HF: Form G;JK: JK": {
+      "wall_time": 0.482064528,
+      "user_time": 0.8000000000000007,
+      "system_time": 0.016666666666666666,
+      "n_calls": 40,
+      "timer_name": "JK: JK",
+      "parent_id": "SAPT: Monomer B SCF;HF: Form G",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "HF: Form G",
+        "JK: JK"
+      ],
+      "level": 2
+    },
+    "SAPT: Monomer B SCF;HF: Form G;JK: JK;DFH: compute_JK()": {
+      "wall_time": 0.481181526,
+      "user_time": 0.8000000000000007,
+      "system_time": 0.016666666666666666,
+      "n_calls": 40,
+      "timer_name": "DFH: compute_JK()",
+      "parent_id": "SAPT: Monomer B SCF;HF: Form G;JK: JK",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()"
+      ],
+      "level": 3
+    },
+    "SAPT: Monomer B SCF;HF: Form G;JK: JK;DFH: compute_JK();DFH: Grabbing AOs": {
+      "wall_time": 7.7277e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 40,
+      "timer_name": "DFH: Grabbing AOs",
+      "parent_id": "SAPT: Monomer B SCF;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: Grabbing AOs"
+      ],
+      "level": 4
+    },
+    "SAPT: Monomer B SCF;HF: Form G;JK: JK;DFH: compute_JK();DFH: compute_J": {
+      "wall_time": 0.20560264,
+      "user_time": 0.3833333333333333,
+      "system_time": 0.016666666666666666,
+      "n_calls": 40,
+      "timer_name": "DFH: compute_J",
+      "parent_id": "SAPT: Monomer B SCF;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_J"
+      ],
+      "level": 4
+    },
+    "SAPT: Monomer B SCF;HF: Form G;JK: JK;DFH: compute_JK();DFH: compute_K": {
+      "wall_time": 0.269313346,
+      "user_time": 0.41666666666666663,
+      "system_time": 0.0,
+      "n_calls": 40,
+      "timer_name": "DFH: compute_K",
+      "parent_id": "SAPT: Monomer B SCF;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_K"
+      ],
+      "level": 4
+    },
+    "SAPT: Monomer B SCF;HF: Form G;JK: AO2USO": {
+      "wall_time": 9.7268e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 40,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "SAPT: Monomer B SCF;HF: Form G",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "HF: Form G",
+        "JK: AO2USO"
+      ],
+      "level": 2
+    },
+    "SAPT: Monomer B SCF;HF: Form F": {
+      "wall_time": 0.001284909,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 40,
+      "timer_name": "HF: Form F",
+      "parent_id": "SAPT: Monomer B SCF",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "HF: Form F"
+      ],
+      "level": 1
+    },
+    "SAPT: Monomer B SCF;HF: Form D": {
+      "wall_time": 0.000766728,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 40,
+      "timer_name": "HF: Form D",
+      "parent_id": "SAPT: Monomer B SCF",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "HF: Form D"
+      ],
+      "level": 1
+    },
+    "SAPT: Monomer B SCF;HF: DIIS": {
+      "wall_time": 0.158193407,
+      "user_time": 0.2333333333333333,
+      "system_time": 0.0,
+      "n_calls": 36,
+      "timer_name": "HF: DIIS",
+      "parent_id": "SAPT: Monomer B SCF",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "HF: DIIS"
+      ],
+      "level": 1
+    },
+    "SAPT: Monomer B SCF;HF: Form C": {
+      "wall_time": 0.052399656,
+      "user_time": 0.06666666666666667,
+      "system_time": 0.0,
+      "n_calls": 36,
+      "timer_name": "HF: Form C",
+      "parent_id": "SAPT: Monomer B SCF",
+      "timer_path": [
+        "SAPT: Monomer B SCF",
+        "HF: Form C"
+      ],
+      "level": 1
+    },
+    "OO DF Integrals    ": {
+      "wall_time": 1.239006848,
+      "user_time": 1.8833333333333333,
+      "system_time": 0.18333333333333335,
+      "n_calls": 4,
+      "timer_name": "OO DF Integrals    ",
+      "parent_id": null,
+      "timer_path": [
+        "OO DF Integrals    "
+      ],
+      "level": 0
+    },
+    "OO DF Integrals    ;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.180408879,
+      "user_time": 0.3,
+      "system_time": 0.0,
+      "n_calls": 16,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "OO DF Integrals    ",
+      "timer_path": [
+        "OO DF Integrals    ",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 1
+    },
+    "Elst10             ": {
+      "wall_time": 0.000120012,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "Elst10             ",
+      "parent_id": null,
+      "timer_path": [
+        "Elst10             "
+      ],
+      "level": 0
+    },
+    "Exch10             ": {
+      "wall_time": 0.006091991,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "Exch10             ",
+      "parent_id": null,
+      "timer_path": [
+        "Exch10             "
+      ],
+      "level": 0
+    },
+    "Exch10 S^2         ": {
+      "wall_time": 0.003494642,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "Exch10 S^2         ",
+      "parent_id": null,
+      "timer_path": [
+        "Exch10 S^2         "
+      ],
+      "level": 0
+    },
+    "SAPT0: DF Integrals": {
+      "wall_time": 1.546469332,
+      "user_time": 2.0166666666666666,
+      "system_time": 0.5166666666666666,
+      "n_calls": 4,
+      "timer_name": "SAPT0: DF Integrals",
+      "parent_id": null,
+      "timer_path": [
+        "SAPT0: DF Integrals"
+      ],
+      "level": 0
+    },
+    "SAPT0: DF Integrals;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.187949663,
+      "user_time": 0.3,
+      "system_time": 0.0,
+      "n_calls": 16,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "SAPT0: DF Integrals",
+      "timer_path": [
+        "SAPT0: DF Integrals",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 1
+    },
+    "SAPT0: W Integrals": {
+      "wall_time": 0.005099084,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "SAPT0: W Integrals",
+      "parent_id": null,
+      "timer_path": [
+        "SAPT0: W Integrals"
+      ],
+      "level": 0
+    },
+    "SAPT0: Ind20": {
+      "wall_time": 0.632687073,
+      "user_time": 0.65,
+      "system_time": 0.4,
+      "n_calls": 4,
+      "timer_name": "SAPT0: Ind20",
+      "parent_id": null,
+      "timer_path": [
+        "SAPT0: Ind20"
+      ],
+      "level": 0
+    },
+    "SAPT0: Exch-Ind20": {
+      "wall_time": 0.034260628,
+      "user_time": 0.05,
+      "system_time": 0.05,
+      "n_calls": 4,
+      "timer_name": "SAPT0: Exch-Ind20",
+      "parent_id": null,
+      "timer_path": [
+        "SAPT0: Exch-Ind20"
+      ],
+      "level": 0
+    }
+  },
+  "psi4_version": "1.12a1.dev8",
+  "psi4_commit_hash": "f8b18fb"
+}

@@ -1,0 +1,3090 @@
+{
+  "timers": {
+    "SAPT(DFT): Monomer A DFT": {
+      "wall_time": 3.853602155,
+      "user_time": 5.766666666666667,
+      "system_time": 0.4666666666666667,
+      "n_calls": 4,
+      "timer_name": "SAPT(DFT): Monomer A DFT",
+      "parent_id": null,
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT"
+      ],
+      "level": 0
+    },
+    "SAPT(DFT): Monomer A DFT;V: Grid": {
+      "wall_time": 0.067865863,
+      "user_time": 0.11666666666666667,
+      "system_time": 0.016666666666666666,
+      "n_calls": 4,
+      "timer_name": "V: Grid",
+      "parent_id": "SAPT(DFT): Monomer A DFT",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "V: Grid"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT): Monomer A DFT;V: Grid;build grid": {
+      "wall_time": 0.040970822,
+      "user_time": 0.06666666666666667,
+      "system_time": 0.016666666666666666,
+      "n_calls": 4,
+      "timer_name": "build grid",
+      "parent_id": "SAPT(DFT): Monomer A DFT;V: Grid",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "V: Grid",
+        "build grid"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT): Monomer A DFT;V: Grid;post-process grid": {
+      "wall_time": 0.026425444,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "post-process grid",
+      "parent_id": "SAPT(DFT): Monomer A DFT;V: Grid",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "V: Grid",
+        "post-process grid"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT): Monomer A DFT;DFH: sparsity prep": {
+      "wall_time": 0.273974553,
+      "user_time": 0.36666666666666664,
+      "system_time": 0.08333333333333333,
+      "n_calls": 4,
+      "timer_name": "DFH: sparsity prep",
+      "parent_id": "SAPT(DFT): Monomer A DFT",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "DFH: sparsity prep"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT): Monomer A DFT;DFH: sparsity prep;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.20565856,
+      "user_time": 0.25,
+      "system_time": 0.08333333333333333,
+      "n_calls": 4,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "SAPT(DFT): Monomer A DFT;DFH: sparsity prep",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "DFH: sparsity prep",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT): Monomer A DFT;DFH: initialize()": {
+      "wall_time": 0.341847387,
+      "user_time": 0.4666666666666667,
+      "system_time": 0.08333333333333333,
+      "n_calls": 4,
+      "timer_name": "DFH: initialize()",
+      "parent_id": "SAPT(DFT): Monomer A DFT",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "DFH: initialize()"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT): Monomer A DFT;DFH: initialize();Libint2ERI::Libint2ERI": {
+      "wall_time": 0.181254748,
+      "user_time": 0.23333333333333334,
+      "system_time": 0.06666666666666667,
+      "n_calls": 8,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "SAPT(DFT): Monomer A DFT;DFH: initialize()",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "DFH: initialize()",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT): Monomer A DFT;DFH: initialize();DFH: AO Construction": {
+      "wall_time": 0.094105358,
+      "user_time": 0.16666666666666669,
+      "system_time": 0.016666666666666666,
+      "n_calls": 4,
+      "timer_name": "DFH: AO Construction",
+      "parent_id": "SAPT(DFT): Monomer A DFT;DFH: initialize()",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "DFH: initialize()",
+        "DFH: AO Construction"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT): Monomer A DFT;DFH: initialize();DFH: AO-Met. Contraction": {
+      "wall_time": 0.016146298,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DFH: AO-Met. Contraction",
+      "parent_id": "SAPT(DFT): Monomer A DFT;DFH: initialize()",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "DFH: initialize()",
+        "DFH: AO-Met. Contraction"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT): Monomer A DFT;HF: Form core H": {
+      "wall_time": 0.131825487,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "HF: Form core H",
+      "parent_id": "SAPT(DFT): Monomer A DFT",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "HF: Form core H"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT): Monomer A DFT;HF: Form S/X": {
+      "wall_time": 0.002408242,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "HF: Form S/X",
+      "parent_id": "SAPT(DFT): Monomer A DFT",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "HF: Form S/X"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT): Monomer A DFT;HF: Guess": {
+      "wall_time": 0.123926055,
+      "user_time": 0.21666666666666667,
+      "system_time": 0.016666666666666666,
+      "n_calls": 4,
+      "timer_name": "HF: Guess",
+      "parent_id": "SAPT(DFT): Monomer A DFT",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "HF: Guess"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT): Monomer A DFT;HF: Guess;SAD Guess": {
+      "wall_time": 0.112943244,
+      "user_time": 0.18333333333333335,
+      "system_time": 0.016666666666666666,
+      "n_calls": 4,
+      "timer_name": "SAD Guess",
+      "parent_id": "SAPT(DFT): Monomer A DFT;HF: Guess",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "HF: Guess",
+        "SAD Guess"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT): Monomer A DFT;HF: Form G": {
+      "wall_time": 1.948544238,
+      "user_time": 3.0999999999999996,
+      "system_time": 0.16666666666666666,
+      "n_calls": 24,
+      "timer_name": "HF: Form G",
+      "parent_id": "SAPT(DFT): Monomer A DFT",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "HF: Form G"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT): Monomer A DFT;HF: Form G;RV: Form V": {
+      "wall_time": 1.914110468,
+      "user_time": 3.0166666666666666,
+      "system_time": 0.16666666666666666,
+      "n_calls": 24,
+      "timer_name": "RV: Form V",
+      "parent_id": "SAPT(DFT): Monomer A DFT;HF: Form G",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "HF: Form G",
+        "RV: Form V"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT): Monomer A DFT;HF: Form G;RV: Form V;Properties": {
+      "wall_time": 0.339429234,
+      "user_time": 0.733333333333334,
+      "system_time": 0.016666666666666666,
+      "n_calls": 9528,
+      "timer_name": "Properties",
+      "parent_id": "SAPT(DFT): Monomer A DFT;HF: Form G;RV: Form V",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "HF: Form G",
+        "RV: Form V",
+        "Properties"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT): Monomer A DFT;HF: Form G;RV: Form V;Functional": {
+      "wall_time": 1.185285739,
+      "user_time": 1.733333333333332,
+      "system_time": 0.11666666666666665,
+      "n_calls": 9528,
+      "timer_name": "Functional",
+      "parent_id": "SAPT(DFT): Monomer A DFT;HF: Form G;RV: Form V",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "HF: Form G",
+        "RV: Form V",
+        "Functional"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT): Monomer A DFT;HF: Form G;RV: Form V;V_xc": {
+      "wall_time": 0.330873299,
+      "user_time": 0.5333333333333333,
+      "system_time": 0.03333333333333333,
+      "n_calls": 9528,
+      "timer_name": "V_xc",
+      "parent_id": "SAPT(DFT): Monomer A DFT;HF: Form G;RV: Form V",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "HF: Form G",
+        "RV: Form V",
+        "V_xc"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT): Monomer A DFT;HF: Form G;JK: D": {
+      "wall_time": 0.000262816,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "JK: D",
+      "parent_id": "SAPT(DFT): Monomer A DFT;HF: Form G",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "HF: Form G",
+        "JK: D"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT): Monomer A DFT;HF: Form G;JK: USO2AO": {
+      "wall_time": 0.000125016,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "SAPT(DFT): Monomer A DFT;HF: Form G",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "HF: Form G",
+        "JK: USO2AO"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT): Monomer A DFT;HF: Form G;JK: JK": {
+      "wall_time": 0.032599173,
+      "user_time": 0.08333333333333333,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "JK: JK",
+      "parent_id": "SAPT(DFT): Monomer A DFT;HF: Form G",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "HF: Form G",
+        "JK: JK"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT): Monomer A DFT;HF: Form G;JK: JK;DFH: compute_JK()": {
+      "wall_time": 0.032311345,
+      "user_time": 0.08333333333333333,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "DFH: compute_JK()",
+      "parent_id": "SAPT(DFT): Monomer A DFT;HF: Form G;JK: JK",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT): Monomer A DFT;HF: Form G;JK: JK;DFH: compute_JK();DFH: Grabbing AOs": {
+      "wall_time": 4.9375e-05,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "DFH: Grabbing AOs",
+      "parent_id": "SAPT(DFT): Monomer A DFT;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: Grabbing AOs"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT): Monomer A DFT;HF: Form G;JK: JK;DFH: compute_JK();DFH: compute_J": {
+      "wall_time": 0.015489812,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "DFH: compute_J",
+      "parent_id": "SAPT(DFT): Monomer A DFT;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_J"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT): Monomer A DFT;HF: Form G;JK: JK;DFH: compute_JK();DFH: compute_K": {
+      "wall_time": 0.015863425,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "DFH: compute_K",
+      "parent_id": "SAPT(DFT): Monomer A DFT;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_K"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT): Monomer A DFT;HF: Form G;JK: AO2USO": {
+      "wall_time": 5.9512e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "SAPT(DFT): Monomer A DFT;HF: Form G",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "HF: Form G",
+        "JK: AO2USO"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT): Monomer A DFT;HF: Form F": {
+      "wall_time": 0.000371645,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "HF: Form F",
+      "parent_id": "SAPT(DFT): Monomer A DFT",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "HF: Form F"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT): Monomer A DFT;HF: Form D": {
+      "wall_time": 0.000252099,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "HF: Form D",
+      "parent_id": "SAPT(DFT): Monomer A DFT",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "HF: Form D"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT): Monomer A DFT;HF: DIIS": {
+      "wall_time": 0.188124805,
+      "user_time": 0.31666666666666665,
+      "system_time": 0.016666666666666666,
+      "n_calls": 20,
+      "timer_name": "HF: DIIS",
+      "parent_id": "SAPT(DFT): Monomer A DFT",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "HF: DIIS"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT): Monomer A DFT;HF: Form C": {
+      "wall_time": 0.013609908,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 20,
+      "timer_name": "HF: Form C",
+      "parent_id": "SAPT(DFT): Monomer A DFT",
+      "timer_path": [
+        "SAPT(DFT): Monomer A DFT",
+        "HF: Form C"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT): Monomer B DFT": {
+      "wall_time": 3.478558787,
+      "user_time": 5.433333333333334,
+      "system_time": 0.36666666666666664,
+      "n_calls": 4,
+      "timer_name": "SAPT(DFT): Monomer B DFT",
+      "parent_id": null,
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT"
+      ],
+      "level": 0
+    },
+    "SAPT(DFT): Monomer B DFT;V: Grid": {
+      "wall_time": 0.072506301,
+      "user_time": 0.13333333333333336,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "V: Grid",
+      "parent_id": "SAPT(DFT): Monomer B DFT",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "V: Grid"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT): Monomer B DFT;V: Grid;build grid": {
+      "wall_time": 0.039331149,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "build grid",
+      "parent_id": "SAPT(DFT): Monomer B DFT;V: Grid",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "V: Grid",
+        "build grid"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT): Monomer B DFT;V: Grid;post-process grid": {
+      "wall_time": 0.032697877,
+      "user_time": 0.06666666666666667,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "post-process grid",
+      "parent_id": "SAPT(DFT): Monomer B DFT;V: Grid",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "V: Grid",
+        "post-process grid"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT): Monomer B DFT;HF: Form core H": {
+      "wall_time": 0.009223971,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "HF: Form core H",
+      "parent_id": "SAPT(DFT): Monomer B DFT",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "HF: Form core H"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT): Monomer B DFT;HF: Form S/X": {
+      "wall_time": 0.001792671,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "HF: Form S/X",
+      "parent_id": "SAPT(DFT): Monomer B DFT",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "HF: Form S/X"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT): Monomer B DFT;HF: Guess": {
+      "wall_time": 0.387727347,
+      "user_time": 0.43333333333333335,
+      "system_time": 0.2,
+      "n_calls": 4,
+      "timer_name": "HF: Guess",
+      "parent_id": "SAPT(DFT): Monomer B DFT",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "HF: Guess"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT): Monomer B DFT;HF: Guess;SAD Guess": {
+      "wall_time": 0.379665298,
+      "user_time": 0.43333333333333335,
+      "system_time": 0.2,
+      "n_calls": 4,
+      "timer_name": "SAD Guess",
+      "parent_id": "SAPT(DFT): Monomer B DFT;HF: Guess",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "HF: Guess",
+        "SAD Guess"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT): Monomer B DFT;HF: Form G": {
+      "wall_time": 2.207393167,
+      "user_time": 3.5333333333333328,
+      "system_time": 0.13333333333333333,
+      "n_calls": 28,
+      "timer_name": "HF: Form G",
+      "parent_id": "SAPT(DFT): Monomer B DFT",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "HF: Form G"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT): Monomer B DFT;HF: Form G;RV: Form V": {
+      "wall_time": 2.162664627,
+      "user_time": 3.433333333333333,
+      "system_time": 0.13333333333333333,
+      "n_calls": 28,
+      "timer_name": "RV: Form V",
+      "parent_id": "SAPT(DFT): Monomer B DFT;HF: Form G",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "HF: Form G",
+        "RV: Form V"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT): Monomer B DFT;HF: Form G;RV: Form V;Properties": {
+      "wall_time": 0.384761994,
+      "user_time": 0.49999999999999994,
+      "system_time": 0.016666666666666666,
+      "n_calls": 11116,
+      "timer_name": "Properties",
+      "parent_id": "SAPT(DFT): Monomer B DFT;HF: Form G;RV: Form V",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "HF: Form G",
+        "RV: Form V",
+        "Properties"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT): Monomer B DFT;HF: Form G;RV: Form V;Functional": {
+      "wall_time": 1.345560841,
+      "user_time": 2.1499999999999972,
+      "system_time": 0.08333333333333333,
+      "n_calls": 11116,
+      "timer_name": "Functional",
+      "parent_id": "SAPT(DFT): Monomer B DFT;HF: Form G;RV: Form V",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "HF: Form G",
+        "RV: Form V",
+        "Functional"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT): Monomer B DFT;HF: Form G;RV: Form V;V_xc": {
+      "wall_time": 0.364859284,
+      "user_time": 0.6666666666666671,
+      "system_time": 0.016666666666666666,
+      "n_calls": 11116,
+      "timer_name": "V_xc",
+      "parent_id": "SAPT(DFT): Monomer B DFT;HF: Form G;RV: Form V",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "HF: Form G",
+        "RV: Form V",
+        "V_xc"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT): Monomer B DFT;HF: Form G;JK: D": {
+      "wall_time": 0.000285447,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 28,
+      "timer_name": "JK: D",
+      "parent_id": "SAPT(DFT): Monomer B DFT;HF: Form G",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "HF: Form G",
+        "JK: D"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT): Monomer B DFT;HF: Form G;JK: USO2AO": {
+      "wall_time": 0.000125215,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 28,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "SAPT(DFT): Monomer B DFT;HF: Form G",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "HF: Form G",
+        "JK: USO2AO"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT): Monomer B DFT;HF: Form G;JK: JK": {
+      "wall_time": 0.042616462,
+      "user_time": 0.08333333333333333,
+      "system_time": 0.0,
+      "n_calls": 28,
+      "timer_name": "JK: JK",
+      "parent_id": "SAPT(DFT): Monomer B DFT;HF: Form G",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "HF: Form G",
+        "JK: JK"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT): Monomer B DFT;HF: Form G;JK: JK;DFH: compute_JK()": {
+      "wall_time": 0.042273322,
+      "user_time": 0.06666666666666667,
+      "system_time": 0.0,
+      "n_calls": 28,
+      "timer_name": "DFH: compute_JK()",
+      "parent_id": "SAPT(DFT): Monomer B DFT;HF: Form G;JK: JK",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT): Monomer B DFT;HF: Form G;JK: JK;DFH: compute_JK();DFH: Grabbing AOs": {
+      "wall_time": 5.2786e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 28,
+      "timer_name": "DFH: Grabbing AOs",
+      "parent_id": "SAPT(DFT): Monomer B DFT;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: Grabbing AOs"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT): Monomer B DFT;HF: Form G;JK: JK;DFH: compute_JK();DFH: compute_J": {
+      "wall_time": 0.017990573,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 28,
+      "timer_name": "DFH: compute_J",
+      "parent_id": "SAPT(DFT): Monomer B DFT;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_J"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT): Monomer B DFT;HF: Form G;JK: JK;DFH: compute_JK();DFH: compute_K": {
+      "wall_time": 0.022749948,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 28,
+      "timer_name": "DFH: compute_K",
+      "parent_id": "SAPT(DFT): Monomer B DFT;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_K"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT): Monomer B DFT;HF: Form G;JK: AO2USO": {
+      "wall_time": 6.4774e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 28,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "SAPT(DFT): Monomer B DFT;HF: Form G",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "HF: Form G",
+        "JK: AO2USO"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT): Monomer B DFT;HF: Form F": {
+      "wall_time": 0.00041538,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 28,
+      "timer_name": "HF: Form F",
+      "parent_id": "SAPT(DFT): Monomer B DFT",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "HF: Form F"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT): Monomer B DFT;HF: Form D": {
+      "wall_time": 0.000319351,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 28,
+      "timer_name": "HF: Form D",
+      "parent_id": "SAPT(DFT): Monomer B DFT",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "HF: Form D"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT): Monomer B DFT;HF: DIIS": {
+      "wall_time": 0.085738819,
+      "user_time": 0.11666666666666665,
+      "system_time": 0.016666666666666666,
+      "n_calls": 24,
+      "timer_name": "HF: DIIS",
+      "parent_id": "SAPT(DFT): Monomer B DFT",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "HF: DIIS"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT): Monomer B DFT;HF: Form C": {
+      "wall_time": 0.015620983,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "HF: Form C",
+      "parent_id": "SAPT(DFT): Monomer B DFT",
+      "timer_path": [
+        "SAPT(DFT): Monomer B DFT",
+        "HF: Form C"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Build JK": {
+      "wall_time": 0.037320664,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "SAPT(DFT):Build JK",
+      "parent_id": null,
+      "timer_path": [
+        "SAPT(DFT):Build JK"
+      ],
+      "level": 0
+    },
+    "SAPT(DFT):Build JK;JK: D": {
+      "wall_time": 9.4519e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "JK: D",
+      "parent_id": "SAPT(DFT):Build JK",
+      "timer_path": [
+        "SAPT(DFT):Build JK",
+        "JK: D"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Build JK;JK: USO2AO": {
+      "wall_time": 7.547e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "SAPT(DFT):Build JK",
+      "timer_path": [
+        "SAPT(DFT):Build JK",
+        "JK: USO2AO"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Build JK;JK: JK": {
+      "wall_time": 0.01651159,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "JK: JK",
+      "parent_id": "SAPT(DFT):Build JK",
+      "timer_path": [
+        "SAPT(DFT):Build JK",
+        "JK: JK"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Build JK;JK: JK;DFH: compute_JK()": {
+      "wall_time": 0.016443612,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DFH: compute_JK()",
+      "parent_id": "SAPT(DFT):Build JK;JK: JK",
+      "timer_path": [
+        "SAPT(DFT):Build JK",
+        "JK: JK",
+        "DFH: compute_JK()"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):Build JK;JK: JK;DFH: compute_JK();DFH: Grabbing AOs": {
+      "wall_time": 7.352e-06,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DFH: Grabbing AOs",
+      "parent_id": "SAPT(DFT):Build JK;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT):Build JK",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: Grabbing AOs"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT):Build JK;JK: JK;DFH: compute_JK();DFH: compute_J": {
+      "wall_time": 0.006128944,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DFH: compute_J",
+      "parent_id": "SAPT(DFT):Build JK;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT):Build JK",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_J"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT):Build JK;JK: JK;DFH: compute_JK();DFH: compute_K": {
+      "wall_time": 0.009955249,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DFH: compute_K",
+      "parent_id": "SAPT(DFT):Build JK;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT):Build JK",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_K"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT):Build JK;JK: AO2USO": {
+      "wall_time": 8.971e-06,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "SAPT(DFT):Build JK",
+      "timer_path": [
+        "SAPT(DFT):Build JK",
+        "JK: AO2USO"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):elst": {
+      "wall_time": 0.000197676,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "SAPT(DFT):elst",
+      "parent_id": null,
+      "timer_path": [
+        "SAPT(DFT):elst"
+      ],
+      "level": 0
+    },
+    "SAPT(DFT):exch": {
+      "wall_time": 0.017661083,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "SAPT(DFT):exch",
+      "parent_id": null,
+      "timer_path": [
+        "SAPT(DFT):exch"
+      ],
+      "level": 0
+    },
+    "SAPT(DFT):exch;JK: D": {
+      "wall_time": 4.8929e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "JK: D",
+      "parent_id": "SAPT(DFT):exch",
+      "timer_path": [
+        "SAPT(DFT):exch",
+        "JK: D"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):exch;JK: USO2AO": {
+      "wall_time": 3.2057e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "SAPT(DFT):exch",
+      "timer_path": [
+        "SAPT(DFT):exch",
+        "JK: USO2AO"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):exch;JK: JK": {
+      "wall_time": 0.014391398,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "JK: JK",
+      "parent_id": "SAPT(DFT):exch",
+      "timer_path": [
+        "SAPT(DFT):exch",
+        "JK: JK"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):exch;JK: JK;DFH: compute_JK()": {
+      "wall_time": 0.014322485,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DFH: compute_JK()",
+      "parent_id": "SAPT(DFT):exch;JK: JK",
+      "timer_path": [
+        "SAPT(DFT):exch",
+        "JK: JK",
+        "DFH: compute_JK()"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):exch;JK: JK;DFH: compute_JK();DFH: Grabbing AOs": {
+      "wall_time": 7.368e-06,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DFH: Grabbing AOs",
+      "parent_id": "SAPT(DFT):exch;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT):exch",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: Grabbing AOs"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT):exch;JK: JK;DFH: compute_JK();DFH: compute_J": {
+      "wall_time": 0.004328272,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DFH: compute_J",
+      "parent_id": "SAPT(DFT):exch;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT):exch",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_J"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT):exch;JK: JK;DFH: compute_JK();DFH: compute_K": {
+      "wall_time": 0.009658886,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DFH: compute_K",
+      "parent_id": "SAPT(DFT):exch;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT):exch",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_K"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT):exch;JK: AO2USO": {
+      "wall_time": 8.726e-06,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "SAPT(DFT):exch",
+      "timer_path": [
+        "SAPT(DFT):exch",
+        "JK: AO2USO"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):ind": {
+      "wall_time": 6.117046064,
+      "user_time": 9.766666666666666,
+      "system_time": 0.41666666666666674,
+      "n_calls": 4,
+      "timer_name": "SAPT(DFT):ind",
+      "parent_id": null,
+      "timer_path": [
+        "SAPT(DFT):ind"
+      ],
+      "level": 0
+    },
+    "SAPT(DFT):ind;JK: D": {
+      "wall_time": 0.000536358,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 60,
+      "timer_name": "JK: D",
+      "parent_id": "SAPT(DFT):ind",
+      "timer_path": [
+        "SAPT(DFT):ind",
+        "JK: D"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):ind;JK: USO2AO": {
+      "wall_time": 0.000309216,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 60,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "SAPT(DFT):ind",
+      "timer_path": [
+        "SAPT(DFT):ind",
+        "JK: USO2AO"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):ind;JK: JK": {
+      "wall_time": 0.117552089,
+      "user_time": 0.2333333333333333,
+      "system_time": 0.0,
+      "n_calls": 60,
+      "timer_name": "JK: JK",
+      "parent_id": "SAPT(DFT):ind",
+      "timer_path": [
+        "SAPT(DFT):ind",
+        "JK: JK"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):ind;JK: JK;DFH: compute_JK()": {
+      "wall_time": 0.116911158,
+      "user_time": 0.2333333333333333,
+      "system_time": 0.0,
+      "n_calls": 60,
+      "timer_name": "DFH: compute_JK()",
+      "parent_id": "SAPT(DFT):ind;JK: JK",
+      "timer_path": [
+        "SAPT(DFT):ind",
+        "JK: JK",
+        "DFH: compute_JK()"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):ind;JK: JK;DFH: compute_JK();DFH: Grabbing AOs": {
+      "wall_time": 0.000155976,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 60,
+      "timer_name": "DFH: Grabbing AOs",
+      "parent_id": "SAPT(DFT):ind;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT):ind",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: Grabbing AOs"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT):ind;JK: JK;DFH: compute_JK();DFH: compute_J": {
+      "wall_time": 0.049744663,
+      "user_time": 0.11666666666666665,
+      "system_time": 0.0,
+      "n_calls": 60,
+      "timer_name": "DFH: compute_J",
+      "parent_id": "SAPT(DFT):ind;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT):ind",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_J"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT):ind;JK: JK;DFH: compute_JK();DFH: compute_K": {
+      "wall_time": 0.062398544,
+      "user_time": 0.09999999999999999,
+      "system_time": 0.0,
+      "n_calls": 60,
+      "timer_name": "DFH: compute_K",
+      "parent_id": "SAPT(DFT):ind;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT):ind",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_K"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT):ind;JK: AO2USO": {
+      "wall_time": 0.000140824,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 60,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "SAPT(DFT):ind",
+      "timer_path": [
+        "SAPT(DFT):ind",
+        "JK: AO2USO"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):ind;RV: Form Vx": {
+      "wall_time": 5.978722649,
+      "user_time": 9.516666666666667,
+      "system_time": 0.41666666666666663,
+      "n_calls": 56,
+      "timer_name": "RV: Form Vx",
+      "parent_id": "SAPT(DFT):ind",
+      "timer_path": [
+        "SAPT(DFT):ind",
+        "RV: Form Vx"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):ind;RV: Form Vx;Properties": {
+      "wall_time": 2.912720014,
+      "user_time": 4.699999999999989,
+      "system_time": 0.21666666666666665,
+      "n_calls": 22232,
+      "timer_name": "Properties",
+      "parent_id": "SAPT(DFT):ind;RV: Form Vx",
+      "timer_path": [
+        "SAPT(DFT):ind",
+        "RV: Form Vx",
+        "Properties"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):ind;RV: Form Vx;Functional": {
+      "wall_time": 1.374522319,
+      "user_time": 2.2333333333333303,
+      "system_time": 0.09999999999999999,
+      "n_calls": 22232,
+      "timer_name": "Functional",
+      "parent_id": "SAPT(DFT):ind;RV: Form Vx",
+      "timer_path": [
+        "SAPT(DFT):ind",
+        "RV: Form Vx",
+        "Functional"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):ind;RV: Form Vx;Derivative Properties": {
+      "wall_time": 0.664907948,
+      "user_time": 1.0833333333333344,
+      "system_time": 0.06666666666666667,
+      "n_calls": 22232,
+      "timer_name": "Derivative Properties",
+      "parent_id": "SAPT(DFT):ind;RV: Form Vx",
+      "timer_path": [
+        "SAPT(DFT):ind",
+        "RV: Form Vx",
+        "Derivative Properties"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):ind;RV: Form Vx;V_XCd": {
+      "wall_time": 0.79698804,
+      "user_time": 1.266666666666667,
+      "system_time": 0.03333333333333333,
+      "n_calls": 22232,
+      "timer_name": "V_XCd",
+      "parent_id": "SAPT(DFT):ind;RV: Form Vx",
+      "timer_path": [
+        "SAPT(DFT):ind",
+        "RV: Form Vx",
+        "V_XCd"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):disp": {
+      "wall_time": 3.468351061,
+      "user_time": 4.583333333333333,
+      "system_time": 0.8833333333333333,
+      "n_calls": 4,
+      "timer_name": "SAPT(DFT):disp",
+      "parent_id": null,
+      "timer_path": [
+        "SAPT(DFT):disp"
+      ],
+      "level": 0
+    },
+    "SAPT(DFT):disp;FDDS disp": {
+      "wall_time": 2.097053837,
+      "user_time": 3.2,
+      "system_time": 0.3,
+      "n_calls": 4,
+      "timer_name": "FDDS disp",
+      "parent_id": "SAPT(DFT):disp",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object": {
+      "wall_time": 1.110349865,
+      "user_time": 1.65,
+      "system_time": 0.21666666666666667,
+      "n_calls": 4,
+      "timer_name": "Form FDDS object",
+      "parent_id": "SAPT(DFT):disp;FDDS disp",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;Form JS": {
+      "wall_time": 0.030358725,
+      "user_time": 0.05,
+      "system_time": 0.016666666666666666,
+      "n_calls": 4,
+      "timer_name": "Form JS",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "Form JS"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;Form JS;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.00017379,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;Form JS",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "Form JS",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: initialize()": {
+      "wall_time": 0.733075113,
+      "user_time": 1.1166666666666667,
+      "system_time": 0.13333333333333336,
+      "n_calls": 6,
+      "timer_name": "DFH: initialize()",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: initialize()"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: initialize();DFH: sparsity prep": {
+      "wall_time": 0.248673406,
+      "user_time": 0.35,
+      "system_time": 0.05,
+      "n_calls": 4,
+      "timer_name": "DFH: sparsity prep",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: initialize()",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: initialize()",
+        "DFH: sparsity prep"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: initialize();DFH: sparsity prep;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.17962223,
+      "user_time": 0.25,
+      "system_time": 0.05,
+      "n_calls": 4,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: initialize();DFH: sparsity prep",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: initialize()",
+        "DFH: sparsity prep",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 5
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: initialize();Libint2ERI::Libint2ERI": {
+      "wall_time": 0.239188623,
+      "user_time": 0.3333333333333333,
+      "system_time": 0.05,
+      "n_calls": 8,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: initialize()",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: initialize()",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: initialize();DFH: AO Construction": {
+      "wall_time": 0.209873655,
+      "user_time": 0.36666666666666664,
+      "system_time": 0.0,
+      "n_calls": 6,
+      "timer_name": "DFH: AO Construction",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: initialize()",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: initialize()",
+        "DFH: AO Construction"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform()": {
+      "wall_time": 0.304913418,
+      "user_time": 0.4333333333333333,
+      "system_time": 0.06666666666666667,
+      "n_calls": 6,
+      "timer_name": "DFH: transform()",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: transform()"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();Libint2ERI::Libint2ERI": {
+      "wall_time": 0.20158978,
+      "user_time": 0.3,
+      "system_time": 0.016666666666666666,
+      "n_calls": 6,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform()",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: transform()",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: Total Workflow": {
+      "wall_time": 0.016974499,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 44,
+      "timer_name": "DFH: Total Workflow",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform()",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: transform()",
+        "DFH: Total Workflow"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: Total Workflow;DFH: Total Transform": {
+      "wall_time": 0.016794968,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 44,
+      "timer_name": "DFH: Total Transform",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: Total Workflow",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: transform()",
+        "DFH: Total Workflow",
+        "DFH: Total Transform"
+      ],
+      "level": 5
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: Total Workflow;DFH: Total Transform;DFH: 1st Contraction": {
+      "wall_time": 0.011165635,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 16,
+      "timer_name": "DFH: 1st Contraction",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: Total Workflow;DFH: Total Transform",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: transform()",
+        "DFH: Total Workflow",
+        "DFH: Total Transform",
+        "DFH: 1st Contraction"
+      ],
+      "level": 6
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: Total Workflow;DFH: Total Transform;DFH: 2nd Contraction": {
+      "wall_time": 0.005435373,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 28,
+      "timer_name": "DFH: 2nd Contraction",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: Total Workflow;DFH: Total Transform",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: transform()",
+        "DFH: Total Workflow",
+        "DFH: Total Transform",
+        "DFH: 2nd Contraction"
+      ],
+      "level": 6
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: MO to disk, arQ": {
+      "wall_time": 0.000958121,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DFH: MO to disk, arQ",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform()",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: transform()",
+        "DFH: MO to disk, arQ"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: MO to disk, bsQ": {
+      "wall_time": 0.00123103,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "DFH: MO to disk, bsQ",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform()",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: transform()",
+        "DFH: MO to disk, bsQ"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: Metric Contractions": {
+      "wall_time": 0.063374021,
+      "user_time": 0.06666666666666667,
+      "system_time": 0.03333333333333333,
+      "n_calls": 6,
+      "timer_name": "DFH: Metric Contractions",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform()",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: transform()",
+        "DFH: Metric Contractions"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: Metric Contractions;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.000179848,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: Metric Contractions",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: transform()",
+        "DFH: Metric Contractions",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 5
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: Metric Contractions;DFH: Total Workflow": {
+      "wall_time": 0.012010051,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 28,
+      "timer_name": "DFH: Total Workflow",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: Metric Contractions",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: transform()",
+        "DFH: Metric Contractions",
+        "DFH: Total Workflow"
+      ],
+      "level": 5
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: MO to disk, Qar": {
+      "wall_time": 0.000575665,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "DFH: MO to disk, Qar",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform()",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: transform()",
+        "DFH: MO to disk, Qar"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: MO to disk, raQ": {
+      "wall_time": 0.000434786,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "DFH: MO to disk, raQ",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform()",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: transform()",
+        "DFH: MO to disk, raQ"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: MO to disk, Qbs": {
+      "wall_time": 0.000735469,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "DFH: MO to disk, Qbs",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform()",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: transform()",
+        "DFH: MO to disk, Qbs"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: MO to disk, sbQ": {
+      "wall_time": 0.000647519,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "DFH: MO to disk, sbQ",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform()",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: transform()",
+        "DFH: MO to disk, sbQ"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: MO to disk, aaR": {
+      "wall_time": 0.000209645,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "DFH: MO to disk, aaR",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform()",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: transform()",
+        "DFH: MO to disk, aaR"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: MO to disk, arR": {
+      "wall_time": 0.000386275,
+      "user_time": 0.0,
+      "system_time": 0.016666666666666666,
+      "n_calls": 2,
+      "timer_name": "DFH: MO to disk, arR",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform()",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: transform()",
+        "DFH: MO to disk, arR"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: MO to disk, bbR": {
+      "wall_time": 0.000213725,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "DFH: MO to disk, bbR",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform()",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: transform()",
+        "DFH: MO to disk, bbR"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: MO to disk, bsR": {
+      "wall_time": 0.000568633,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "DFH: MO to disk, bsR",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform()",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: transform()",
+        "DFH: MO to disk, bsR"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: MO to disk, ssR": {
+      "wall_time": 0.002513912,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "DFH: MO to disk, ssR",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform()",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: transform()",
+        "DFH: MO to disk, ssR"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform();DFH: MO to disk, rrR": {
+      "wall_time": 0.002864699,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "DFH: MO to disk, rrR",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object;DFH: transform()",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "DFH: transform()",
+        "DFH: MO to disk, rrR"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;FDDS: QR": {
+      "wall_time": 0.008334358,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "FDDS: QR",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "FDDS: QR"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;FDDS: Form X": {
+      "wall_time": 0.011706967,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "FDDS: Form X",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "FDDS: Form X"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT):disp;FDDS disp;Form FDDS object;FDDS: Form Y": {
+      "wall_time": 0.020181896,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "FDDS: Form Y",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form FDDS object",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form FDDS object",
+        "FDDS: Form Y"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT):disp;FDDS disp;Form xc kernel": {
+      "wall_time": 0.47331903,
+      "user_time": 0.75,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "Form xc kernel",
+      "parent_id": "SAPT(DFT):disp;FDDS disp",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form xc kernel"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):disp;FDDS disp;Form xc kernel;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.137032185,
+      "user_time": 0.21666666666666667,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "SAPT(DFT):disp;FDDS disp;Form xc kernel",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Form xc kernel",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT):disp;FDDS disp;Time Integration": {
+      "wall_time": 0.499662112,
+      "user_time": 0.8,
+      "system_time": 0.06666666666666667,
+      "n_calls": 4,
+      "timer_name": "Time Integration",
+      "parent_id": "SAPT(DFT):disp;FDDS disp",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "FDDS disp",
+        "Time Integration"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):disp;MP2 disp": {
+      "wall_time": 1.327237934,
+      "user_time": 1.3166666666666667,
+      "system_time": 0.5833333333333334,
+      "n_calls": 4,
+      "timer_name": "MP2 disp",
+      "parent_id": "SAPT(DFT):disp",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "MP2 disp"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):disp;MP2 disp;SAPT0: DF Integrals": {
+      "wall_time": 0.692105176,
+      "user_time": 0.8833333333333333,
+      "system_time": 0.23333333333333334,
+      "n_calls": 4,
+      "timer_name": "SAPT0: DF Integrals",
+      "parent_id": "SAPT(DFT):disp;MP2 disp",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "MP2 disp",
+        "SAPT0: DF Integrals"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):disp;MP2 disp;SAPT0: DF Integrals;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.350158042,
+      "user_time": 0.44999999999999996,
+      "system_time": 0.11666666666666667,
+      "n_calls": 16,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "SAPT(DFT):disp;MP2 disp;SAPT0: DF Integrals",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "MP2 disp",
+        "SAPT0: DF Integrals",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT):disp;MP2 disp;SAPT0: W Integrals": {
+      "wall_time": 0.001323303,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "SAPT0: W Integrals",
+      "parent_id": "SAPT(DFT):disp;MP2 disp",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "MP2 disp",
+        "SAPT0: W Integrals"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):disp;MP2 disp;SAPT0: Exch-Disp20 N^5": {
+      "wall_time": 0.322191369,
+      "user_time": 0.08333333333333333,
+      "system_time": 0.2,
+      "n_calls": 4,
+      "timer_name": "SAPT0: Exch-Disp20 N^5",
+      "parent_id": "SAPT(DFT):disp;MP2 disp",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "MP2 disp",
+        "SAPT0: Exch-Disp20 N^5"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):disp;MP2 disp;SAPT0: Exch-Disp20 N^4": {
+      "wall_time": 0.241564212,
+      "user_time": 0.2833333333333333,
+      "system_time": 0.11666666666666667,
+      "n_calls": 4,
+      "timer_name": "SAPT0: Exch-Disp20 N^4",
+      "parent_id": "SAPT(DFT):disp;MP2 disp",
+      "timer_path": [
+        "SAPT(DFT):disp",
+        "MP2 disp",
+        "SAPT0: Exch-Disp20 N^4"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):Dimer SCF": {
+      "wall_time": 1.344657621,
+      "user_time": 1.9666666666666666,
+      "system_time": 0.2833333333333333,
+      "n_calls": 3,
+      "timer_name": "SAPT(DFT):Dimer SCF",
+      "parent_id": null,
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF"
+      ],
+      "level": 0
+    },
+    "SAPT(DFT):Dimer SCF;DFH: sparsity prep": {
+      "wall_time": 0.194958351,
+      "user_time": 0.25,
+      "system_time": 0.05,
+      "n_calls": 3,
+      "timer_name": "DFH: sparsity prep",
+      "parent_id": "SAPT(DFT):Dimer SCF",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "DFH: sparsity prep"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Dimer SCF;DFH: sparsity prep;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.143652487,
+      "user_time": 0.18333333333333335,
+      "system_time": 0.05,
+      "n_calls": 3,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "SAPT(DFT):Dimer SCF;DFH: sparsity prep",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "DFH: sparsity prep",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):Dimer SCF;DFH: initialize()": {
+      "wall_time": 0.252080455,
+      "user_time": 0.3666666666666667,
+      "system_time": 0.06666666666666667,
+      "n_calls": 3,
+      "timer_name": "DFH: initialize()",
+      "parent_id": "SAPT(DFT):Dimer SCF",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "DFH: initialize()"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Dimer SCF;DFH: initialize();Libint2ERI::Libint2ERI": {
+      "wall_time": 0.136048778,
+      "user_time": 0.18333333333333335,
+      "system_time": 0.05,
+      "n_calls": 6,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "SAPT(DFT):Dimer SCF;DFH: initialize()",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "DFH: initialize()",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):Dimer SCF;DFH: initialize();DFH: AO Construction": {
+      "wall_time": 0.069721752,
+      "user_time": 0.11666666666666667,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "DFH: AO Construction",
+      "parent_id": "SAPT(DFT):Dimer SCF;DFH: initialize()",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "DFH: initialize()",
+        "DFH: AO Construction"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):Dimer SCF;DFH: initialize();DFH: AO-Met. Contraction": {
+      "wall_time": 0.00919642,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "DFH: AO-Met. Contraction",
+      "parent_id": "SAPT(DFT):Dimer SCF;DFH: initialize()",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "DFH: initialize()",
+        "DFH: AO-Met. Contraction"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):Dimer SCF;HF: Form core H": {
+      "wall_time": 0.005168838,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "HF: Form core H",
+      "parent_id": "SAPT(DFT):Dimer SCF",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "HF: Form core H"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Dimer SCF;HF: Form S/X": {
+      "wall_time": 0.00161074,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "HF: Form S/X",
+      "parent_id": "SAPT(DFT):Dimer SCF",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "HF: Form S/X"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Dimer SCF;HF: Guess": {
+      "wall_time": 0.383321495,
+      "user_time": 0.5333333333333333,
+      "system_time": 0.11666666666666667,
+      "n_calls": 3,
+      "timer_name": "HF: Guess",
+      "parent_id": "SAPT(DFT):Dimer SCF",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "HF: Guess"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Dimer SCF;HF: Guess;SAD Guess": {
+      "wall_time": 0.376819245,
+      "user_time": 0.5166666666666667,
+      "system_time": 0.11666666666666667,
+      "n_calls": 3,
+      "timer_name": "SAD Guess",
+      "parent_id": "SAPT(DFT):Dimer SCF;HF: Guess",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "HF: Guess",
+        "SAD Guess"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):Dimer SCF;HF: Form G": {
+      "wall_time": 0.03537714,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "HF: Form G",
+      "parent_id": "SAPT(DFT):Dimer SCF",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "HF: Form G"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Dimer SCF;HF: Form G;JK: D": {
+      "wall_time": 0.000304491,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "JK: D",
+      "parent_id": "SAPT(DFT):Dimer SCF;HF: Form G",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "HF: Form G",
+        "JK: D"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):Dimer SCF;HF: Form G;JK: USO2AO": {
+      "wall_time": 8.6284e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "SAPT(DFT):Dimer SCF;HF: Form G",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "HF: Form G",
+        "JK: USO2AO"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):Dimer SCF;HF: Form G;JK: JK": {
+      "wall_time": 0.033467132,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "JK: JK",
+      "parent_id": "SAPT(DFT):Dimer SCF;HF: Form G",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "HF: Form G",
+        "JK: JK"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):Dimer SCF;HF: Form G;JK: JK;DFH: compute_JK()": {
+      "wall_time": 0.033271375,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "DFH: compute_JK()",
+      "parent_id": "SAPT(DFT):Dimer SCF;HF: Form G;JK: JK",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT):Dimer SCF;HF: Form G;JK: JK;DFH: compute_JK();DFH: Grabbing AOs": {
+      "wall_time": 4.4625e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "DFH: Grabbing AOs",
+      "parent_id": "SAPT(DFT):Dimer SCF;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: Grabbing AOs"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):Dimer SCF;HF: Form G;JK: JK;DFH: compute_JK();DFH: compute_J": {
+      "wall_time": 0.010095418,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "DFH: compute_J",
+      "parent_id": "SAPT(DFT):Dimer SCF;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_J"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):Dimer SCF;HF: Form G;JK: JK;DFH: compute_JK();DFH: compute_K": {
+      "wall_time": 0.021524042,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "DFH: compute_K",
+      "parent_id": "SAPT(DFT):Dimer SCF;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_K"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):Dimer SCF;HF: Form G;JK: AO2USO": {
+      "wall_time": 5.0475e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "SAPT(DFT):Dimer SCF;HF: Form G",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "HF: Form G",
+        "JK: AO2USO"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):Dimer SCF;HF: Form F": {
+      "wall_time": 0.000325823,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "HF: Form F",
+      "parent_id": "SAPT(DFT):Dimer SCF",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "HF: Form F"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Dimer SCF;HF: Form D": {
+      "wall_time": 0.000261619,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "HF: Form D",
+      "parent_id": "SAPT(DFT):Dimer SCF",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "HF: Form D"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Dimer SCF;HF: DIIS": {
+      "wall_time": 0.073839405,
+      "user_time": 0.11666666666666665,
+      "system_time": 0.0,
+      "n_calls": 21,
+      "timer_name": "HF: DIIS",
+      "parent_id": "SAPT(DFT):Dimer SCF",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "HF: DIIS"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Dimer SCF;HF: Form C": {
+      "wall_time": 0.013259488,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 21,
+      "timer_name": "HF: Form C",
+      "parent_id": "SAPT(DFT):Dimer SCF",
+      "timer_path": [
+        "SAPT(DFT):Dimer SCF",
+        "HF: Form C"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Monomer A SCF": {
+      "wall_time": 0.522885039,
+      "user_time": 0.8499999999999999,
+      "system_time": 0.016666666666666666,
+      "n_calls": 3,
+      "timer_name": "SAPT(DFT):Monomer A SCF",
+      "parent_id": null,
+      "timer_path": [
+        "SAPT(DFT):Monomer A SCF"
+      ],
+      "level": 0
+    },
+    "SAPT(DFT):Monomer A SCF;HF: Form core H": {
+      "wall_time": 0.013838184,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "HF: Form core H",
+      "parent_id": "SAPT(DFT):Monomer A SCF",
+      "timer_path": [
+        "SAPT(DFT):Monomer A SCF",
+        "HF: Form core H"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Monomer A SCF;HF: Form S/X": {
+      "wall_time": 0.001319943,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "HF: Form S/X",
+      "parent_id": "SAPT(DFT):Monomer A SCF",
+      "timer_path": [
+        "SAPT(DFT):Monomer A SCF",
+        "HF: Form S/X"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Monomer A SCF;HF: Guess": {
+      "wall_time": 0.078511436,
+      "user_time": 0.13333333333333333,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "HF: Guess",
+      "parent_id": "SAPT(DFT):Monomer A SCF",
+      "timer_path": [
+        "SAPT(DFT):Monomer A SCF",
+        "HF: Guess"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Monomer A SCF;HF: Guess;SAD Guess": {
+      "wall_time": 0.072562474,
+      "user_time": 0.1,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "SAD Guess",
+      "parent_id": "SAPT(DFT):Monomer A SCF;HF: Guess",
+      "timer_path": [
+        "SAPT(DFT):Monomer A SCF",
+        "HF: Guess",
+        "SAD Guess"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):Monomer A SCF;HF: Form G": {
+      "wall_time": 0.019445821,
+      "user_time": 0.06666666666666667,
+      "system_time": 0.0,
+      "n_calls": 18,
+      "timer_name": "HF: Form G",
+      "parent_id": "SAPT(DFT):Monomer A SCF",
+      "timer_path": [
+        "SAPT(DFT):Monomer A SCF",
+        "HF: Form G"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Monomer A SCF;HF: Form G;JK: D": {
+      "wall_time": 0.000182703,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 18,
+      "timer_name": "JK: D",
+      "parent_id": "SAPT(DFT):Monomer A SCF;HF: Form G",
+      "timer_path": [
+        "SAPT(DFT):Monomer A SCF",
+        "HF: Form G",
+        "JK: D"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):Monomer A SCF;HF: Form G;JK: USO2AO": {
+      "wall_time": 6.9025e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 18,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "SAPT(DFT):Monomer A SCF;HF: Form G",
+      "timer_path": [
+        "SAPT(DFT):Monomer A SCF",
+        "HF: Form G",
+        "JK: USO2AO"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):Monomer A SCF;HF: Form G;JK: JK": {
+      "wall_time": 0.018145547,
+      "user_time": 0.06666666666666667,
+      "system_time": 0.0,
+      "n_calls": 18,
+      "timer_name": "JK: JK",
+      "parent_id": "SAPT(DFT):Monomer A SCF;HF: Form G",
+      "timer_path": [
+        "SAPT(DFT):Monomer A SCF",
+        "HF: Form G",
+        "JK: JK"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):Monomer A SCF;HF: Form G;JK: JK;DFH: compute_JK()": {
+      "wall_time": 0.017992883,
+      "user_time": 0.06666666666666667,
+      "system_time": 0.0,
+      "n_calls": 18,
+      "timer_name": "DFH: compute_JK()",
+      "parent_id": "SAPT(DFT):Monomer A SCF;HF: Form G;JK: JK",
+      "timer_path": [
+        "SAPT(DFT):Monomer A SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT):Monomer A SCF;HF: Form G;JK: JK;DFH: compute_JK();DFH: Grabbing AOs": {
+      "wall_time": 3.3748e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 18,
+      "timer_name": "DFH: Grabbing AOs",
+      "parent_id": "SAPT(DFT):Monomer A SCF;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT):Monomer A SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: Grabbing AOs"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):Monomer A SCF;HF: Form G;JK: JK;DFH: compute_JK();DFH: compute_J": {
+      "wall_time": 0.007130044,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 18,
+      "timer_name": "DFH: compute_J",
+      "parent_id": "SAPT(DFT):Monomer A SCF;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT):Monomer A SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_J"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):Monomer A SCF;HF: Form G;JK: JK;DFH: compute_JK();DFH: compute_K": {
+      "wall_time": 0.010173015,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 18,
+      "timer_name": "DFH: compute_K",
+      "parent_id": "SAPT(DFT):Monomer A SCF;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT):Monomer A SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_K"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):Monomer A SCF;HF: Form G;JK: AO2USO": {
+      "wall_time": 3.8347e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 18,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "SAPT(DFT):Monomer A SCF;HF: Form G",
+      "timer_path": [
+        "SAPT(DFT):Monomer A SCF",
+        "HF: Form G",
+        "JK: AO2USO"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):Monomer A SCF;HF: Form F": {
+      "wall_time": 0.000224071,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 18,
+      "timer_name": "HF: Form F",
+      "parent_id": "SAPT(DFT):Monomer A SCF",
+      "timer_path": [
+        "SAPT(DFT):Monomer A SCF",
+        "HF: Form F"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Monomer A SCF;HF: Form D": {
+      "wall_time": 0.000150256,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 18,
+      "timer_name": "HF: Form D",
+      "parent_id": "SAPT(DFT):Monomer A SCF",
+      "timer_path": [
+        "SAPT(DFT):Monomer A SCF",
+        "HF: Form D"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Monomer A SCF;HF: DIIS": {
+      "wall_time": 0.046220675,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 15,
+      "timer_name": "HF: DIIS",
+      "parent_id": "SAPT(DFT):Monomer A SCF",
+      "timer_path": [
+        "SAPT(DFT):Monomer A SCF",
+        "HF: DIIS"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Monomer A SCF;HF: Form C": {
+      "wall_time": 0.009552911,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 15,
+      "timer_name": "HF: Form C",
+      "parent_id": "SAPT(DFT):Monomer A SCF",
+      "timer_path": [
+        "SAPT(DFT):Monomer A SCF",
+        "HF: Form C"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Monomer B SCF": {
+      "wall_time": 0.832066499,
+      "user_time": 1.1166666666666667,
+      "system_time": 0.15000000000000002,
+      "n_calls": 3,
+      "timer_name": "SAPT(DFT):Monomer B SCF",
+      "parent_id": null,
+      "timer_path": [
+        "SAPT(DFT):Monomer B SCF"
+      ],
+      "level": 0
+    },
+    "SAPT(DFT):Monomer B SCF;HF: Form core H": {
+      "wall_time": 0.01063642,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "HF: Form core H",
+      "parent_id": "SAPT(DFT):Monomer B SCF",
+      "timer_path": [
+        "SAPT(DFT):Monomer B SCF",
+        "HF: Form core H"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Monomer B SCF;HF: Form S/X": {
+      "wall_time": 0.00176096,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "HF: Form S/X",
+      "parent_id": "SAPT(DFT):Monomer B SCF",
+      "timer_path": [
+        "SAPT(DFT):Monomer B SCF",
+        "HF: Form S/X"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Monomer B SCF;HF: Guess": {
+      "wall_time": 0.282542701,
+      "user_time": 0.31666666666666665,
+      "system_time": 0.15000000000000002,
+      "n_calls": 3,
+      "timer_name": "HF: Guess",
+      "parent_id": "SAPT(DFT):Monomer B SCF",
+      "timer_path": [
+        "SAPT(DFT):Monomer B SCF",
+        "HF: Guess"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Monomer B SCF;HF: Guess;SAD Guess": {
+      "wall_time": 0.275757667,
+      "user_time": 0.31666666666666665,
+      "system_time": 0.15000000000000002,
+      "n_calls": 3,
+      "timer_name": "SAD Guess",
+      "parent_id": "SAPT(DFT):Monomer B SCF;HF: Guess",
+      "timer_path": [
+        "SAPT(DFT):Monomer B SCF",
+        "HF: Guess",
+        "SAD Guess"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):Monomer B SCF;HF: Form G": {
+      "wall_time": 0.025953935,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 21,
+      "timer_name": "HF: Form G",
+      "parent_id": "SAPT(DFT):Monomer B SCF",
+      "timer_path": [
+        "SAPT(DFT):Monomer B SCF",
+        "HF: Form G"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Monomer B SCF;HF: Form G;JK: D": {
+      "wall_time": 0.000239649,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 21,
+      "timer_name": "JK: D",
+      "parent_id": "SAPT(DFT):Monomer B SCF;HF: Form G",
+      "timer_path": [
+        "SAPT(DFT):Monomer B SCF",
+        "HF: Form G",
+        "JK: D"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):Monomer B SCF;HF: Form G;JK: USO2AO": {
+      "wall_time": 6.7989e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 21,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "SAPT(DFT):Monomer B SCF;HF: Form G",
+      "timer_path": [
+        "SAPT(DFT):Monomer B SCF",
+        "HF: Form G",
+        "JK: USO2AO"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):Monomer B SCF;HF: Form G;JK: JK": {
+      "wall_time": 0.024444483,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 21,
+      "timer_name": "JK: JK",
+      "parent_id": "SAPT(DFT):Monomer B SCF;HF: Form G",
+      "timer_path": [
+        "SAPT(DFT):Monomer B SCF",
+        "HF: Form G",
+        "JK: JK"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):Monomer B SCF;HF: Form G;JK: JK;DFH: compute_JK()": {
+      "wall_time": 0.024273019,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 21,
+      "timer_name": "DFH: compute_JK()",
+      "parent_id": "SAPT(DFT):Monomer B SCF;HF: Form G;JK: JK",
+      "timer_path": [
+        "SAPT(DFT):Monomer B SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()"
+      ],
+      "level": 3
+    },
+    "SAPT(DFT):Monomer B SCF;HF: Form G;JK: JK;DFH: compute_JK();DFH: Grabbing AOs": {
+      "wall_time": 3.9104e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 21,
+      "timer_name": "DFH: Grabbing AOs",
+      "parent_id": "SAPT(DFT):Monomer B SCF;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT):Monomer B SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: Grabbing AOs"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):Monomer B SCF;HF: Form G;JK: JK;DFH: compute_JK();DFH: compute_J": {
+      "wall_time": 0.007929901,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 21,
+      "timer_name": "DFH: compute_J",
+      "parent_id": "SAPT(DFT):Monomer B SCF;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT):Monomer B SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_J"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):Monomer B SCF;HF: Form G;JK: JK;DFH: compute_JK();DFH: compute_K": {
+      "wall_time": 0.015321035,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 21,
+      "timer_name": "DFH: compute_K",
+      "parent_id": "SAPT(DFT):Monomer B SCF;HF: Form G;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(DFT):Monomer B SCF",
+        "HF: Form G",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_K"
+      ],
+      "level": 4
+    },
+    "SAPT(DFT):Monomer B SCF;HF: Form G;JK: AO2USO": {
+      "wall_time": 4.3399e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 21,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "SAPT(DFT):Monomer B SCF;HF: Form G",
+      "timer_path": [
+        "SAPT(DFT):Monomer B SCF",
+        "HF: Form G",
+        "JK: AO2USO"
+      ],
+      "level": 2
+    },
+    "SAPT(DFT):Monomer B SCF;HF: Form F": {
+      "wall_time": 0.000241312,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 21,
+      "timer_name": "HF: Form F",
+      "parent_id": "SAPT(DFT):Monomer B SCF",
+      "timer_path": [
+        "SAPT(DFT):Monomer B SCF",
+        "HF: Form F"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Monomer B SCF;HF: Form D": {
+      "wall_time": 0.000189145,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 21,
+      "timer_name": "HF: Form D",
+      "parent_id": "SAPT(DFT):Monomer B SCF",
+      "timer_path": [
+        "SAPT(DFT):Monomer B SCF",
+        "HF: Form D"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Monomer B SCF;HF: DIIS": {
+      "wall_time": 0.057964604,
+      "user_time": 0.09999999999999999,
+      "system_time": 0.0,
+      "n_calls": 18,
+      "timer_name": "HF: DIIS",
+      "parent_id": "SAPT(DFT):Monomer B SCF",
+      "timer_path": [
+        "SAPT(DFT):Monomer B SCF",
+        "HF: DIIS"
+      ],
+      "level": 1
+    },
+    "SAPT(DFT):Monomer B SCF;HF: Form C": {
+      "wall_time": 0.010891323,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 18,
+      "timer_name": "HF: Form C",
+      "parent_id": "SAPT(DFT):Monomer B SCF",
+      "timer_path": [
+        "SAPT(DFT):Monomer B SCF",
+        "HF: Form C"
+      ],
+      "level": 1
+    },
+    "JK: D": {
+      "wall_time": 7.1679e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "JK: D",
+      "parent_id": null,
+      "timer_path": [
+        "JK: D"
+      ],
+      "level": 0
+    },
+    "JK: USO2AO": {
+      "wall_time": 5.6729e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "JK: USO2AO",
+      "parent_id": null,
+      "timer_path": [
+        "JK: USO2AO"
+      ],
+      "level": 0
+    },
+    "JK: JK": {
+      "wall_time": 0.013598297,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "JK: JK",
+      "parent_id": null,
+      "timer_path": [
+        "JK: JK"
+      ],
+      "level": 0
+    },
+    "JK: JK;DFH: compute_JK()": {
+      "wall_time": 0.013548156,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "DFH: compute_JK()",
+      "parent_id": "JK: JK",
+      "timer_path": [
+        "JK: JK",
+        "DFH: compute_JK()"
+      ],
+      "level": 1
+    },
+    "JK: JK;DFH: compute_JK();DFH: Grabbing AOs": {
+      "wall_time": 6.026e-06,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "DFH: Grabbing AOs",
+      "parent_id": "JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: Grabbing AOs"
+      ],
+      "level": 2
+    },
+    "JK: JK;DFH: compute_JK();DFH: compute_J": {
+      "wall_time": 0.004521381,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "DFH: compute_J",
+      "parent_id": "JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_J"
+      ],
+      "level": 2
+    },
+    "JK: JK;DFH: compute_JK();DFH: compute_K": {
+      "wall_time": 0.008755434,
+      "user_time": 0.03333333333333333,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "DFH: compute_K",
+      "parent_id": "JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_K"
+      ],
+      "level": 2
+    },
+    "JK: AO2USO": {
+      "wall_time": 6.994e-06,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "JK: AO2USO",
+      "parent_id": null,
+      "timer_path": [
+        "JK: AO2USO"
+      ],
+      "level": 0
+    },
+    "SAPT(HF):elst": {
+      "wall_time": 0.00015467,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "SAPT(HF):elst",
+      "parent_id": null,
+      "timer_path": [
+        "SAPT(HF):elst"
+      ],
+      "level": 0
+    },
+    "SAPT(HF):exch": {
+      "wall_time": 0.012942757,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "SAPT(HF):exch",
+      "parent_id": null,
+      "timer_path": [
+        "SAPT(HF):exch"
+      ],
+      "level": 0
+    },
+    "SAPT(HF):exch;JK: D": {
+      "wall_time": 3.9803e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "JK: D",
+      "parent_id": "SAPT(HF):exch",
+      "timer_path": [
+        "SAPT(HF):exch",
+        "JK: D"
+      ],
+      "level": 1
+    },
+    "SAPT(HF):exch;JK: USO2AO": {
+      "wall_time": 2.0101e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "SAPT(HF):exch",
+      "timer_path": [
+        "SAPT(HF):exch",
+        "JK: USO2AO"
+      ],
+      "level": 1
+    },
+    "SAPT(HF):exch;JK: JK": {
+      "wall_time": 0.010637091,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "JK: JK",
+      "parent_id": "SAPT(HF):exch",
+      "timer_path": [
+        "SAPT(HF):exch",
+        "JK: JK"
+      ],
+      "level": 1
+    },
+    "SAPT(HF):exch;JK: JK;DFH: compute_JK()": {
+      "wall_time": 0.010580696,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "DFH: compute_JK()",
+      "parent_id": "SAPT(HF):exch;JK: JK",
+      "timer_path": [
+        "SAPT(HF):exch",
+        "JK: JK",
+        "DFH: compute_JK()"
+      ],
+      "level": 2
+    },
+    "SAPT(HF):exch;JK: JK;DFH: compute_JK();DFH: Grabbing AOs": {
+      "wall_time": 5.548e-06,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "DFH: Grabbing AOs",
+      "parent_id": "SAPT(HF):exch;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(HF):exch",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: Grabbing AOs"
+      ],
+      "level": 3
+    },
+    "SAPT(HF):exch;JK: JK;DFH: compute_JK();DFH: compute_J": {
+      "wall_time": 0.003248221,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "DFH: compute_J",
+      "parent_id": "SAPT(HF):exch;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(HF):exch",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_J"
+      ],
+      "level": 3
+    },
+    "SAPT(HF):exch;JK: JK;DFH: compute_JK();DFH: compute_K": {
+      "wall_time": 0.007088268,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "DFH: compute_K",
+      "parent_id": "SAPT(HF):exch;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(HF):exch",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_K"
+      ],
+      "level": 3
+    },
+    "SAPT(HF):exch;JK: AO2USO": {
+      "wall_time": 6.273e-06,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "SAPT(HF):exch",
+      "timer_path": [
+        "SAPT(HF):exch",
+        "JK: AO2USO"
+      ],
+      "level": 1
+    },
+    "SAPT(HF):ind": {
+      "wall_time": 0.094066863,
+      "user_time": 0.15000000000000002,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "SAPT(HF):ind",
+      "parent_id": null,
+      "timer_path": [
+        "SAPT(HF):ind"
+      ],
+      "level": 0
+    },
+    "SAPT(HF):ind;JK: D": {
+      "wall_time": 0.000379184,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 60,
+      "timer_name": "JK: D",
+      "parent_id": "SAPT(HF):ind",
+      "timer_path": [
+        "SAPT(HF):ind",
+        "JK: D"
+      ],
+      "level": 1
+    },
+    "SAPT(HF):ind;JK: USO2AO": {
+      "wall_time": 0.000207766,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 60,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "SAPT(HF):ind",
+      "timer_path": [
+        "SAPT(HF):ind",
+        "JK: USO2AO"
+      ],
+      "level": 1
+    },
+    "SAPT(HF):ind;JK: JK": {
+      "wall_time": 0.081123461,
+      "user_time": 0.13333333333333333,
+      "system_time": 0.0,
+      "n_calls": 60,
+      "timer_name": "JK: JK",
+      "parent_id": "SAPT(HF):ind",
+      "timer_path": [
+        "SAPT(HF):ind",
+        "JK: JK"
+      ],
+      "level": 1
+    },
+    "SAPT(HF):ind;JK: JK;DFH: compute_JK()": {
+      "wall_time": 0.080727154,
+      "user_time": 0.13333333333333333,
+      "system_time": 0.0,
+      "n_calls": 60,
+      "timer_name": "DFH: compute_JK()",
+      "parent_id": "SAPT(HF):ind;JK: JK",
+      "timer_path": [
+        "SAPT(HF):ind",
+        "JK: JK",
+        "DFH: compute_JK()"
+      ],
+      "level": 2
+    },
+    "SAPT(HF):ind;JK: JK;DFH: compute_JK();DFH: Grabbing AOs": {
+      "wall_time": 0.000110654,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 60,
+      "timer_name": "DFH: Grabbing AOs",
+      "parent_id": "SAPT(HF):ind;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(HF):ind",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: Grabbing AOs"
+      ],
+      "level": 3
+    },
+    "SAPT(HF):ind;JK: JK;DFH: compute_JK();DFH: compute_J": {
+      "wall_time": 0.023609283,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 60,
+      "timer_name": "DFH: compute_J",
+      "parent_id": "SAPT(HF):ind;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(HF):ind",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_J"
+      ],
+      "level": 3
+    },
+    "SAPT(HF):ind;JK: JK;DFH: compute_JK();DFH: compute_K": {
+      "wall_time": 0.053291006,
+      "user_time": 0.08333333333333333,
+      "system_time": 0.0,
+      "n_calls": 60,
+      "timer_name": "DFH: compute_K",
+      "parent_id": "SAPT(HF):ind;JK: JK;DFH: compute_JK()",
+      "timer_path": [
+        "SAPT(HF):ind",
+        "JK: JK",
+        "DFH: compute_JK()",
+        "DFH: compute_K"
+      ],
+      "level": 3
+    },
+    "SAPT(HF):ind;JK: AO2USO": {
+      "wall_time": 0.000118187,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 60,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "SAPT(HF):ind",
+      "timer_path": [
+        "SAPT(HF):ind",
+        "JK: AO2USO"
+      ],
+      "level": 1
+    }
+  },
+  "psi4_version": "1.12a1.dev8",
+  "psi4_commit_hash": "f8b18fb"
+}

@@ -1,0 +1,24 @@
+{
+  "test_name": "tu2-ch2-energy",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 9,
+    "iterations_by_label": {
+      "DF-UHF": 9
+    },
+    "accelerators": {
+      "ADIIS": 5,
+      "DIIS": 9
+    },
+    "accelerator_raw": {
+      "ADIIS/DIIS": 5,
+      "DIIS": 4
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

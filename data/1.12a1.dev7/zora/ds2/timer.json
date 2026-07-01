@@ -1,0 +1,291 @@
+{
+  "timers": {
+    "Total PK formation time": {
+      "wall_time": 0.019068066,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.016666666666666666,
+      "n_calls": 3,
+      "timer_name": "Total PK formation time",
+      "parent_id": null,
+      "timer_path": [
+        "Total PK formation time"
+      ],
+      "level": 0
+    },
+    "Total PK formation time;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.002133607,
+      "user_time": 0.0,
+      "system_time": 0.016666666666666666,
+      "n_calls": 6,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "Total PK formation time",
+      "timer_path": [
+        "Total PK formation time",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 1
+    },
+    "HF: Form core H": {
+      "wall_time": 0.959138576,
+      "user_time": 1.5166666666666666,
+      "system_time": 0.06666666666666667,
+      "n_calls": 3,
+      "timer_name": "HF: Form core H",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form core H"
+      ],
+      "level": 0
+    },
+    "HF: Form core H;ZORA": {
+      "wall_time": 0.947928079,
+      "user_time": 1.5,
+      "system_time": 0.05,
+      "n_calls": 2,
+      "timer_name": "ZORA",
+      "parent_id": "HF: Form core H",
+      "timer_path": [
+        "HF: Form core H",
+        "ZORA"
+      ],
+      "level": 1
+    },
+    "HF: Form core H;ZORA;ZORA: Build Grid": {
+      "wall_time": 0.349404602,
+      "user_time": 0.5,
+      "system_time": 0.05,
+      "n_calls": 2,
+      "timer_name": "ZORA: Build Grid",
+      "parent_id": "HF: Form core H;ZORA",
+      "timer_path": [
+        "HF: Form core H",
+        "ZORA",
+        "ZORA: Build Grid"
+      ],
+      "level": 2
+    },
+    "HF: Form core H;ZORA;ZORA: Build Grid;build grid": {
+      "wall_time": 0.185908912,
+      "user_time": 0.2833333333333333,
+      "system_time": 0.03333333333333333,
+      "n_calls": 2,
+      "timer_name": "build grid",
+      "parent_id": "HF: Form core H;ZORA;ZORA: Build Grid",
+      "timer_path": [
+        "HF: Form core H",
+        "ZORA",
+        "ZORA: Build Grid",
+        "build grid"
+      ],
+      "level": 3
+    },
+    "HF: Form core H;ZORA;ZORA: Build Grid;post-process grid": {
+      "wall_time": 0.163315524,
+      "user_time": 0.21666666666666667,
+      "system_time": 0.016666666666666666,
+      "n_calls": 2,
+      "timer_name": "post-process grid",
+      "parent_id": "HF: Form core H;ZORA;ZORA: Build Grid",
+      "timer_path": [
+        "HF: Form core H",
+        "ZORA",
+        "ZORA: Build Grid",
+        "post-process grid"
+      ],
+      "level": 3
+    },
+    "HF: Form core H;ZORA;ZORA: Effective Potential": {
+      "wall_time": 0.132887947,
+      "user_time": 0.23333333333333334,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "ZORA: Effective Potential",
+      "parent_id": "HF: Form core H;ZORA",
+      "timer_path": [
+        "HF: Form core H",
+        "ZORA",
+        "ZORA: Effective Potential"
+      ],
+      "level": 2
+    },
+    "HF: Form core H;ZORA;ZORA: Scalar Relativistic Kinetic": {
+      "wall_time": 0.465403912,
+      "user_time": 0.7666666666666667,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "ZORA: Scalar Relativistic Kinetic",
+      "parent_id": "HF: Form core H;ZORA",
+      "timer_path": [
+        "HF: Form core H",
+        "ZORA",
+        "ZORA: Scalar Relativistic Kinetic"
+      ],
+      "level": 2
+    },
+    "HF: Form S/X": {
+      "wall_time": 0.000538881,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "HF: Form S/X",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form S/X"
+      ],
+      "level": 0
+    },
+    "HF: Guess": {
+      "wall_time": 0.060859743,
+      "user_time": 0.1,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "HF: Guess",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Guess"
+      ],
+      "level": 0
+    },
+    "HF: Guess;SAD Guess": {
+      "wall_time": 0.054871794,
+      "user_time": 0.08333333333333333,
+      "system_time": 0.0,
+      "n_calls": 3,
+      "timer_name": "SAD Guess",
+      "parent_id": "HF: Guess",
+      "timer_path": [
+        "HF: Guess",
+        "SAD Guess"
+      ],
+      "level": 1
+    },
+    "HF: Form G": {
+      "wall_time": 0.003657745,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "HF: Form G",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form G"
+      ],
+      "level": 0
+    },
+    "HF: Form G;JK: D": {
+      "wall_time": 0.00023816,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "JK: D",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: D"
+      ],
+      "level": 1
+    },
+    "HF: Form G;JK: USO2AO": {
+      "wall_time": 0.001033325,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: USO2AO"
+      ],
+      "level": 1
+    },
+    "HF: Form G;JK: JK": {
+      "wall_time": 0.001559405,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "JK: JK",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK"
+      ],
+      "level": 1
+    },
+    "HF: Form G;JK: JK;PK computes JK": {
+      "wall_time": 0.00141927,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "PK computes JK",
+      "parent_id": "HF: Form G;JK: JK",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK",
+        "PK computes JK"
+      ],
+      "level": 2
+    },
+    "HF: Form G;JK: AO2USO": {
+      "wall_time": 0.000244935,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: AO2USO"
+      ],
+      "level": 1
+    },
+    "HF: Form F": {
+      "wall_time": 0.00022255,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "HF: Form F",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form F"
+      ],
+      "level": 0
+    },
+    "HF: Form D": {
+      "wall_time": 0.000174948,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 24,
+      "timer_name": "HF: Form D",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form D"
+      ],
+      "level": 0
+    },
+    "HF: DIIS": {
+      "wall_time": 0.217102856,
+      "user_time": 0.3333333333333333,
+      "system_time": 0.03333333333333333,
+      "n_calls": 21,
+      "timer_name": "HF: DIIS",
+      "parent_id": null,
+      "timer_path": [
+        "HF: DIIS"
+      ],
+      "level": 0
+    },
+    "HF: Form C": {
+      "wall_time": 0.006737556,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 21,
+      "timer_name": "HF: Form C",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form C"
+      ],
+      "level": 0
+    }
+  },
+  "psi4_version": "1.12a1.dev8",
+  "psi4_commit_hash": "f8b18fb"
+}

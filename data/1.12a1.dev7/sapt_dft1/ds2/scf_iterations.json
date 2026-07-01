@@ -1,0 +1,25 @@
+{
+  "test_name": "sapt-dft1",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 98,
+    "iterations_by_label": {
+      "DF-RHF": 54,
+      "DF-RKS": 44
+    },
+    "accelerators": {
+      "ADIIS": 28,
+      "DIIS": 98
+    },
+    "accelerator_raw": {
+      "ADIIS/DIIS": 28,
+      "DIIS": 70
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

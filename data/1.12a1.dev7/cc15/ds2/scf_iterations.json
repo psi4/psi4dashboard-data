@@ -1,0 +1,24 @@
+{
+  "test_name": "cc15",
+  "psi4_version": "1.12a1.dev8",
+  "psi4_branch": "tee_rb1",
+  "psi4_commit_hash": "f8b18fb",
+  "psi4_git_dirty": false,
+  "scf": {
+    "total_iterations": 10,
+    "iterations_by_label": {
+      "RHF": 10
+    },
+    "accelerators": {
+      "ADIIS": 4,
+      "DIIS": 10
+    },
+    "accelerator_raw": {
+      "ADIIS/DIIS": 4,
+      "DIIS": 6
+    }
+  },
+  "optimization": {
+    "cycles": 0
+  }
+}

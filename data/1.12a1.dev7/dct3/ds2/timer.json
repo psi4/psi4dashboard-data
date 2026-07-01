@@ -1,0 +1,501 @@
+{
+  "timers": {
+    "Total PK formation time": {
+      "wall_time": 0.008694512,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "Total PK formation time",
+      "parent_id": null,
+      "timer_path": [
+        "Total PK formation time"
+      ],
+      "level": 0
+    },
+    "Total PK formation time;Libint2ERI::Libint2ERI": {
+      "wall_time": 0.001078917,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 4,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": "Total PK formation time",
+      "timer_path": [
+        "Total PK formation time",
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 1
+    },
+    "HF: Form core H": {
+      "wall_time": 0.001548432,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "HF: Form core H",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form core H"
+      ],
+      "level": 0
+    },
+    "HF: Form S/X": {
+      "wall_time": 0.00031355,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "HF: Form S/X",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form S/X"
+      ],
+      "level": 0
+    },
+    "HF: Guess": {
+      "wall_time": 0.032258583,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "HF: Guess",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Guess"
+      ],
+      "level": 0
+    },
+    "HF: Guess;SAD Guess": {
+      "wall_time": 0.028371415,
+      "user_time": 0.05,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "SAD Guess",
+      "parent_id": "HF: Guess",
+      "timer_path": [
+        "HF: Guess",
+        "SAD Guess"
+      ],
+      "level": 1
+    },
+    "HF: Form G": {
+      "wall_time": 0.000906984,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 10,
+      "timer_name": "HF: Form G",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form G"
+      ],
+      "level": 0
+    },
+    "HF: Form G;JK: D": {
+      "wall_time": 6.836e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 10,
+      "timer_name": "JK: D",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: D"
+      ],
+      "level": 1
+    },
+    "HF: Form G;JK: USO2AO": {
+      "wall_time": 0.000213939,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 10,
+      "timer_name": "JK: USO2AO",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: USO2AO"
+      ],
+      "level": 1
+    },
+    "HF: Form G;JK: JK": {
+      "wall_time": 0.00024022,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 10,
+      "timer_name": "JK: JK",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK"
+      ],
+      "level": 1
+    },
+    "HF: Form G;JK: JK;PK computes JK": {
+      "wall_time": 0.000186902,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 10,
+      "timer_name": "PK computes JK",
+      "parent_id": "HF: Form G;JK: JK",
+      "timer_path": [
+        "HF: Form G",
+        "JK: JK",
+        "PK computes JK"
+      ],
+      "level": 2
+    },
+    "HF: Form G;JK: AO2USO": {
+      "wall_time": 0.000120046,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 10,
+      "timer_name": "JK: AO2USO",
+      "parent_id": "HF: Form G",
+      "timer_path": [
+        "HF: Form G",
+        "JK: AO2USO"
+      ],
+      "level": 1
+    },
+    "HF: Form F": {
+      "wall_time": 7.1253e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 10,
+      "timer_name": "HF: Form F",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form F"
+      ],
+      "level": 0
+    },
+    "HF: Form D": {
+      "wall_time": 5.4518e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 10,
+      "timer_name": "HF: Form D",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form D"
+      ],
+      "level": 0
+    },
+    "HF: DIIS": {
+      "wall_time": 0.029861088,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 8,
+      "timer_name": "HF: DIIS",
+      "parent_id": null,
+      "timer_path": [
+        "HF: DIIS"
+      ],
+      "level": 0
+    },
+    "HF: Form C": {
+      "wall_time": 0.002478752,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 8,
+      "timer_name": "HF: Form C",
+      "parent_id": null,
+      "timer_path": [
+        "HF: Form C"
+      ],
+      "level": 0
+    },
+    "Libint2ERI::Libint2ERI": {
+      "wall_time": 0.000236662,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "Libint2ERI::Libint2ERI",
+      "parent_id": null,
+      "timer_path": [
+        "Libint2ERI::Libint2ERI"
+      ],
+      "level": 0
+    },
+    "DCTSolver::scf_guess": {
+      "wall_time": 8.0423e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "DCTSolver::scf_guess",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::scf_guess"
+      ],
+      "level": 0
+    },
+    "DCTSolver::scf_guess;DCTSolver::update_scf_density": {
+      "wall_time": 1.6355e-05,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "DCTSolver::update_scf_density",
+      "parent_id": "DCTSolver::scf_guess",
+      "timer_path": [
+        "DCTSolver::scf_guess",
+        "DCTSolver::update_scf_density"
+      ],
+      "level": 1
+    },
+    "DCTSolver::transform_integrals()": {
+      "wall_time": 1.693695615,
+      "user_time": 0.3333333333333333,
+      "system_time": 0.7333333333333334,
+      "n_calls": 21,
+      "timer_name": "DCTSolver::transform_integrals()",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::transform_integrals()"
+      ],
+      "level": 0
+    },
+    "DCTSolver::transform_integrals();DCTSolver::build_denominators()": {
+      "wall_time": 0.011159195,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 21,
+      "timer_name": "DCTSolver::build_denominators()",
+      "parent_id": "DCTSolver::transform_integrals()",
+      "timer_path": [
+        "DCTSolver::transform_integrals()",
+        "DCTSolver::build_denominators()"
+      ],
+      "level": 1
+    },
+    "DCTSolver::initialize_amplitudes()": {
+      "wall_time": 0.008299974,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 2,
+      "timer_name": "DCTSolver::initialize_amplitudes()",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::initialize_amplitudes()"
+      ],
+      "level": 0
+    },
+    "DCTSolver::compute_scf_error_vector": {
+      "wall_time": 0.001195269,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 28,
+      "timer_name": "DCTSolver::compute_scf_error_vector",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::compute_scf_error_vector"
+      ],
+      "level": 0
+    },
+    "DCTSolver::build_d()": {
+      "wall_time": 0.062254815,
+      "user_time": 0.09999999999999999,
+      "system_time": 0.05,
+      "n_calls": 41,
+      "timer_name": "DCTSolver::build_d()",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::build_d()"
+      ],
+      "level": 0
+    },
+    "DCTSolver::transform_tau()": {
+      "wall_time": 0.006962189,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 41,
+      "timer_name": "DCTSolver::transform_tau()",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::transform_tau()"
+      ],
+      "level": 0
+    },
+    "DCTSolver::build_tensors": {
+      "wall_time": 0.06478358,
+      "user_time": 0.05,
+      "system_time": 0.08333333333333333,
+      "n_calls": 22,
+      "timer_name": "DCTSolver::build_tensors",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::build_tensors"
+      ],
+      "level": 0
+    },
+    "DCTSolver::build_tensors;DCTSolver::half_transform": {
+      "wall_time": 0.006382595,
+      "user_time": 0.0,
+      "system_time": 0.016666666666666666,
+      "n_calls": 132,
+      "timer_name": "DCTSolver::half_transform",
+      "parent_id": "DCTSolver::build_tensors",
+      "timer_path": [
+        "DCTSolver::build_tensors",
+        "DCTSolver::half_transform"
+      ],
+      "level": 1
+    },
+    "DCTSolver::build_tensors;DCTSolver::file2_transform": {
+      "wall_time": 0.006502076,
+      "user_time": 0.0,
+      "system_time": 0.016666666666666666,
+      "n_calls": 88,
+      "timer_name": "DCTSolver::file2_transform",
+      "parent_id": "DCTSolver::build_tensors",
+      "timer_path": [
+        "DCTSolver::build_tensors",
+        "DCTSolver::file2_transform"
+      ],
+      "level": 1
+    },
+    "DCTSolver::update_fock": {
+      "wall_time": 0.008815677,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 22,
+      "timer_name": "DCTSolver::update_fock",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::update_fock"
+      ],
+      "level": 0
+    },
+    "DCTSolver::update_fock;DCTSolver::build_denominators()": {
+      "wall_time": 0.00605194,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 22,
+      "timer_name": "DCTSolver::build_denominators()",
+      "parent_id": "DCTSolver::update_fock",
+      "timer_path": [
+        "DCTSolver::update_fock",
+        "DCTSolver::build_denominators()"
+      ],
+      "level": 1
+    },
+    "DCTSolver::build_intermediates()": {
+      "wall_time": 0.225183823,
+      "user_time": 0.13333333333333333,
+      "system_time": 0.19999999999999998,
+      "n_calls": 37,
+      "timer_name": "DCTSolver::build_intermediates()",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::build_intermediates()"
+      ],
+      "level": 0
+    },
+    "DCTSolver::build_intermediates();DCTSolver::gbar_cdab lambda_ijcd": {
+      "wall_time": 0.003835365,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 37,
+      "timer_name": "DCTSolver::gbar_cdab lambda_ijcd",
+      "parent_id": "DCTSolver::build_intermediates()",
+      "timer_path": [
+        "DCTSolver::build_intermediates()",
+        "DCTSolver::gbar_cdab lambda_ijcd"
+      ],
+      "level": 1
+    },
+    "DCTSolver::compute_lambda_residual()": {
+      "wall_time": 0.063680983,
+      "user_time": 0.0,
+      "system_time": 0.016666666666666666,
+      "n_calls": 37,
+      "timer_name": "DCTSolver::compute_lambda_residual()",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::compute_lambda_residual()"
+      ],
+      "level": 0
+    },
+    "DCTSolver::update_lambda_from_residual()": {
+      "wall_time": 0.009619964,
+      "user_time": 0.05,
+      "system_time": 0.03333333333333333,
+      "n_calls": 37,
+      "timer_name": "DCTSolver::update_lambda_from_residual()",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::update_lambda_from_residual()"
+      ],
+      "level": 0
+    },
+    "DCTSolver::compute_dct_energy()": {
+      "wall_time": 0.060194075,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.03333333333333333,
+      "n_calls": 37,
+      "timer_name": "DCTSolver::compute_dct_energy()",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::compute_dct_energy()"
+      ],
+      "level": 0
+    },
+    "DCTSolver::process_so_ints": {
+      "wall_time": 0.067508818,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.016666666666666666,
+      "n_calls": 27,
+      "timer_name": "DCTSolver::process_so_ints",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::process_so_ints"
+      ],
+      "level": 0
+    },
+    "DCTSolver::process_so_ints;DCTSolver::half_transform": {
+      "wall_time": 0.009732022,
+      "user_time": 0.016666666666666666,
+      "system_time": 0.0,
+      "n_calls": 162,
+      "timer_name": "DCTSolver::half_transform",
+      "parent_id": "DCTSolver::process_so_ints",
+      "timer_path": [
+        "DCTSolver::process_so_ints",
+        "DCTSolver::half_transform"
+      ],
+      "level": 1
+    },
+    "DCTSolver::compute_scf_energy": {
+      "wall_time": 0.000425834,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 27,
+      "timer_name": "DCTSolver::compute_scf_energy",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::compute_scf_energy"
+      ],
+      "level": 0
+    },
+    "DCTSolver::correct_mo_phases()": {
+      "wall_time": 0.000446104,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 27,
+      "timer_name": "DCTSolver::correct_mo_phases()",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::correct_mo_phases()"
+      ],
+      "level": 0
+    },
+    "DCTSolver::update_scf_density": {
+      "wall_time": 0.000505343,
+      "user_time": 0.0,
+      "system_time": 0.0,
+      "n_calls": 27,
+      "timer_name": "DCTSolver::update_scf_density",
+      "parent_id": null,
+      "timer_path": [
+        "DCTSolver::update_scf_density"
+      ],
+      "level": 0
+    }
+  },
+  "psi4_version": "1.12a1.dev8",
+  "psi4_commit_hash": "f8b18fb"
+}
